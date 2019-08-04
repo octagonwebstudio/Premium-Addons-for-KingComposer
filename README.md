@@ -1,4 +1,4 @@
-# Premium Addons for KingComposer
+# Premium Addons for KingComposer#
 
 **Contributors:** [octagonwebstudio](https://profiles.wordpress.org/octagonwebstudio/)
 **Tags:** kingcomposer, shortcodes, framework, toolkit
