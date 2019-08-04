@@ -24,7 +24,7 @@ if( ! class_exists( 'Octagon_KC_Elements_Admin_Page' ) ) {
 		public static function plugin_row_meta( $links, $file ) {
 
 			if( OCTAGON_KC_ELEMENTS_BASENAME === $file ) {
-				$links['video-tut'] = '<a href="https://www.youtube.com/watch?v=Ot9jw7YGVEU&list=PLzuxmuoA9tTMp1iLNJHZeXjA6Rc0fqABi">' . esc_html__( 'Video Tutorial', 'octagon-kc-elements' ) . '</a>';
+				$links['video-tut'] = '<a href="//www.youtube.com/channel/UCZKSopOEW-ivQRpaMlz8uEQ">' . esc_html__( 'Video Tutorial', 'octagon-kc-elements' ) . '</a>';
 				$links['support']   = '<a href="mailto:octagonwebstudio@gmail.com">' . esc_html__( 'Premium Support', 'octagon-kc-elements' ) . '</a>';
 			}
 
