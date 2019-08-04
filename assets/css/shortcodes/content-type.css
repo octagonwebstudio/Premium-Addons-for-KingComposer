@@ -1,0 +1,135 @@
+/* ---------------------------------------------------------------------------
+ * Content Type
+------------------------------------------------------------------------------ */
+
+/* Post Content Overlap ------------------------------------------------------ */
+
+.post-content-overlap .post {
+    margin: 0 0 80px 0;
+}
+
+.post-content-overlap .post-media,
+.post-content-overlap .post-content {
+    text-align: left;
+}
+
+.post-content-overlap .post-media + .post-content {
+    margin: -120px auto 0 auto;
+    background: #fff;
+    padding: 40px 40px 0 40px;
+    width: 90%;
+    display: inline-block;
+}
+
+.post-content-overlap .post-details {
+    text-align: center;
+}
+
+
+.sep {
+    padding: 0 5px;
+}
+
+.post-content-overlap .title {
+    font-size: 42px;
+    margin: 5px 0 25px 0;
+}
+
+
+/* Masonry ------------------------------------------------------------------- */
+
+.masonry .post-loop,
+.grid .post-loop { 
+    margin: 0 -15px; /* .row replacement css */
+}
+
+.masonry .post,
+.grid .post {
+    margin: 0 0 50px 0;
+}
+
+.masonry .post-details .post-media,
+.grid .post-details .post-media {
+    margin: 0 0 30px 0;
+}
+
+.masonry .post-details .post-media img,
+.grid .post-details .post-media img {
+    border-radius: 6px;
+}
+
+.masonry .post-content,
+.grid .post-content {
+    text-align: center;
+    margin: 0 auto;
+    width: 82%;
+}
+
+.masonry .columns-3 .post-media img,
+.grid .columns-3 .post-media img {
+    border-radius: 8px;
+}
+
+.masonry .post-content .title a,
+.grid .post-content .title a {
+    font-size: 24px;
+    font-weight: 600;
+    color: #282727;
+}
+
+.masonry .post-content .meta-group,
+.grid .post-content .meta-group {
+    justify-content: center;
+}
+
+.masonry .excerpt,
+.grid .excerpt {
+    margin: 30px 0 0 0;
+}
+
+.masonry .btn,
+.grid .btn {
+    margin: 25px 0 0 0;
+}
+
+
+/* Grid ---------------------------------------------------------------------- */
+
+.grid.columns-3 .post:nth-child( 3n+1),
+.grid.columns-4 .post:nth-child( 4n+1) { 
+    clear: both;
+}
+
+
+/* Post List ----------------------------------------------------------------- */
+
+.post-list .post {
+    margin: 0 0 60px 0;
+}
+
+.post-list .post-details {
+    display: flex;
+    align-items: flex-start;
+}
+
+.post-list .meta-group {
+    margin: 0 50px 0 0;
+}
+
+.post-list .meta-group p,
+.post-list .meta-group p a {
+    font-size: 15px;
+}
+
+.post-list .title {
+    font-size: 24px;
+    margin: 0 0 5px 0;
+}
+
+.post-list .btn {
+    margin: 40px 0 0 0;
+}
+
+.post-list .category + .btn {
+    margin: 20px 0 0 0;
+}

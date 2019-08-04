@@ -1,0 +1,13 @@
+/* ---------------------------------------------------------------------------
+ * Video Popup
+------------------------------------------------------------------------------ */
+
+.video-popup .magnify-video.icon {
+    font-size: 72px;
+    line-height: 1.2;
+}
+
+.video-popup .magnify-video.text {
+    font-size: 18px;
+    border-bottom: 1px solid;
+}

@@ -1,0 +1,192 @@
+/* ---------------------------------------------------------------------------
+ * Compare Product
+------------------------------------------------------------------------------ */
+
+.table-wrapper .back-to-shop {
+    font-size: 15px;
+    font-weight: 400;
+    color: #100d0c;
+    line-height: 1;
+}
+
+.back-to-shop span {
+    padding: 0 5px 0 0;
+    line-height: 1;
+    vertical-align: middle;
+}
+
+.compare-products-table .table {
+    margin: 30px 0;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid #f4f4f4;
+    border-left: 0;
+    border-bottom: 0;
+}
+
+.compare-products-table .table .table-head {
+    width: 25%;
+    border-left: 1px solid #f4f4f4;
+    position: relative;
+}
+
+.compare-products-table .table .table-head div {
+    border-bottom: 1px solid #f4f4f4;
+    justify-content: flex-start;
+}
+
+.compare-products-table .table .table-content-wrap {
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.compare-products-table .table .table-content-wrap > div {
+    flex-direction: column;
+}
+
+.compare-products-table .table .table-head div,
+.compare-products-table .table .table-content-wrap div {
+    width: 100%;
+    min-height: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.compare-products-table .table .table-content {
+    width: 20%;
+    border-left: 1px solid #f4f4f4;
+    position: relative;
+}
+
+.compare-products-table .table .table-content > div {
+    text-align: center;
+    width: 100%;
+    border-bottom: 1px solid #f4f4f4;
+    justify-content: center;
+}
+    
+.compare-products-table .table p {
+    margin: 0;
+    line-height: 1;
+}
+
+.compare-products-table .table .table-head p {
+    font-size: 16px;
+    font-weight: 600;
+    color: #100d0c;
+    padding: 0 0 0 30px;
+}
+
+.compare-products-table .table .table-head .product-name {
+    padding: 0 0 30px 0;
+    align-items: flex-end;
+}
+
+.compare-products-table .table .table-content .product-name .title {
+    font-size: 20px;
+    font-weight: 600;
+    color: #282727;
+}
+
+.compare-products-table .table .table-content .product-name .sku {
+    font-size: 15px;
+    font-weight: 400;
+    color: #282727;
+}
+
+.compare-products-table .table .table-head .product-name,
+.compare-products-table .table .table-content-wrap .product-name {
+    min-height: 320px;
+}
+
+.compare-products-table .table .table-content-wrap .product-name {
+    padding: 50px 20px 0;
+    align-items: flex-start;
+}
+
+.compare-products-table .table-content .product-name a {
+    color: #282727;
+    line-height: 1.6;
+    display: block;
+}
+
+.compare-products-table .table-content .product-name img {
+    margin: 0 auto;
+    padding: 0 0 20px 0;
+    max-width: 180px;
+}
+
+.compare-products-table .table-content .product-price p {
+    font-size: 18px;
+    font-weight: 600;
+    color: #100d0c;
+}
+
+.compare-products-table .table-content .product-price p del {
+    display: none;
+}
+
+.compare-products-table .table-content .product-price p ins {
+    background: none;
+}
+
+.table-wrapper .table-content .product-status p {
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 4px;
+}
+
+.table-wrapper .product-status.instock p {
+    background: #51e593;
+}
+
+.table-wrapper .product-status.outofstock p {
+    background: #f97e2b;
+}
+
+.table-wrapper .product-status.onbackorder p {
+    background: #52d5e2;
+}
+
+.table-wrapper .remove-compare-list {
+    color: #fff;
+    background: red;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    position: absolute;
+    left: calc( 50% - 15px );
+    right: 0;
+}
+
+.compare-products-table .table .table-content-wrap div .remove-compare-list div {
+    width: 15px;
+    min-height: auto;
+}
+
+.table-wrapper .remove-compare-list span {
+    font-size: 18px;
+    color: #fff;
+    vertical-align: middle;
+}
+
+.table-wrapper .remove-compare-list.loading span {
+    display: none;
+}
+
+.compare-products-table .table .product-remove .loading {
+    text-indent: -1000em;
+}
+
+.table-wrapper .remove-compare-list.loading .loader {
+    margin: 8px 0 0 2px;
+    position: absolute;
+    left: calc( 50% - 10px );
+}

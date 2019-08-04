@@ -1,0 +1,3507 @@
+# Copyright (C) 2019 Octagon Web Studio
+# This file is distributed under the This WordPress theme is comprised of two parts: (1) The PHP code and integrated HTML are licensed under the GPL license as is WordPress itself.  You will find a copy of the license text in the same directory as this text file. Or you can read it here: http://wordpress.org/about/gpl/ (2) All other parts of the theme including, but not limited to the CSS code, images, and design are licensed according to the license purchased. Read about licensing details here: http://themeforest.net/licenses/regular_extended.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Octagon KC Elements\n"
+"POT-Creation-Date: 2019-08-04 16:00+0530\n"
+"PO-Revision-Date: 2018-02-12 16:30+0530\n"
+"Last-Translator: Octagon <octagonwebstudio@gmail.com>\n"
+"Language-Team: Octagon Web Studio <octagonwebstudio@gmail.com>\n"
+"Language: en_GB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.2.1\n"
+"X-Poedit-KeywordsList: _n;_e;_x;__;esc_html__;esc_html_e;esc_html_x;"
+"esc_attr__;esc_attr_e;esc_attr_x\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: builder/class-builder.php:111 builder/class-builder.php:129
+#: builder/class-builder.php:147 builder/class-builder.php:165
+msgid "Background Method"
+msgstr ""
+
+#: builder/class-builder.php:115
+msgid ""
+"Choose background method, whether it should be dark/light. ( Eg: If it "
+"chosen dark, all content inside the row will be lighten )"
+msgstr ""
+
+#: builder/class-builder.php:117 builder/class-builder.php:135
+#: builder/class-builder.php:153 builder/class-builder.php:171
+msgid "Not Set"
+msgstr ""
+
+#: builder/class-builder.php:118 builder/class-builder.php:136
+#: builder/class-builder.php:154 builder/class-builder.php:172
+msgid "Light"
+msgstr ""
+
+#: builder/class-builder.php:119 builder/class-builder.php:137
+#: builder/class-builder.php:155 builder/class-builder.php:173
+msgid "Dark"
+msgstr ""
+
+#: builder/class-builder.php:133 builder/class-builder.php:151
+#: builder/class-builder.php:169
+msgid ""
+"Choose background method, whether it should be dark/light. ( Eg: If it "
+"chosen dark, all content inside the direct child element will be lighten )"
+msgstr ""
+
+#: core/class-admin-page.php:43 core/views/html-icon-manager.php:81
+#: modules/advance-counter.php:93 views/html-modules.php:85
+msgid "Yes"
+msgstr ""
+
+#: core/class-admin-page.php:43 core/views/html-icon-manager.php:82
+#: modules/advance-counter.php:94 views/html-modules.php:86
+msgid "No"
+msgstr ""
+
+#: core/class-admin-page.php:45 core/class-admin-page.php:48
+#: core/class-admin-page.php:56 core/class-admin-page.php:57
+msgid "Active"
+msgstr ""
+
+#: core/class-admin-page.php:45 core/class-admin-page.php:48
+#: core/class-admin-page.php:56 core/class-admin-page.php:57
+msgid "Not Active"
+msgstr ""
+
+#: core/class-admin-page.php:71 core/class-admin-page.php:126
+#: core/class-admin-page.php:151 core/class-admin-page.php:176
+msgid "<span class=\"batch batch-orange\">Good</span>"
+msgstr ""
+
+#: core/class-admin-page.php:77 core/class-admin-page.php:107
+#: core/class-admin-page.php:132 core/class-admin-page.php:157
+#: core/class-admin-page.php:182
+msgid "<span class=\"batch batch-green\">Better</span>"
+msgstr ""
+
+#: core/class-admin-page.php:83 core/views/html-status.php:59
+msgid "Memory Limit:"
+msgstr ""
+
+#: core/class-admin-page.php:85 core/class-admin-page.php:98
+#: core/class-admin-page.php:117 core/class-admin-page.php:142
+#: core/class-admin-page.php:167
+msgid "<span class=\"batch batch-red\">Critical</span>"
+msgstr ""
+
+#: core/class-admin-page.php:86 core/class-admin-page.php:118
+msgid ""
+"Minimum <strong>128 MB</strong> is required, <strong>256 MB</strong> is "
+"recommended."
+msgstr ""
+
+#: core/class-admin-page.php:96 core/views/html-status.php:65
+msgid "PHP Version:"
+msgstr ""
+
+#: core/class-admin-page.php:99
+#, php-format
+msgid ""
+"<span class=\"list-info\">%s - We recommend using PHP version 7.0 or above "
+"for greater performance and security.</span>"
+msgstr ""
+
+#: core/class-admin-page.php:115 core/views/html-status.php:71
+msgid "Post Max Size:"
+msgstr ""
+
+#: core/class-admin-page.php:140 core/views/html-status.php:77
+msgid "Time Limit:"
+msgstr ""
+
+#: core/class-admin-page.php:143 core/class-admin-page.php:168
+#, php-format
+msgid ""
+"<span class=\"list-info\">%s - is not enough to run this theme properly."
+msgstr ""
+
+#: core/class-admin-page.php:152
+#, php-format
+msgid ""
+"<span class=\"list-info\">%s - is OK, But <strong>180</strong> is "
+"recommended."
+msgstr ""
+
+#: core/class-admin-page.php:165 core/views/html-status.php:83
+msgid "Max Input Vars:"
+msgstr ""
+
+#: core/class-admin-page.php:177
+#, php-format
+msgid ""
+"<span class=\"list-info\">%s - is OK, But <strong>10000</strong> is "
+"recommended."
+msgstr ""
+
+#: core/class-admin-page.php:205 includes/class-admin-page.php:27
+msgid "Video Tutorial"
+msgstr ""
+
+#: core/class-admin-page.php:206 includes/class-admin-page.php:28
+msgid "Premium Support"
+msgstr ""
+
+#: core/class-admin-page.php:222 modules/advance-button.php:35
+#: modules/advance-counter.php:35 modules/compare-products.php:35
+#: modules/content-type-list.php:43 modules/content-type-slider.php:60
+#: modules/content-type.php:63 modules/google-map.php:35
+#: modules/gradient-text.php:35 modules/icon-box.php:35
+#: modules/image-box.php:35 modules/image-mask.php:35 modules/info-icons.php:35
+#: modules/portfolio-extend-slider.php:40 modules/portfolio-slider.php:40
+#: modules/portfolio.php:43 modules/products-list.php:39
+#: modules/products-slider.php:39 modules/products.php:42
+#: modules/slick-gallery.php:35 modules/slide-all.php:39
+#: modules/slider-revolution.php:45 modules/table.php:35
+#: modules/team-slider.php:38 modules/team.php:38
+#: modules/testimonial-slider.php:35 modules/timeline.php:35
+#: modules/video-popup.php:35 modules/wishlist.php:35
+msgid "Octagon"
+msgstr ""
+
+#: core/class-admin-page.php:224
+msgid "Welcome"
+msgstr ""
+
+#: core/class-admin-page.php:225 shortcodes/compare-products.php:83
+msgid "Status"
+msgstr ""
+
+#: core/class-duplicate-post.php:39 core/class-duplicate-post.php:59
+msgid "Duplicate"
+msgstr ""
+
+#: core/class-icon-manager.php:41
+msgid "Icon Manager"
+msgstr ""
+
+#: core/class-metabox.php:120 core/class-metabox.php:546
+#: core/class-post-columns.php:61 modules/advance-button.php:41
+#: modules/compare-products.php:41 modules/compare-products.php:102
+#: modules/content-type-list.php:153 modules/content-type-list.php:302
+#: modules/content-type-slider.php:208 modules/content-type-slider.php:633
+#: modules/content-type.php:242 modules/content-type.php:437
+#: modules/gradient-text.php:41 modules/gradient-text.php:115
+#: modules/icon-box.php:132 modules/icon-box.php:171 modules/icon-box.php:318
+#: modules/image-box.php:126 modules/image-box.php:183
+#: modules/image-box.php:330 modules/info-icons.php:109
+#: modules/info-icons.php:202 modules/portfolio-extend-slider.php:147
+#: modules/portfolio-slider.php:148 modules/portfolio.php:205
+#: modules/products-list.php:136 modules/products-list.php:245
+#: modules/products-slider.php:177 modules/products-slider.php:514
+#: modules/products.php:211 modules/products.php:320
+#: modules/team-slider.php:133 modules/team.php:146
+#: modules/testimonial-slider.php:154 modules/timeline.php:77
+#: modules/timeline.php:121 modules/wishlist.php:41 modules/wishlist.php:194
+msgid "Title"
+msgstr ""
+
+#: core/class-metabox.php:313 core/class-metabox.php:448
+#: core/class-taxonomy-image.php:55 core/class-taxonomy-image.php:80
+msgid "Upload"
+msgstr ""
+
+#: core/class-metabox.php:456
+msgid "No Repeat"
+msgstr ""
+
+#: core/class-metabox.php:457
+msgid "Repeat"
+msgstr ""
+
+#: core/class-metabox.php:458
+msgid "Repeat X"
+msgstr ""
+
+#: core/class-metabox.php:459
+msgid "Repeat Y"
+msgstr ""
+
+#: core/class-metabox.php:471 modules/image-box.php:58 modules/image-box.php:81
+msgid "Left Top"
+msgstr ""
+
+#: core/class-metabox.php:472 modules/image-box.php:59
+msgid "Left Center"
+msgstr ""
+
+#: core/class-metabox.php:473 modules/image-box.php:60 modules/image-box.php:82
+msgid "Left Bottom"
+msgstr ""
+
+#: core/class-metabox.php:474 modules/image-box.php:61 modules/image-box.php:83
+msgid "Right Top"
+msgstr ""
+
+#: core/class-metabox.php:475 modules/image-box.php:62
+msgid "Right Center"
+msgstr ""
+
+#: core/class-metabox.php:476 modules/image-box.php:63 modules/image-box.php:84
+msgid "Right Bottom"
+msgstr ""
+
+#: core/class-metabox.php:477
+msgid "Center Top"
+msgstr ""
+
+#: core/class-metabox.php:478
+msgid "Center Center"
+msgstr ""
+
+#: core/class-metabox.php:479
+msgid "Center Bottom"
+msgstr ""
+
+#: core/class-metabox.php:491
+msgid "Auto"
+msgstr ""
+
+#: core/class-metabox.php:492
+msgid "Cover"
+msgstr ""
+
+#: core/class-metabox.php:493
+msgid "Contain"
+msgstr ""
+
+#: core/class-metabox.php:505
+msgid "Scroll"
+msgstr ""
+
+#: core/class-metabox.php:506
+msgid "Fixed"
+msgstr ""
+
+#: core/class-metabox.php:537
+msgid "Choose Icon"
+msgstr ""
+
+#: core/class-metabox.php:547
+msgid "Some description"
+msgstr ""
+
+#: core/class-metabox.php:557
+msgid "Expand"
+msgstr ""
+
+#: core/class-metabox.php:558
+msgid "Add"
+msgstr ""
+
+#: core/class-post-columns.php:60
+msgid "Thumb"
+msgstr ""
+
+#: core/class-post-columns.php:62 modules/content-type-list.php:127
+#: modules/content-type-slider.php:182 modules/content-type.php:216
+#: modules/portfolio-extend-slider.php:121 modules/portfolio-slider.php:122
+#: modules/portfolio.php:178 modules/products-list.php:107
+#: modules/products-slider.php:148 modules/products.php:182
+#: modules/team-slider.php:107 modules/team.php:120
+msgid "Featured"
+msgstr ""
+
+#: core/class-post-type.php:42
+msgid "Add New"
+msgstr ""
+
+#: core/class-post-type.php:43 core/class-post-type.php:117
+#, php-format
+msgid "Add New %s"
+msgstr ""
+
+#: core/class-post-type.php:44 core/class-post-type.php:115
+#, php-format
+msgid "Edit %s"
+msgstr ""
+
+#: core/class-post-type.php:45
+#, php-format
+msgid "New %s"
+msgstr ""
+
+#: core/class-post-type.php:46
+#, php-format
+msgid "View %s"
+msgstr ""
+
+#: core/class-post-type.php:47 core/class-post-type.php:110
+#, php-format
+msgid "Search %s"
+msgstr ""
+
+#: core/class-post-type.php:48
+#, php-format
+msgid "No %s found"
+msgstr ""
+
+#: core/class-post-type.php:49
+#, php-format
+msgid "No %s found in trash"
+msgstr ""
+
+#: core/class-post-type.php:50
+#, php-format
+msgid "Parent %s"
+msgstr ""
+
+#: core/class-post-type.php:51 core/class-post-type.php:112
+#, php-format
+msgid "All %s"
+msgstr ""
+
+#: core/class-post-type.php:62
+msgid "Description."
+msgstr ""
+
+#: core/class-post-type.php:111
+#, php-format
+msgid "Popular %s"
+msgstr ""
+
+#: core/class-post-type.php:116
+#, php-format
+msgid "Update %s"
+msgstr ""
+
+#: core/class-post-type.php:118
+#, php-format
+msgid "New %s Name"
+msgstr ""
+
+#: core/class-post-type.php:119
+#, php-format
+msgid "Separate %s with commas"
+msgstr ""
+
+#: core/class-post-type.php:120
+#, php-format
+msgid "Add or remove %s"
+msgstr ""
+
+#: core/class-post-type.php:121
+#, php-format
+msgid "Choose from the most used %s"
+msgstr ""
+
+#: core/class-post-type.php:122
+#, php-format
+msgid "No %s found."
+msgstr ""
+
+#: core/class-taxonomy-image.php:75
+msgid "Taxonomy Image"
+msgstr ""
+
+#: core/customize-options.php:54
+msgid "Font"
+msgstr ""
+
+#: core/customize-options.php:55 includes/customize-options.php:55
+msgid "Set the font"
+msgstr ""
+
+#: core/customize-options.php:63 modules/advance-button.php:191
+#: modules/advance-counter.php:161 modules/advance-counter.php:173
+#: modules/compare-products.php:104 modules/compare-products.php:112
+#: modules/compare-products.php:120 modules/compare-products.php:128
+#: modules/compare-products.php:137 modules/content-type-list.php:292
+#: modules/content-type-list.php:304 modules/content-type-list.php:315
+#: modules/content-type-slider.php:623 modules/content-type-slider.php:635
+#: modules/content-type-slider.php:645 modules/content-type-slider.php:655
+#: modules/content-type-slider.php:662 modules/content-type.php:427
+#: modules/content-type.php:439 modules/content-type.php:449
+#: modules/content-type.php:459 modules/gradient-text.php:117
+#: modules/icon-box.php:320 modules/icon-box.php:332 modules/icon-box.php:344
+#: modules/image-box.php:320 modules/image-box.php:332
+#: modules/image-box.php:344 modules/image-box.php:357
+#: modules/info-icons.php:204 modules/products-list.php:247
+#: modules/products-list.php:255 modules/products-list.php:267
+#: modules/products-slider.php:516 modules/products-slider.php:524
+#: modules/products-slider.php:536 modules/products.php:322
+#: modules/products.php:330 modules/products.php:342
+#: modules/testimonial-slider.php:403 modules/testimonial-slider.php:416
+#: modules/testimonial-slider.php:425 modules/timeline.php:113
+#: modules/timeline.php:123 modules/timeline.php:133 modules/wishlist.php:196
+#: modules/wishlist.php:204 modules/wishlist.php:212 modules/wishlist.php:220
+#: modules/wishlist.php:229 modules/wishlist.php:238 modules/wishlist.php:263
+msgid "Font Family"
+msgstr ""
+
+#: core/customize-options.php:64 includes/customize-options.php:64
+msgid "Choose the default fonts"
+msgstr ""
+
+#: core/customize-options.php:71
+msgid "Heading Font"
+msgstr ""
+
+#: core/customize-options.php:72
+msgid "Please choose a heading font."
+msgstr ""
+
+#: core/customize-options.php:75 core/customize-options.php:85
+msgid "Inherit"
+msgstr ""
+
+#: core/customize-options.php:81
+msgid "Content Font"
+msgstr ""
+
+#: core/customize-options.php:82
+msgid "Please choose a content font."
+msgstr ""
+
+#: core/customize-options.php:91 modules/advance-button.php:194
+#: modules/advance-counter.php:163 modules/compare-products.php:106
+#: modules/compare-products.php:114 modules/compare-products.php:122
+#: modules/compare-products.php:130 modules/compare-products.php:139
+#: modules/content-type-list.php:294 modules/content-type-list.php:306
+#: modules/content-type-list.php:318 modules/content-type-slider.php:625
+#: modules/content-type-slider.php:637 modules/content-type-slider.php:647
+#: modules/content-type-slider.php:665 modules/content-type.php:429
+#: modules/content-type.php:441 modules/content-type.php:451
+#: modules/content-type.php:462 modules/gradient-text.php:120
+#: modules/icon-box.php:322 modules/icon-box.php:347 modules/image-box.php:323
+#: modules/image-box.php:335 modules/image-box.php:347
+#: modules/image-box.php:360 modules/info-icons.php:207
+#: modules/products-list.php:249 modules/products-list.php:257
+#: modules/products-list.php:270 modules/products-slider.php:518
+#: modules/products-slider.php:526 modules/products-slider.php:539
+#: modules/products.php:324 modules/products.php:332 modules/products.php:345
+#: modules/testimonial-slider.php:405 modules/testimonial-slider.php:418
+#: modules/testimonial-slider.php:427 modules/timeline.php:116
+#: modules/timeline.php:126 modules/timeline.php:136 modules/wishlist.php:198
+#: modules/wishlist.php:206 modules/wishlist.php:214 modules/wishlist.php:222
+#: modules/wishlist.php:231 modules/wishlist.php:241 modules/wishlist.php:266
+msgid "Font Weight"
+msgstr ""
+
+#: core/customize-options.php:92
+msgid ""
+"Please select font weights( You should select regular, 500, 600 and 700 to "
+"run the site properly )."
+msgstr ""
+
+#: core/customize-options.php:116
+msgid "Subsets"
+msgstr ""
+
+#: core/customize-options.php:117
+msgid "Please choose the font subsets."
+msgstr ""
+
+#: core/customize-options.php:121
+msgid "Latin"
+msgstr ""
+
+#: core/customize-options.php:122
+msgid "Latin Extended"
+msgstr ""
+
+#: core/customize-options.php:123
+msgid "Cyrillic"
+msgstr ""
+
+#: core/customize-options.php:124
+msgid "Cyrillic Extended"
+msgstr ""
+
+#: core/customize-options.php:125
+msgid "Greek"
+msgstr ""
+
+#: core/customize-options.php:126
+msgid "Greek Extended"
+msgstr ""
+
+#: core/customize-options.php:127
+msgid "Vietnamese"
+msgstr ""
+
+#: core/customize-options.php:139
+msgid "Custom Style"
+msgstr ""
+
+#: core/customize-options.php:140
+msgid "Those settings applies globally."
+msgstr ""
+
+#: core/customize-options.php:148
+msgid "Content Color"
+msgstr ""
+
+#: core/customize-options.php:155
+msgid "Title Color"
+msgstr ""
+
+#: core/helper-functions.php:413
+msgid "Placeholder Image"
+msgstr ""
+
+#: core/helper-functions.php:646
+msgid "Choose a Page"
+msgstr ""
+
+#: core/views/html-header.php:20
+msgid "Octagon KC Elements"
+msgstr ""
+
+#: core/views/html-header.php:21
+#, php-format
+msgid "Version %s"
+msgstr ""
+
+#: core/views/html-header.php:24
+msgid "Support Forum"
+msgstr ""
+
+#: core/views/html-header.php:26
+msgid ""
+"Octagon KC Elements is a unique shortcode elements addon for KingComposer "
+"Page Builder. For any assistance, Please contact us via our support forum."
+msgstr ""
+
+#: core/views/html-icon-manager.php:33
+msgid "Inbuilt Icons"
+msgstr ""
+
+#: core/views/html-icon-manager.php:34
+msgid "Pick the icon set which are going to use on website."
+msgstr ""
+
+#: core/views/html-icon-manager.php:97
+msgid "Save Icon"
+msgstr ""
+
+#: core/views/html-status.php:23
+msgid "WordPress environment"
+msgstr ""
+
+#: core/views/html-status.php:29
+msgid "Home URL:"
+msgstr ""
+
+#: core/views/html-status.php:30
+msgid "Site URL:"
+msgstr ""
+
+#: core/views/html-status.php:31
+msgid "WordPress Version:"
+msgstr ""
+
+#: core/views/html-status.php:32
+msgid "WordPress Multisite:"
+msgstr ""
+
+#: core/views/html-status.php:33
+msgid "Debug Mode:"
+msgstr ""
+
+#: core/views/html-status.php:34
+msgid "Language:"
+msgstr ""
+
+#: core/views/html-status.php:35
+msgid "Text Direction:"
+msgstr ""
+
+#: core/views/html-status.php:36
+msgid "Child Theme:"
+msgstr ""
+
+#: core/views/html-status.php:47
+msgid "Server environment"
+msgstr ""
+
+#: core/views/html-status.php:54
+msgid "Server Info:"
+msgstr ""
+
+#: core/views/html-status.php:56
+msgid "MySQL version:"
+msgstr ""
+
+#: core/views/html-status.php:87
+msgid "Max Upload Size:"
+msgstr ""
+
+#: core/views/html-status.php:88
+msgid "cURL:"
+msgstr ""
+
+#: core/views/html-status.php:89
+msgid "DOMDocument:"
+msgstr ""
+
+#: core/views/html-welcome.php:29
+msgid "Theme Requirements"
+msgstr ""
+
+#: core/views/html-welcome.php:30
+msgid "Theme and Server requirements listed here."
+msgstr ""
+
+#: core/views/html-welcome.php:50
+msgid "Looks good!!"
+msgstr ""
+
+#: core/views/html-welcome.php:65
+msgid "Recent Logs"
+msgstr ""
+
+#: core/views/html-welcome.php:66
+msgid "New features and Bug fixes."
+msgstr ""
+
+#: core/views/html-welcome.php:69
+msgid "View Logs"
+msgstr ""
+
+#: core/views/html-welcome.php:75
+msgid "Info"
+msgstr ""
+
+#: core/views/html-welcome.php:77
+msgid "Initial Release."
+msgstr ""
+
+#: includes/class-admin-page.php:40 views/html-modules.php:51
+msgid "Modules"
+msgstr ""
+
+#: includes/class-woo-hooks.php:116 shortcodes/compare-products.php:176
+msgid "Compare product items not found!"
+msgstr ""
+
+#: includes/class-woo-hooks.php:117 includes/class-woo-hooks.php:204
+#: shortcodes/compare-products.php:177 shortcodes/wishlist.php:130
+msgid "Go shop"
+msgstr ""
+
+#: includes/class-woo-hooks.php:203 shortcodes/wishlist.php:129
+msgid "Wishlist items not found!"
+msgstr ""
+
+#: includes/customize-options.php:54
+msgid "Octagon Elements: Shortcode Fonts"
+msgstr ""
+
+#: includes/customize-options.php:63 includes/helper-functions.php:127
+#: modules/content-type-slider.php:153 modules/content-type.php:61
+#: modules/content-type.php:187
+msgid "Content Type"
+msgstr ""
+
+#: includes/customize-options.php:71
+msgid "Title Font"
+msgstr ""
+
+#: includes/customize-options.php:72
+msgid "Adjust font settings."
+msgstr ""
+
+#: includes/helper-functions.php:124 modules/advance-button.php:37
+#: modules/advance-counter.php:37 modules/compare-products.php:37
+#: modules/content-type-list.php:45 modules/content-type-list.php:286
+#: modules/content-type-slider.php:62 modules/content-type-slider.php:617
+#: modules/content-type.php:65 modules/content-type.php:421
+#: modules/google-map.php:37 modules/gradient-text.php:37
+#: modules/icon-box.php:37 modules/image-box.php:37 modules/image-mask.php:37
+#: modules/info-icons.php:37 modules/portfolio-extend-slider.php:42
+#: modules/portfolio-extend-slider.php:460 modules/portfolio-slider.php:42
+#: modules/portfolio-slider.php:485 modules/portfolio.php:45
+#: modules/portfolio.php:314 modules/products-list.php:41
+#: modules/products-slider.php:41 modules/products.php:44
+#: modules/slick-gallery.php:37 modules/slide-all.php:42
+#: modules/slider-revolution.php:47 modules/table.php:37
+#: modules/team-slider.php:40 modules/team-slider.php:470 modules/team.php:40
+#: modules/team.php:255 modules/testimonial-slider.php:37
+#: modules/timeline.php:37 modules/video-popup.php:37 modules/wishlist.php:37
+msgid "General"
+msgstr ""
+
+#: includes/helper-functions.php:125 modules/advance-button.php:33
+msgid "Advance Button"
+msgstr ""
+
+#: includes/helper-functions.php:126 modules/advance-counter.php:33
+msgid "Advance Counter"
+msgstr ""
+
+#: includes/helper-functions.php:128 modules/content-type-list.php:41
+msgid "Content Type List"
+msgstr ""
+
+#: includes/helper-functions.php:129 modules/content-type-slider.php:58
+msgid "Content Type Slider"
+msgstr ""
+
+#: includes/helper-functions.php:130 modules/gradient-text.php:33
+msgid "Gradient Text"
+msgstr ""
+
+#: includes/helper-functions.php:131 modules/image-box.php:33
+msgid "Image Box"
+msgstr ""
+
+#: includes/helper-functions.php:132 modules/icon-box.php:33
+msgid "Icon Box"
+msgstr ""
+
+#: includes/helper-functions.php:133 modules/image-mask.php:33
+msgid "Image Mask"
+msgstr ""
+
+#: includes/helper-functions.php:134 modules/info-icons.php:33
+msgid "Info Icons"
+msgstr ""
+
+#: includes/helper-functions.php:135 modules/timeline.php:33
+#: modules/timeline.php:58
+msgid "Timeline"
+msgstr ""
+
+#: includes/helper-functions.php:136 modules/slide-all.php:33
+#: modules/slide-all.php:34
+msgid "Slide All"
+msgstr ""
+
+#: includes/helper-functions.php:137 modules/slick-gallery.php:33
+msgid "Slick Gallery"
+msgstr ""
+
+#: includes/helper-functions.php:138 includes/init-content-types.php:30
+#: includes/init-content-types.php:31 modules/portfolio.php:41
+msgid "Portfolio"
+msgstr ""
+
+#: includes/helper-functions.php:139 modules/portfolio-slider.php:38
+msgid "Portfolio Slider"
+msgstr ""
+
+#: includes/helper-functions.php:140 modules/portfolio-extend-slider.php:38
+msgid "Portfolio Extend Slider"
+msgstr ""
+
+#: includes/helper-functions.php:141 includes/init-content-types.php:71
+#: modules/team.php:36
+msgid "Team"
+msgstr ""
+
+#: includes/helper-functions.php:142 modules/team-slider.php:36
+msgid "Team Slider"
+msgstr ""
+
+#: includes/helper-functions.php:143 modules/testimonial-slider.php:33
+msgid "Testimonial Slider"
+msgstr ""
+
+#: includes/helper-functions.php:144 modules/video-popup.php:33
+msgid "Video Popup"
+msgstr ""
+
+#: includes/helper-functions.php:146
+msgid "WooCommerce"
+msgstr ""
+
+#: includes/helper-functions.php:147 modules/products.php:40
+msgid "Products"
+msgstr ""
+
+#: includes/helper-functions.php:148 modules/products-slider.php:37
+msgid "Products Slider"
+msgstr ""
+
+#: includes/helper-functions.php:149 modules/products-list.php:37
+msgid "Products List"
+msgstr ""
+
+#: includes/helper-functions.php:150 modules/compare-products.php:33
+#: modules/compare-products.php:43 modules/compare-products.php:165
+msgid "Compare Products"
+msgstr ""
+
+#: includes/helper-functions.php:151 modules/wishlist.php:33
+msgid "Wishlist"
+msgstr ""
+
+#: includes/helper-functions.php:337 includes/helper-functions.php:372
+msgid "Previous"
+msgstr ""
+
+#: includes/helper-functions.php:338 includes/helper-functions.php:375
+msgid "Next"
+msgstr ""
+
+#: includes/helper-functions.php:388 includes/helper-functions.php:402
+#: modules/content-type-list.php:95 modules/content-type-slider.php:132
+#: modules/content-type.php:166 modules/portfolio.php:146
+#: modules/products.php:151
+msgid "Loadmore"
+msgstr ""
+
+#: includes/init-content-types.php:33
+msgid "All Portfolio"
+msgstr ""
+
+#: includes/init-content-types.php:47
+msgid "Categories"
+msgstr ""
+
+#: includes/init-content-types.php:48 modules/content-type-list.php:83
+#: modules/content-type-slider.php:100 modules/content-type.php:118
+msgid "Category"
+msgstr ""
+
+#: includes/init-content-types.php:50
+msgid "Portfolio Categories"
+msgstr ""
+
+#: includes/init-content-types.php:51
+msgid "All Categories"
+msgstr ""
+
+#: includes/init-content-types.php:72
+msgid "Member"
+msgstr ""
+
+#: includes/init-content-types.php:74
+msgid "All Members"
+msgstr ""
+
+#: includes/init-content-types.php:85 includes/init-content-types.php:119
+msgid "Jobs"
+msgstr ""
+
+#: includes/init-content-types.php:86 includes/init-content-types.php:120
+msgid "Job"
+msgstr ""
+
+#: includes/init-content-types.php:88
+msgid "Team Jobs"
+msgstr ""
+
+#: includes/init-content-types.php:89 includes/init-content-types.php:123
+msgid "All Jobs"
+msgstr ""
+
+#: includes/init-content-types.php:105
+msgid "Testimonials"
+msgstr ""
+
+#: includes/init-content-types.php:106 includes/init-meta-fields.php:64
+msgid "Testimonial"
+msgstr ""
+
+#: includes/init-content-types.php:108
+msgid "All Testimonials"
+msgstr ""
+
+#: includes/init-content-types.php:122
+msgid "Testimonial Jobs"
+msgstr ""
+
+#: includes/init-meta-fields.php:42 modules/products-list.php:261
+#: modules/products-slider.php:530 modules/products.php:336
+#: modules/testimonial-slider.php:88 modules/testimonial-slider.php:128
+#: modules/testimonial-slider.php:207 modules/testimonial-slider.php:432
+msgid "Rating"
+msgstr ""
+
+#: includes/init-meta-fields.php:43
+msgid "Choose rating."
+msgstr ""
+
+#: includes/init-meta-fields.php:47
+msgid "Bad"
+msgstr ""
+
+#: includes/init-meta-fields.php:48
+msgid "OK"
+msgstr ""
+
+#: includes/init-meta-fields.php:49
+msgid "Average"
+msgstr ""
+
+#: includes/init-meta-fields.php:50
+msgid "Good"
+msgstr ""
+
+#: includes/init-meta-fields.php:51
+msgid "Better"
+msgstr ""
+
+#: includes/init-meta-fields.php:77
+msgid "Testimonial Options"
+msgstr ""
+
+#: modules/advance-button.php:43 modules/advance-button.php:240
+#: modules/icon-box.php:173 modules/icon-box.php:408
+msgid "Text Button"
+msgstr ""
+
+#: modules/advance-button.php:44 modules/icon-box.php:174
+#: modules/image-box.php:186
+msgid "Add the text that appears on the button."
+msgstr ""
+
+#: modules/advance-button.php:50 modules/icon-box.php:180
+#: modules/image-box.php:192 modules/info-icons.php:165
+msgid "Link"
+msgstr ""
+
+#: modules/advance-button.php:53 modules/icon-box.php:183
+#: modules/image-box.php:195 modules/info-icons.php:168
+msgid ""
+"Add your relative URL. Each URL contains link, anchor text and target "
+"attributes."
+msgstr ""
+
+#: modules/advance-button.php:58 modules/content-type-slider.php:561
+#: modules/content-type.php:367 modules/icon-box.php:188
+#: modules/image-box.php:200
+msgid "Button Size"
+msgstr ""
+
+#: modules/advance-button.php:62 modules/content-type-slider.php:565
+#: modules/content-type.php:371 modules/icon-box.php:192
+#: modules/image-box.php:204
+msgid "Mini"
+msgstr ""
+
+#: modules/advance-button.php:63 modules/content-type-slider.php:566
+#: modules/content-type.php:372 modules/icon-box.php:193
+#: modules/image-box.php:205
+msgid "Small"
+msgstr ""
+
+#: modules/advance-button.php:64 modules/content-type-slider.php:567
+#: modules/icon-box.php:194
+msgid "Medium"
+msgstr ""
+
+#: modules/advance-button.php:65 modules/content-type-slider.php:568
+#: modules/icon-box.php:195
+msgid "Large"
+msgstr ""
+
+#: modules/advance-button.php:66 modules/content-type-slider.php:569
+#: modules/icon-box.php:196
+msgid "Full"
+msgstr ""
+
+#: modules/advance-button.php:72 modules/advance-button.php:95
+#: modules/content-type-slider.php:575 modules/content-type-slider.php:596
+#: modules/content-type.php:378 modules/content-type.php:400
+#: modules/icon-box.php:202 modules/icon-box.php:223 modules/image-box.php:211
+#: modules/image-box.php:233 modules/wishlist.php:106 modules/wishlist.php:127
+#: modules/wishlist.php:152 modules/wishlist.php:173
+msgid "Button Type"
+msgstr ""
+
+#: modules/advance-button.php:76 modules/content-type-slider.php:579
+#: modules/content-type.php:382 modules/icon-box.php:206
+#: modules/image-box.php:215 modules/wishlist.php:110 modules/wishlist.php:156
+msgid "Solid Rectangle"
+msgstr ""
+
+#: modules/advance-button.php:77 modules/content-type-slider.php:580
+#: modules/content-type.php:383 modules/icon-box.php:207
+#: modules/image-box.php:216 modules/wishlist.php:111 modules/wishlist.php:157
+msgid "Solid Round"
+msgstr ""
+
+#: modules/advance-button.php:78 modules/content-type-slider.php:581
+#: modules/content-type.php:384 modules/icon-box.php:208
+#: modules/image-box.php:217 modules/wishlist.php:112 modules/wishlist.php:158
+msgid "Solid Ellipse"
+msgstr ""
+
+#: modules/advance-button.php:79 modules/content-type-slider.php:582
+#: modules/content-type.php:385 modules/icon-box.php:209
+#: modules/image-box.php:218 modules/wishlist.php:113 modules/wishlist.php:159
+msgid "Outline Rectangle"
+msgstr ""
+
+#: modules/advance-button.php:80 modules/content-type-slider.php:583
+#: modules/content-type.php:386 modules/icon-box.php:210
+#: modules/image-box.php:219 modules/wishlist.php:114 modules/wishlist.php:160
+msgid "Outline Round"
+msgstr ""
+
+#: modules/advance-button.php:81 modules/content-type-slider.php:584
+#: modules/content-type.php:387 modules/icon-box.php:211
+#: modules/image-box.php:220 modules/wishlist.php:115 modules/wishlist.php:161
+msgid "Outline Ellipse"
+msgstr ""
+
+#: modules/advance-button.php:82 modules/content-type-slider.php:585
+#: modules/content-type.php:388 modules/icon-box.php:212
+#: modules/image-box.php:221 modules/wishlist.php:116 modules/wishlist.php:162
+msgid "No Background"
+msgstr ""
+
+#: modules/advance-button.php:83 modules/content-type-slider.php:586
+#: modules/content-type.php:389 modules/icon-box.php:213
+#: modules/image-box.php:222 modules/wishlist.php:117 modules/wishlist.php:163
+msgid "Simple"
+msgstr ""
+
+#: modules/advance-button.php:84 modules/content-type.php:390
+#: modules/image-box.php:223
+msgid "Half Line"
+msgstr ""
+
+#: modules/advance-button.php:85
+msgid "Line Collapse"
+msgstr ""
+
+#: modules/advance-button.php:86 modules/content-type-slider.php:587
+#: modules/content-type.php:391 modules/icon-box.php:214
+#: modules/image-box.php:224 modules/wishlist.php:118 modules/wishlist.php:164
+msgid "Line Top Right"
+msgstr ""
+
+#: modules/advance-button.php:87 modules/content-type-slider.php:588
+#: modules/content-type.php:392 modules/icon-box.php:215
+#: modules/image-box.php:225 modules/wishlist.php:119 modules/wishlist.php:165
+msgid "Line Top Left"
+msgstr ""
+
+#: modules/advance-button.php:88 modules/content-type-slider.php:589
+#: modules/content-type.php:393 modules/icon-box.php:216
+#: modules/image-box.php:226 modules/wishlist.php:120 modules/wishlist.php:166
+msgid "Line Bottom Right"
+msgstr ""
+
+#: modules/advance-button.php:89 modules/content-type-slider.php:590
+#: modules/content-type.php:394 modules/icon-box.php:217
+#: modules/image-box.php:227 modules/wishlist.php:121 modules/wishlist.php:167
+msgid "Line Bottom Left"
+msgstr ""
+
+#: modules/advance-button.php:99 modules/content-type-slider.php:600
+#: modules/content-type.php:404 modules/icon-box.php:227
+#: modules/image-box.php:237 modules/wishlist.php:131 modules/wishlist.php:177
+msgid "Black"
+msgstr ""
+
+#: modules/advance-button.php:100 modules/content-type-slider.php:601
+#: modules/content-type.php:405 modules/icon-box.php:228
+#: modules/image-box.php:238 modules/wishlist.php:132 modules/wishlist.php:178
+msgid "White"
+msgstr ""
+
+#: modules/advance-button.php:101 modules/content-type.php:406
+#: modules/image-box.php:239
+msgid "Primary"
+msgstr ""
+
+#: modules/advance-button.php:102 modules/image-box.php:240
+msgid "Default Gradient"
+msgstr ""
+
+#: modules/advance-button.php:103 modules/image-box.php:241
+msgid "From Gradient Palette"
+msgstr ""
+
+#: modules/advance-button.php:109 modules/image-box.php:247
+msgid "Gradient Palette"
+msgstr ""
+
+#: modules/advance-button.php:121 modules/icon-box.php:236
+#: modules/image-box.php:259
+msgid "Show Icon?"
+msgstr ""
+
+#: modules/advance-button.php:127 modules/icon-box.php:243
+#: modules/image-box.php:265
+msgid "Only Icon?"
+msgstr ""
+
+#: modules/advance-button.php:137 modules/advance-counter.php:100
+#: modules/advance-counter.php:152 modules/icon-box.php:88
+#: modules/icon-box.php:96 modules/icon-box.php:304 modules/image-box.php:275
+#: modules/info-icons.php:122 modules/info-icons.php:129
+#: modules/info-icons.php:191 modules/video-popup.php:54
+msgid "Icon"
+msgstr ""
+
+#: modules/advance-button.php:140 modules/icon-box.php:256
+#: modules/image-box.php:278
+msgid "Select icon for button"
+msgstr ""
+
+#: modules/advance-button.php:149 modules/icon-box.php:265
+#: modules/image-box.php:287
+msgid "Icon Position"
+msgstr ""
+
+#: modules/advance-button.php:153 modules/advance-button.php:211
+#: modules/advance-counter.php:80 modules/icon-box.php:75
+#: modules/icon-box.php:269 modules/image-box.php:291 modules/info-icons.php:78
+#: modules/table.php:75 modules/table.php:120
+msgid "Left"
+msgstr ""
+
+#: modules/advance-button.php:154 modules/advance-button.php:209
+#: modules/advance-counter.php:81 modules/icon-box.php:76
+#: modules/icon-box.php:270 modules/image-box.php:292 modules/info-icons.php:79
+#: modules/table.php:76 modules/table.php:121
+msgid "Right"
+msgstr ""
+
+#: modules/advance-button.php:164 modules/icon-box.php:280
+#: modules/image-box.php:302
+msgid "On Click"
+msgstr ""
+
+#: modules/advance-button.php:167 modules/icon-box.php:283
+#: modules/image-box.php:305
+msgid "Content of on click attribute for element."
+msgstr ""
+
+#: modules/advance-button.php:172 modules/advance-counter.php:136
+#: modules/compare-products.php:86 modules/content-type-list.php:104
+#: modules/content-type-slider.php:141 modules/content-type.php:175
+#: modules/google-map.php:71 modules/gradient-text.php:99
+#: modules/icon-box.php:148 modules/image-box.php:159 modules/image-mask.php:69
+#: modules/info-icons.php:175 modules/portfolio-extend-slider.php:98
+#: modules/portfolio-slider.php:99 modules/portfolio.php:155
+#: modules/products-list.php:85 modules/products-slider.php:126
+#: modules/products.php:160 modules/slick-gallery.php:49
+#: modules/slide-all.php:46 modules/slider-revolution.php:59
+#: modules/table.php:130 modules/team-slider.php:84 modules/team.php:97
+#: modules/testimonial-slider.php:108 modules/timeline.php:95
+#: modules/video-popup.php:98 modules/wishlist.php:86
+msgid "Extra Class"
+msgstr ""
+
+#: modules/advance-button.php:175 modules/advance-counter.php:139
+#: modules/compare-products.php:89 modules/content-type-list.php:107
+#: modules/content-type-slider.php:144 modules/content-type.php:178
+#: modules/google-map.php:74 modules/gradient-text.php:102
+#: modules/icon-box.php:151 modules/icon-box.php:291 modules/image-box.php:162
+#: modules/image-mask.php:72 modules/info-icons.php:178
+#: modules/portfolio-extend-slider.php:101 modules/portfolio-slider.php:102
+#: modules/portfolio.php:158 modules/products-list.php:88
+#: modules/products-slider.php:129 modules/products.php:163
+#: modules/slick-gallery.php:52 modules/slide-all.php:49
+#: modules/slider-revolution.php:62 modules/table.php:133
+#: modules/team-slider.php:87 modules/team.php:100
+#: modules/testimonial-slider.php:111 modules/timeline.php:98
+#: modules/video-popup.php:101 modules/wishlist.php:89
+msgid "Enter the extra class"
+msgstr ""
+
+#: modules/advance-button.php:180 modules/advance-counter.php:144
+#: modules/compare-products.php:94 modules/content-type-list.php:278
+#: modules/content-type-slider.php:609 modules/content-type.php:413
+#: modules/gradient-text.php:107 modules/icon-box.php:296
+#: modules/image-box.php:310 modules/info-icons.php:183
+#: modules/portfolio-extend-slider.php:452 modules/portfolio-slider.php:477
+#: modules/portfolio.php:306 modules/products-list.php:237
+#: modules/products-slider.php:506 modules/products.php:312
+#: modules/slick-gallery.php:285 modules/table.php:138
+#: modules/team-slider.php:462 modules/team.php:247
+#: modules/testimonial-slider.php:392 modules/timeline.php:103
+#: modules/video-popup.php:106 modules/wishlist.php:186
+msgid "Styling"
+msgstr ""
+
+#: modules/advance-button.php:183 modules/advance-counter.php:147
+#: modules/compare-products.php:97 modules/content-type-list.php:281
+#: modules/content-type-slider.php:612 modules/content-type.php:416
+#: modules/gradient-text.php:110 modules/icon-box.php:299
+#: modules/image-box.php:313 modules/info-icons.php:186
+#: modules/portfolio-extend-slider.php:455 modules/portfolio-slider.php:480
+#: modules/portfolio.php:309 modules/products-list.php:240
+#: modules/products-slider.php:509 modules/products.php:315
+#: modules/slick-gallery.php:288 modules/table.php:141
+#: modules/team-slider.php:465 modules/team.php:250
+#: modules/testimonial-slider.php:395 modules/timeline.php:106
+#: modules/video-popup.php:109 modules/wishlist.php:189
+msgid "CSS"
+msgstr ""
+
+#: modules/advance-button.php:188 modules/content-type-list.php:312
+#: modules/content-type-slider.php:659 modules/content-type.php:456
+#: modules/icon-box.php:341 modules/image-box.php:354
+#: modules/products-list.php:264 modules/products-slider.php:533
+#: modules/products.php:339
+msgid "Button Style"
+msgstr ""
+
+#: modules/advance-button.php:189 modules/advance-button.php:214
+#: modules/advance-counter.php:153 modules/advance-counter.php:160
+#: modules/advance-counter.php:172 modules/compare-products.php:103
+#: modules/compare-products.php:111 modules/compare-products.php:119
+#: modules/compare-products.php:127 modules/compare-products.php:136
+#: modules/content-type-list.php:290 modules/content-type-list.php:303
+#: modules/content-type-list.php:313 modules/content-type-list.php:333
+#: modules/content-type-slider.php:621 modules/content-type-slider.php:634
+#: modules/content-type-slider.php:644 modules/content-type-slider.php:654
+#: modules/content-type-slider.php:660 modules/content-type-slider.php:680
+#: modules/content-type.php:425 modules/content-type.php:438
+#: modules/content-type.php:448 modules/content-type.php:457
+#: modules/content-type.php:477 modules/gradient-text.php:116
+#: modules/icon-box.php:305 modules/icon-box.php:319 modules/icon-box.php:331
+#: modules/icon-box.php:342 modules/icon-box.php:362 modules/image-box.php:319
+#: modules/image-box.php:331 modules/image-box.php:343
+#: modules/image-box.php:355 modules/image-box.php:375
+#: modules/info-icons.php:192 modules/info-icons.php:203
+#: modules/products-list.php:246 modules/products-list.php:254
+#: modules/products-list.php:265 modules/products-list.php:285
+#: modules/products-slider.php:515 modules/products-slider.php:523
+#: modules/products-slider.php:534 modules/products-slider.php:554
+#: modules/products.php:321 modules/products.php:329 modules/products.php:340
+#: modules/products.php:360 modules/table.php:147 modules/table.php:154
+#: modules/testimonial-slider.php:401 modules/testimonial-slider.php:415
+#: modules/testimonial-slider.php:424 modules/timeline.php:112
+#: modules/timeline.php:122 modules/timeline.php:132
+#: modules/video-popup.php:115 modules/wishlist.php:195
+#: modules/wishlist.php:203 modules/wishlist.php:211 modules/wishlist.php:219
+#: modules/wishlist.php:228 modules/wishlist.php:236 modules/wishlist.php:256
+#: modules/wishlist.php:261 modules/wishlist.php:281
+msgid "Text Color"
+msgstr ""
+
+#: modules/advance-button.php:190 modules/advance-button.php:215
+#: modules/content-type-list.php:291 modules/content-type-list.php:314
+#: modules/content-type-list.php:334 modules/content-type-slider.php:622
+#: modules/content-type-slider.php:661 modules/content-type-slider.php:681
+#: modules/content-type.php:426 modules/content-type.php:458
+#: modules/content-type.php:478 modules/icon-box.php:308
+#: modules/icon-box.php:343 modules/icon-box.php:363 modules/image-box.php:356
+#: modules/image-box.php:376 modules/info-icons.php:193
+#: modules/products-list.php:266 modules/products-list.php:286
+#: modules/products-slider.php:535 modules/products-slider.php:555
+#: modules/products.php:341 modules/products.php:361 modules/table.php:148
+#: modules/table.php:155 modules/testimonial-slider.php:402
+#: modules/wishlist.php:237 modules/wishlist.php:257 modules/wishlist.php:262
+#: modules/wishlist.php:282
+msgid "Background Color"
+msgstr ""
+
+#: modules/advance-button.php:192 modules/advance-counter.php:154
+#: modules/advance-counter.php:162 modules/advance-counter.php:174
+#: modules/compare-products.php:105 modules/compare-products.php:113
+#: modules/compare-products.php:121 modules/compare-products.php:129
+#: modules/compare-products.php:138 modules/content-type-list.php:293
+#: modules/content-type-list.php:305 modules/content-type-list.php:316
+#: modules/content-type-slider.php:624 modules/content-type-slider.php:636
+#: modules/content-type-slider.php:646 modules/content-type-slider.php:656
+#: modules/content-type-slider.php:663 modules/content-type.php:428
+#: modules/content-type.php:440 modules/content-type.php:450
+#: modules/content-type.php:460 modules/gradient-text.php:118
+#: modules/icon-box.php:309 modules/icon-box.php:321 modules/icon-box.php:333
+#: modules/icon-box.php:345 modules/image-box.php:321 modules/image-box.php:333
+#: modules/image-box.php:345 modules/image-box.php:358
+#: modules/info-icons.php:194 modules/info-icons.php:205
+#: modules/products-list.php:248 modules/products-list.php:256
+#: modules/products-list.php:268 modules/products-slider.php:517
+#: modules/products-slider.php:525 modules/products-slider.php:537
+#: modules/products.php:323 modules/products.php:331 modules/products.php:343
+#: modules/table.php:149 modules/table.php:156
+#: modules/testimonial-slider.php:404 modules/testimonial-slider.php:417
+#: modules/testimonial-slider.php:426 modules/timeline.php:114
+#: modules/timeline.php:124 modules/timeline.php:134 modules/wishlist.php:197
+#: modules/wishlist.php:205 modules/wishlist.php:213 modules/wishlist.php:221
+#: modules/wishlist.php:230 modules/wishlist.php:239 modules/wishlist.php:264
+msgid "Text Size"
+msgstr ""
+
+#: modules/advance-button.php:193 modules/advance-counter.php:155
+#: modules/advance-counter.php:164 modules/advance-counter.php:175
+#: modules/content-type-list.php:317 modules/content-type-slider.php:664
+#: modules/content-type.php:461 modules/gradient-text.php:119
+#: modules/icon-box.php:310 modules/icon-box.php:323 modules/icon-box.php:334
+#: modules/icon-box.php:346 modules/image-box.php:322 modules/image-box.php:334
+#: modules/image-box.php:346 modules/image-box.php:359
+#: modules/info-icons.php:206 modules/products-list.php:269
+#: modules/products-slider.php:538 modules/products.php:344
+#: modules/timeline.php:115 modules/timeline.php:125 modules/timeline.php:135
+#: modules/video-popup.php:121 modules/wishlist.php:240
+#: modules/wishlist.php:265
+msgid "Line Height"
+msgstr ""
+
+#: modules/advance-button.php:195 modules/advance-counter.php:165
+#: modules/advance-counter.php:176 modules/compare-products.php:107
+#: modules/compare-products.php:115 modules/compare-products.php:123
+#: modules/compare-products.php:131 modules/compare-products.php:140
+#: modules/content-type-list.php:295 modules/content-type-list.php:307
+#: modules/content-type-list.php:319 modules/content-type-slider.php:626
+#: modules/content-type-slider.php:638 modules/content-type-slider.php:666
+#: modules/content-type.php:430 modules/content-type.php:442
+#: modules/content-type.php:463 modules/gradient-text.php:121
+#: modules/icon-box.php:324 modules/icon-box.php:335 modules/icon-box.php:348
+#: modules/image-box.php:324 modules/image-box.php:336
+#: modules/image-box.php:348 modules/image-box.php:361
+#: modules/info-icons.php:208 modules/products-list.php:250
+#: modules/products-list.php:258 modules/products-list.php:271
+#: modules/products-slider.php:519 modules/products-slider.php:527
+#: modules/products-slider.php:540 modules/products.php:325
+#: modules/products.php:333 modules/products.php:346
+#: modules/testimonial-slider.php:406 modules/timeline.php:117
+#: modules/timeline.php:127 modules/timeline.php:137
+#: modules/video-popup.php:119 modules/wishlist.php:199
+#: modules/wishlist.php:207 modules/wishlist.php:215 modules/wishlist.php:223
+#: modules/wishlist.php:232 modules/wishlist.php:242 modules/wishlist.php:267
+msgid "Text Transform"
+msgstr ""
+
+#: modules/advance-button.php:196 modules/advance-counter.php:166
+#: modules/advance-counter.php:177 modules/content-type-list.php:320
+#: modules/content-type-slider.php:667 modules/content-type.php:464
+#: modules/icon-box.php:325 modules/icon-box.php:336 modules/icon-box.php:349
+#: modules/image-box.php:362 modules/image-box.php:380
+#: modules/products-list.php:272 modules/products-slider.php:541
+#: modules/products.php:347 modules/wishlist.php:243 modules/wishlist.php:268
+msgid "Align"
+msgstr ""
+
+#: modules/advance-button.php:197 modules/advance-counter.php:167
+#: modules/advance-counter.php:178 modules/compare-products.php:108
+#: modules/compare-products.php:116 modules/compare-products.php:124
+#: modules/compare-products.php:132 modules/compare-products.php:141
+#: modules/content-type-list.php:296 modules/content-type-list.php:308
+#: modules/content-type-list.php:321 modules/content-type-slider.php:627
+#: modules/content-type-slider.php:639 modules/content-type-slider.php:648
+#: modules/content-type-slider.php:657 modules/content-type-slider.php:668
+#: modules/content-type.php:431 modules/content-type.php:443
+#: modules/content-type.php:452 modules/content-type.php:465
+#: modules/gradient-text.php:123 modules/icon-box.php:326
+#: modules/icon-box.php:337 modules/icon-box.php:350 modules/image-box.php:325
+#: modules/image-box.php:337 modules/image-box.php:349
+#: modules/image-box.php:363 modules/info-icons.php:209
+#: modules/products-list.php:251 modules/products-list.php:259
+#: modules/products-list.php:273 modules/products-slider.php:520
+#: modules/products-slider.php:528 modules/products-slider.php:542
+#: modules/products.php:326 modules/products.php:334 modules/products.php:348
+#: modules/testimonial-slider.php:407 modules/testimonial-slider.php:419
+#: modules/testimonial-slider.php:428 modules/timeline.php:118
+#: modules/timeline.php:128 modules/timeline.php:138 modules/wishlist.php:200
+#: modules/wishlist.php:208 modules/wishlist.php:216 modules/wishlist.php:224
+#: modules/wishlist.php:233 modules/wishlist.php:244 modules/wishlist.php:269
+msgid "Letter Spacing"
+msgstr ""
+
+#: modules/advance-button.php:198 modules/advance-counter.php:168
+#: modules/advance-counter.php:179 modules/content-type-list.php:297
+#: modules/content-type-list.php:309 modules/content-type-list.php:322
+#: modules/content-type-slider.php:628 modules/content-type-slider.php:640
+#: modules/content-type-slider.php:649 modules/content-type-slider.php:669
+#: modules/content-type.php:432 modules/content-type.php:444
+#: modules/content-type.php:453 modules/content-type.php:466
+#: modules/icon-box.php:327 modules/icon-box.php:338 modules/icon-box.php:351
+#: modules/image-box.php:326 modules/image-box.php:338
+#: modules/image-box.php:350 modules/image-box.php:364
+#: modules/products-list.php:274 modules/products-slider.php:543
+#: modules/products.php:349 modules/testimonial-slider.php:408
+#: modules/testimonial-slider.php:420 modules/testimonial-slider.php:429
+#: modules/wishlist.php:245 modules/wishlist.php:270
+msgid "Text Shadow"
+msgstr ""
+
+#: modules/advance-button.php:201 modules/content-type-list.php:325
+#: modules/content-type-slider.php:672 modules/content-type.php:469
+#: modules/icon-box.php:354 modules/image-box.php:367
+#: modules/products-list.php:277 modules/products-slider.php:546
+#: modules/products.php:352 modules/wishlist.php:248 modules/wishlist.php:273
+msgid "Display"
+msgstr ""
+
+#: modules/advance-button.php:202 modules/advance-button.php:216
+#: modules/advance-counter.php:184 modules/content-type-list.php:326
+#: modules/content-type-list.php:335 modules/content-type-slider.php:673
+#: modules/content-type-slider.php:682 modules/content-type.php:470
+#: modules/content-type.php:479 modules/icon-box.php:313
+#: modules/icon-box.php:355 modules/icon-box.php:364 modules/icon-box.php:369
+#: modules/image-box.php:368 modules/image-box.php:377
+#: modules/info-icons.php:86 modules/info-icons.php:197
+#: modules/products-list.php:278 modules/products-list.php:287
+#: modules/products-slider.php:547 modules/products-slider.php:556
+#: modules/products.php:353 modules/products.php:362 modules/table.php:46
+#: modules/table.php:150 modules/table.php:157 modules/wishlist.php:249
+#: modules/wishlist.php:258 modules/wishlist.php:274 modules/wishlist.php:283
+msgid "Border"
+msgstr ""
+
+#: modules/advance-button.php:203 modules/advance-counter.php:185
+#: modules/content-type-list.php:298 modules/content-type-list.php:327
+#: modules/content-type-slider.php:629 modules/content-type-slider.php:674
+#: modules/content-type.php:433 modules/content-type.php:471
+#: modules/icon-box.php:314 modules/icon-box.php:356 modules/icon-box.php:370
+#: modules/image-box.php:369 modules/info-icons.php:198
+#: modules/products-list.php:279 modules/products-slider.php:548
+#: modules/products.php:354 modules/video-popup.php:118
+#: modules/wishlist.php:250 modules/wishlist.php:275
+msgid "Border Radius"
+msgstr ""
+
+#: modules/advance-button.php:204 modules/advance-counter.php:156
+#: modules/advance-counter.php:188 modules/content-type-list.php:299
+#: modules/content-type-list.php:328 modules/content-type-slider.php:630
+#: modules/content-type-slider.php:675 modules/content-type.php:434
+#: modules/content-type.php:472 modules/icon-box.php:315
+#: modules/icon-box.php:357 modules/icon-box.php:373 modules/image-box.php:328
+#: modules/image-box.php:340 modules/image-box.php:352
+#: modules/image-box.php:370 modules/image-box.php:383
+#: modules/info-icons.php:199 modules/products-list.php:280
+#: modules/products-slider.php:549 modules/products.php:355
+#: modules/slick-gallery.php:293 modules/table.php:151 modules/table.php:158
+#: modules/video-popup.php:117 modules/wishlist.php:251
+#: modules/wishlist.php:276
+msgid "Padding"
+msgstr ""
+
+#: modules/advance-button.php:205 modules/advance-counter.php:157
+#: modules/advance-counter.php:169 modules/advance-counter.php:180
+#: modules/advance-counter.php:187 modules/content-type-list.php:300
+#: modules/content-type-list.php:310 modules/content-type-list.php:329
+#: modules/content-type-slider.php:631 modules/content-type-slider.php:641
+#: modules/content-type-slider.php:650 modules/content-type-slider.php:676
+#: modules/content-type.php:435 modules/content-type.php:445
+#: modules/content-type.php:454 modules/content-type.php:473
+#: modules/gradient-text.php:124 modules/icon-box.php:316
+#: modules/icon-box.php:328 modules/icon-box.php:339 modules/icon-box.php:358
+#: modules/icon-box.php:372 modules/image-box.php:327 modules/image-box.php:339
+#: modules/image-box.php:351 modules/image-box.php:371
+#: modules/image-box.php:382 modules/info-icons.php:200
+#: modules/info-icons.php:210 modules/products-list.php:262
+#: modules/products-list.php:281 modules/products-slider.php:531
+#: modules/products-slider.php:550 modules/products.php:337
+#: modules/products.php:356 modules/testimonial-slider.php:409
+#: modules/testimonial-slider.php:412 modules/testimonial-slider.php:421
+#: modules/testimonial-slider.php:430 modules/timeline.php:119
+#: modules/timeline.php:129 modules/timeline.php:139 modules/wishlist.php:252
+#: modules/wishlist.php:277
+msgid "Margin"
+msgstr ""
+
+#: modules/advance-button.php:206 modules/content-type-list.php:330
+#: modules/content-type-slider.php:677 modules/content-type.php:474
+#: modules/icon-box.php:359 modules/image-box.php:372
+#: modules/products-list.php:282 modules/products-slider.php:551
+#: modules/products.php:357 modules/wishlist.php:253 modules/wishlist.php:278
+msgid "Icon Spacing"
+msgstr ""
+
+#: modules/advance-button.php:207
+msgid "Position"
+msgstr ""
+
+#: modules/advance-button.php:208
+msgid "Top"
+msgstr ""
+
+#: modules/advance-button.php:210
+msgid "Bottom"
+msgstr ""
+
+#: modules/advance-button.php:213 modules/content-type-list.php:332
+#: modules/content-type-slider.php:679 modules/content-type.php:476
+#: modules/icon-box.php:361 modules/image-box.php:374
+msgid "Mouse Hover"
+msgstr ""
+
+#: modules/advance-counter.php:41
+msgid "Targeted Number"
+msgstr ""
+
+#: modules/advance-counter.php:43
+msgid "The targeted number to count up to (From zero)."
+msgstr ""
+
+#: modules/advance-counter.php:50 modules/advance-counter.php:171
+msgid "Label"
+msgstr ""
+
+#: modules/advance-counter.php:52
+msgid "The text description of the counter."
+msgstr ""
+
+#: modules/advance-counter.php:54 modules/advance-counter.php:213
+msgid "Percent Number"
+msgstr ""
+
+#: modules/advance-counter.php:59
+msgid "Prefix"
+msgstr ""
+
+#: modules/advance-counter.php:61
+msgid "Enter the prefix."
+msgstr ""
+
+#: modules/advance-counter.php:67
+msgid "Suffix"
+msgstr ""
+
+#: modules/advance-counter.php:69
+msgid "Enter the suffix."
+msgstr ""
+
+#: modules/advance-counter.php:75 modules/icon-box.php:70
+#: modules/info-icons.php:73 modules/table.php:70
+msgid "Alignment"
+msgstr ""
+
+#: modules/advance-counter.php:77 modules/icon-box.php:72
+#: modules/info-icons.php:75 modules/table.php:72
+msgid "Choose the alignment"
+msgstr ""
+
+#: modules/advance-counter.php:82 modules/icon-box.php:77
+#: modules/info-icons.php:80 modules/table.php:77 modules/table.php:122
+msgid "Center"
+msgstr ""
+
+#: modules/advance-counter.php:88
+msgid "Display Icon"
+msgstr ""
+
+#: modules/advance-counter.php:90
+msgid "Want to show icon?"
+msgstr ""
+
+#: modules/advance-counter.php:103 modules/icon-box.php:98
+#: modules/info-icons.php:132
+msgid "Choose the icon"
+msgstr ""
+
+#: modules/advance-counter.php:112
+msgid "Decimals"
+msgstr ""
+
+#: modules/advance-counter.php:114
+msgid "Enter decimals count"
+msgstr ""
+
+#: modules/advance-counter.php:120
+msgid "Decimal Delimiter"
+msgstr ""
+
+#: modules/advance-counter.php:122
+msgid "Enter decimal delimiter"
+msgstr ""
+
+#: modules/advance-counter.php:128
+msgid "Thousand Delimiter"
+msgstr ""
+
+#: modules/advance-counter.php:130
+msgid "Enter thousand delimiter"
+msgstr ""
+
+#: modules/advance-counter.php:159 modules/content-type-list.php:97
+#: modules/content-type-slider.php:134 modules/content-type-slider.php:653
+#: modules/content-type.php:168 modules/portfolio.php:148
+#: modules/products.php:153
+msgid "Number"
+msgstr ""
+
+#: modules/advance-counter.php:182 modules/icon-box.php:367
+msgid "Box"
+msgstr ""
+
+#: modules/advance-counter.php:183 modules/icon-box.php:368
+#: modules/video-popup.php:116
+msgid "Background"
+msgstr ""
+
+#: modules/advance-counter.php:186 modules/icon-box.php:371
+msgid "Box Shadow"
+msgstr ""
+
+#: modules/compare-products.php:44 modules/gradient-text.php:44
+#: modules/icon-box.php:134 modules/image-box.php:129
+#: modules/info-icons.php:112 modules/timeline.php:80 modules/wishlist.php:44
+msgid "Enter the title"
+msgstr ""
+
+#: modules/compare-products.php:49 modules/content-type-list.php:60
+#: modules/content-type-slider.php:77 modules/content-type.php:81
+#: modules/gradient-text.php:49 modules/icon-box.php:53
+#: modules/image-box.php:134 modules/info-icons.php:56
+#: modules/portfolio-extend-slider.php:57 modules/portfolio-slider.php:58
+#: modules/portfolio.php:62 modules/products-list.php:56
+#: modules/products-slider.php:56 modules/products.php:60
+#: modules/team-slider.php:55 modules/team.php:55 modules/timeline.php:41
+#: modules/wishlist.php:49
+msgid "Title Tag"
+msgstr ""
+
+#: modules/compare-products.php:51 modules/content-type-list.php:62
+#: modules/content-type-slider.php:79 modules/content-type.php:83
+#: modules/gradient-text.php:51 modules/icon-box.php:55
+#: modules/image-box.php:136 modules/info-icons.php:43
+#: modules/info-icons.php:58 modules/portfolio-extend-slider.php:59
+#: modules/portfolio-slider.php:60 modules/portfolio.php:64
+#: modules/products-list.php:58 modules/products-slider.php:58
+#: modules/products.php:62 modules/table.php:55 modules/team-slider.php:57
+#: modules/team.php:57 modules/timeline.php:43 modules/wishlist.php:51
+msgid "Choose the title tag."
+msgstr ""
+
+#: modules/compare-products.php:66 modules/wishlist.php:66
+msgid "Back to Shop Link"
+msgstr ""
+
+#: modules/compare-products.php:68 modules/wishlist.php:68
+msgid "Show back to shop link?"
+msgstr ""
+
+#: modules/compare-products.php:71 modules/content-type-list.php:263
+#: modules/content-type-slider.php:111 modules/content-type-slider.php:546
+#: modules/content-type.php:129 modules/content-type.php:352
+#: modules/icon-box.php:164 modules/image-box.php:176
+#: modules/portfolio-extend-slider.php:79
+#: modules/portfolio-extend-slider.php:91 modules/portfolio-slider.php:80
+#: modules/portfolio-slider.php:92 modules/portfolio.php:97
+#: modules/portfolio.php:109 modules/portfolio.php:121
+#: modules/products-list.php:78 modules/products-slider.php:94
+#: modules/products-slider.php:106 modules/products.php:113
+#: modules/products.php:125 modules/team-slider.php:77 modules/team.php:90
+#: modules/testimonial-slider.php:57 modules/testimonial-slider.php:69
+#: modules/testimonial-slider.php:81 modules/testimonial-slider.php:93
+#: modules/wishlist.php:71
+msgid "Show"
+msgstr ""
+
+#: modules/compare-products.php:72 modules/content-type-list.php:264
+#: modules/content-type-slider.php:112 modules/content-type-slider.php:547
+#: modules/content-type.php:130 modules/content-type.php:353
+#: modules/icon-box.php:165 modules/image-box.php:177
+#: modules/portfolio-extend-slider.php:80
+#: modules/portfolio-extend-slider.php:92 modules/portfolio-slider.php:81
+#: modules/portfolio-slider.php:93 modules/portfolio.php:98
+#: modules/portfolio.php:110 modules/portfolio.php:122
+#: modules/products-list.php:79 modules/products-slider.php:95
+#: modules/products-slider.php:107 modules/products.php:114
+#: modules/products.php:126 modules/team-slider.php:78 modules/team.php:91
+#: modules/testimonial-slider.php:58 modules/testimonial-slider.php:70
+#: modules/testimonial-slider.php:82 modules/testimonial-slider.php:94
+#: modules/wishlist.php:72
+msgid "Hide"
+msgstr ""
+
+#: modules/compare-products.php:78 modules/wishlist.php:78
+msgid "Back to Shop Link Text"
+msgstr ""
+
+#: modules/compare-products.php:80 modules/compare-products.php:168
+#: modules/wishlist.php:80 modules/wishlist.php:310
+msgid "Continue Shopping"
+msgstr ""
+
+#: modules/compare-products.php:81 modules/wishlist.php:81
+msgid "Enter the back to shop link text"
+msgstr ""
+
+#: modules/compare-products.php:110 modules/wishlist.php:202
+msgid "Back to Shop"
+msgstr ""
+
+#: modules/compare-products.php:118
+msgid "Table Title"
+msgstr ""
+
+#: modules/compare-products.php:126 modules/products-list.php:253
+#: modules/products-slider.php:522 modules/products.php:328
+#: modules/wishlist.php:218 shortcodes/compare-products.php:82
+msgid "Price"
+msgstr ""
+
+#: modules/compare-products.php:135
+msgid "Table Content"
+msgstr ""
+
+#: modules/content-type-list.php:49 modules/content-type-slider.php:66
+#: modules/content-type.php:69 modules/google-map.php:59
+#: modules/icon-box.php:41 modules/image-box.php:41
+#: modules/portfolio-extend-slider.php:46 modules/portfolio-slider.php:46
+#: modules/portfolio.php:49 modules/products-list.php:45
+#: modules/products-slider.php:45 modules/products.php:48 modules/table.php:41
+#: modules/team-slider.php:44 modules/team.php:44
+#: modules/testimonial-slider.php:41
+msgid "Style"
+msgstr ""
+
+#: modules/content-type-list.php:51 modules/content-type-slider.php:68
+#: modules/content-type.php:71 modules/image-box.php:43
+#: modules/portfolio-extend-slider.php:48 modules/portfolio-slider.php:48
+#: modules/portfolio.php:51 modules/products-list.php:47
+#: modules/products-slider.php:47 modules/products.php:50
+#: modules/team-slider.php:46 modules/team.php:46
+#: modules/testimonial-slider.php:43
+msgid "Choose the style."
+msgstr ""
+
+#: modules/content-type-list.php:54 modules/icon-box.php:46
+#: modules/products-list.php:50 modules/products-slider.php:50
+#: modules/products.php:53 modules/team-slider.php:49 modules/team.php:49
+#: modules/testimonial-slider.php:46
+msgid "Style 1"
+msgstr ""
+
+#: modules/content-type-list.php:77 modules/content-type-list.php:289
+#: modules/content-type-slider.php:94 modules/content-type-slider.php:620
+#: modules/content-type.php:111 modules/content-type.php:424
+msgid "Meta"
+msgstr ""
+
+#: modules/content-type-list.php:79 modules/content-type-slider.php:96
+#: modules/content-type.php:113
+msgid "Choose a meta"
+msgstr ""
+
+#: modules/content-type-list.php:82 modules/content-type-list.php:150
+#: modules/content-type-slider.php:99 modules/content-type-slider.php:205
+#: modules/content-type.php:117 modules/content-type.php:239
+#: modules/portfolio-extend-slider.php:144 modules/portfolio-slider.php:145
+#: modules/portfolio.php:201 modules/products-list.php:133
+#: modules/products-slider.php:174 modules/products.php:208
+#: modules/team-slider.php:130 modules/team.php:143
+#: modules/testimonial-slider.php:151 modules/timeline.php:69
+#: modules/timeline.php:111 modules/wishlist.php:227
+msgid "Date"
+msgstr ""
+
+#: modules/content-type-list.php:89 modules/content-type-slider.php:126
+#: modules/content-type.php:160 modules/portfolio.php:140
+#: modules/products.php:145
+msgid "Pagination"
+msgstr ""
+
+#: modules/content-type-list.php:91 modules/content-type-slider.php:128
+#: modules/content-type.php:162 modules/portfolio.php:142
+#: modules/products.php:147
+msgid "Choose pagination style"
+msgstr ""
+
+#: modules/content-type-list.php:94 modules/content-type-slider.php:131
+#: modules/content-type.php:116 modules/content-type.php:165
+#: modules/portfolio.php:145 modules/products-slider.php:120
+#: modules/products.php:139 modules/products.php:150
+msgid "None"
+msgstr ""
+
+#: modules/content-type-list.php:96 modules/content-type-slider.php:133
+#: modules/content-type.php:167 modules/portfolio.php:147
+#: modules/products.php:152
+msgid "Infinite Scroll"
+msgstr ""
+
+#: modules/content-type-list.php:98 modules/content-type-slider.php:135
+#: modules/content-type.php:169 modules/portfolio.php:149
+#: modules/products.php:154
+msgid "Next Previous"
+msgstr ""
+
+#: modules/content-type-list.php:112 modules/content-type-slider.php:149
+#: modules/content-type.php:183 modules/portfolio-extend-slider.php:106
+#: modules/portfolio-slider.php:107 modules/portfolio.php:163
+#: modules/products-list.php:93 modules/products-slider.php:134
+#: modules/products.php:168 modules/team-slider.php:92 modules/team.php:105
+#: modules/testimonial-slider.php:116
+msgid "Query"
+msgstr ""
+
+#: modules/content-type-list.php:116 modules/content-type-slider.php:171
+#: modules/content-type.php:205 modules/portfolio-extend-slider.php:110
+#: modules/portfolio-slider.php:111 modules/portfolio.php:167
+#: modules/products-list.php:97 modules/products-slider.php:138
+#: modules/products.php:172 modules/team-slider.php:96 modules/team.php:109
+#: modules/testimonial-slider.php:120
+msgid "Choose method"
+msgstr ""
+
+#: modules/content-type-list.php:119 modules/content-type-slider.php:174
+#: modules/content-type.php:208 modules/portfolio-extend-slider.php:113
+#: modules/portfolio-slider.php:114 modules/portfolio.php:170
+#: modules/products-list.php:100 modules/products-slider.php:141
+#: modules/products.php:175 modules/team-slider.php:99 modules/team.php:112
+#: modules/testimonial-slider.php:123
+msgid "Choose how you want to show items"
+msgstr ""
+
+#: modules/content-type-list.php:122 modules/content-type-slider.php:177
+#: modules/content-type.php:211 modules/portfolio-extend-slider.php:116
+#: modules/portfolio-slider.php:117 modules/portfolio.php:173
+#: modules/products-list.php:103 modules/products-slider.php:144
+#: modules/products.php:178 modules/table.php:119 modules/team-slider.php:102
+#: modules/team.php:115 modules/testimonial-slider.php:126
+msgid "Default"
+msgstr ""
+
+#: modules/content-type-list.php:123 modules/content-type-list.php:151
+#: modules/content-type-list.php:174 modules/content-type-slider.php:178
+#: modules/content-type-slider.php:206 modules/content-type-slider.php:229
+#: modules/content-type.php:212 modules/content-type.php:240
+#: modules/content-type.php:263 modules/portfolio-extend-slider.php:117
+#: modules/portfolio-extend-slider.php:145
+#: modules/portfolio-extend-slider.php:168 modules/portfolio-slider.php:118
+#: modules/portfolio-slider.php:146 modules/portfolio-slider.php:169
+#: modules/portfolio.php:174 modules/portfolio.php:202
+#: modules/portfolio.php:226 modules/products-list.php:104
+#: modules/products-list.php:157 modules/products-slider.php:145
+#: modules/products-slider.php:198 modules/products.php:179
+#: modules/products.php:232 modules/team-slider.php:103
+#: modules/team-slider.php:131 modules/team-slider.php:154 modules/team.php:116
+#: modules/team.php:144 modules/team.php:167 modules/testimonial-slider.php:127
+#: modules/testimonial-slider.php:152 modules/testimonial-slider.php:175
+msgid "ID"
+msgstr ""
+
+#: modules/content-type-list.php:124 modules/content-type-list.php:186
+#: modules/content-type-slider.php:179 modules/content-type-slider.php:241
+#: modules/content-type.php:213 modules/content-type.php:275
+#: modules/portfolio-extend-slider.php:118
+#: modules/portfolio-extend-slider.php:180 modules/portfolio-slider.php:119
+#: modules/portfolio-slider.php:181 modules/portfolio.php:175
+#: modules/portfolio.php:238 modules/products-list.php:105
+#: modules/products-list.php:169 modules/products-slider.php:146
+#: modules/products-slider.php:210 modules/products.php:180
+#: modules/products.php:244 modules/team-slider.php:104
+#: modules/team-slider.php:166 modules/team.php:117 modules/team.php:179
+msgid "Terms"
+msgstr ""
+
+#: modules/content-type-list.php:125 modules/content-type-list.php:198
+#: modules/content-type-slider.php:180 modules/content-type-slider.php:253
+#: modules/content-type.php:214 modules/content-type.php:287
+#: modules/portfolio-extend-slider.php:119
+#: modules/portfolio-extend-slider.php:192 modules/portfolio-slider.php:120
+#: modules/portfolio-slider.php:193 modules/portfolio.php:176
+#: modules/portfolio.php:250 modules/products-list.php:106
+#: modules/products-list.php:181 modules/products-slider.php:147
+#: modules/products-slider.php:222 modules/products.php:181
+#: modules/products.php:256 modules/team-slider.php:105
+#: modules/team-slider.php:178 modules/team.php:118 modules/team.php:191
+msgid "Author"
+msgstr ""
+
+#: modules/content-type-list.php:126 modules/content-type-slider.php:181
+#: modules/content-type.php:215 modules/portfolio-extend-slider.php:120
+#: modules/portfolio-slider.php:121 modules/portfolio.php:177
+#: modules/team-slider.php:106 modules/team.php:119
+msgid "Popular"
+msgstr ""
+
+#: modules/content-type-list.php:133 modules/content-type-slider.php:188
+#: modules/content-type.php:222 modules/portfolio-extend-slider.php:127
+#: modules/portfolio-slider.php:128 modules/portfolio.php:184
+#: modules/products-list.php:116 modules/products-slider.php:157
+#: modules/products.php:191 modules/team-slider.php:113 modules/team.php:126
+#: modules/testimonial-slider.php:134
+msgid "Order"
+msgstr ""
+
+#: modules/content-type-list.php:136 modules/content-type-slider.php:191
+#: modules/content-type.php:225 modules/portfolio-extend-slider.php:130
+#: modules/portfolio-slider.php:131 modules/portfolio.php:187
+#: modules/products-list.php:119 modules/products-slider.php:160
+#: modules/products.php:194 modules/team-slider.php:116 modules/team.php:129
+#: modules/testimonial-slider.php:137
+msgid "Sorting method"
+msgstr ""
+
+#: modules/content-type-list.php:138 modules/content-type-slider.php:193
+#: modules/content-type.php:227 modules/portfolio-extend-slider.php:132
+#: modules/portfolio-slider.php:133 modules/portfolio.php:189
+#: modules/products-list.php:121 modules/products-slider.php:162
+#: modules/products.php:196 modules/team-slider.php:118 modules/team.php:131
+#: modules/testimonial-slider.php:139
+msgid "Descending Order"
+msgstr ""
+
+#: modules/content-type-list.php:139 modules/content-type-slider.php:194
+#: modules/content-type.php:228 modules/portfolio-extend-slider.php:133
+#: modules/portfolio-slider.php:134 modules/portfolio.php:190
+#: modules/products-list.php:122 modules/products-slider.php:163
+#: modules/products.php:197 modules/team-slider.php:119 modules/team.php:132
+#: modules/testimonial-slider.php:140
+msgid "Ascending Order"
+msgstr ""
+
+#: modules/content-type-list.php:145 modules/content-type-slider.php:200
+#: modules/content-type.php:234 modules/portfolio-extend-slider.php:139
+#: modules/portfolio-slider.php:140 modules/portfolio.php:196
+#: modules/products-list.php:128 modules/products-slider.php:169
+#: modules/products.php:203 modules/team-slider.php:125 modules/team.php:138
+#: modules/testimonial-slider.php:146
+msgid "Orderby"
+msgstr ""
+
+#: modules/content-type-list.php:148 modules/content-type-slider.php:203
+#: modules/content-type.php:237 modules/portfolio-extend-slider.php:142
+#: modules/portfolio-slider.php:143 modules/portfolio.php:199
+#: modules/products-list.php:131 modules/products-slider.php:172
+#: modules/products.php:206 modules/team-slider.php:128 modules/team.php:141
+#: modules/testimonial-slider.php:149
+msgid "Ordering method"
+msgstr ""
+
+#: modules/content-type-list.php:152 modules/content-type-slider.php:207
+#: modules/content-type.php:241 modules/portfolio-extend-slider.php:146
+#: modules/portfolio-slider.php:147 modules/portfolio.php:203
+#: modules/products-list.php:135 modules/products-slider.php:176
+#: modules/products.php:210 modules/team-slider.php:132 modules/team.php:145
+#: modules/testimonial-slider.php:153
+msgid "Last Modified Date"
+msgstr ""
+
+#: modules/content-type-list.php:154 modules/content-type-slider.php:209
+#: modules/content-type.php:243 modules/portfolio-extend-slider.php:148
+#: modules/portfolio-slider.php:149 modules/portfolio.php:206
+#: modules/products-list.php:137 modules/products-slider.php:178
+#: modules/products.php:212 modules/team-slider.php:134 modules/team.php:147
+#: modules/testimonial-slider.php:155
+msgid "Random Order"
+msgstr ""
+
+#: modules/content-type-list.php:155 modules/content-type-slider.php:210
+#: modules/content-type.php:244 modules/portfolio-extend-slider.php:149
+#: modules/portfolio-slider.php:150 modules/portfolio.php:207
+#: modules/products-list.php:138 modules/products-slider.php:179
+#: modules/products.php:213 modules/team-slider.php:135 modules/team.php:148
+#: modules/testimonial-slider.php:156
+msgid "Preserve ID Order"
+msgstr ""
+
+#: modules/content-type-list.php:156 modules/content-type-slider.php:211
+#: modules/content-type.php:245 modules/portfolio-extend-slider.php:150
+#: modules/portfolio-slider.php:151 modules/portfolio.php:208
+#: modules/products-list.php:139 modules/products-slider.php:180
+#: modules/products.php:214 modules/team-slider.php:136 modules/team.php:149
+#: modules/testimonial-slider.php:157
+msgid "Preserve slug Order"
+msgstr ""
+
+#: modules/content-type-list.php:162 modules/content-type-slider.php:217
+#: modules/content-type.php:251 modules/portfolio-extend-slider.php:156
+#: modules/portfolio-slider.php:157 modules/portfolio.php:214
+#: modules/products-list.php:145 modules/products-slider.php:186
+#: modules/products.php:220 modules/team-slider.php:142 modules/team.php:155
+#: modules/testimonial-slider.php:163
+msgid "Limit"
+msgstr ""
+
+#: modules/content-type-list.php:165 modules/content-type-slider.php:220
+#: modules/content-type.php:254 modules/portfolio-extend-slider.php:159
+#: modules/portfolio-slider.php:160 modules/portfolio.php:217
+#: modules/products-list.php:148 modules/products-slider.php:189
+#: modules/products.php:223 modules/team-slider.php:145 modules/team.php:158
+msgid "Type the post count (integer)."
+msgstr ""
+
+#: modules/content-type-list.php:177 modules/content-type-list.php:213
+#: modules/content-type-slider.php:232 modules/content-type-slider.php:268
+#: modules/content-type.php:266 modules/content-type.php:302
+#: modules/portfolio-extend-slider.php:171
+#: modules/portfolio-extend-slider.php:207 modules/portfolio-slider.php:172
+#: modules/portfolio-slider.php:208 modules/portfolio.php:229
+#: modules/portfolio.php:265 modules/products-list.php:160
+#: modules/products-list.php:196 modules/products-slider.php:201
+#: modules/products-slider.php:237 modules/products.php:235
+#: modules/products.php:271 modules/team-slider.php:157
+#: modules/team-slider.php:193 modules/team.php:170 modules/team.php:206
+#: modules/testimonial-slider.php:178 modules/testimonial-slider.php:190
+msgid "Type the id (integer), Explode it with commas."
+msgstr ""
+
+#: modules/content-type-list.php:189 modules/content-type-list.php:225
+#: modules/content-type-slider.php:244 modules/content-type-slider.php:280
+#: modules/content-type.php:278 modules/content-type.php:314
+#: modules/portfolio-extend-slider.php:183
+#: modules/portfolio-extend-slider.php:219 modules/portfolio-slider.php:184
+#: modules/portfolio-slider.php:220 modules/portfolio.php:241
+#: modules/portfolio.php:277 modules/products-list.php:172
+#: modules/products-list.php:208 modules/products-slider.php:213
+#: modules/products-slider.php:249 modules/products.php:247
+#: modules/products.php:283 modules/team-slider.php:169
+#: modules/team-slider.php:205 modules/team.php:182 modules/team.php:218
+msgid "Type the terms slug, Explode it with commas."
+msgstr ""
+
+#: modules/content-type-list.php:201 modules/content-type-list.php:237
+#: modules/content-type-slider.php:256 modules/content-type-slider.php:292
+#: modules/content-type.php:290 modules/content-type.php:326
+#: modules/portfolio-extend-slider.php:195
+#: modules/portfolio-extend-slider.php:231 modules/portfolio-slider.php:196
+#: modules/portfolio-slider.php:232 modules/portfolio.php:253
+#: modules/portfolio.php:289 modules/products-list.php:184
+#: modules/products-list.php:220 modules/products-slider.php:225
+#: modules/products-slider.php:261 modules/products.php:259
+#: modules/products.php:295 modules/team-slider.php:181
+#: modules/team-slider.php:217 modules/team.php:194 modules/team.php:230
+msgid "Type the author username, Explode it with commas."
+msgstr ""
+
+#: modules/content-type-list.php:210 modules/content-type-slider.php:265
+#: modules/content-type.php:299 modules/portfolio-extend-slider.php:204
+#: modules/portfolio-slider.php:205 modules/portfolio.php:262
+#: modules/products-list.php:193 modules/products-slider.php:234
+#: modules/products.php:268 modules/team-slider.php:190 modules/team.php:203
+#: modules/testimonial-slider.php:187
+msgid "Exclude ID"
+msgstr ""
+
+#: modules/content-type-list.php:222 modules/content-type-slider.php:277
+#: modules/content-type.php:311 modules/portfolio-extend-slider.php:216
+#: modules/portfolio-slider.php:217 modules/portfolio.php:274
+#: modules/products-list.php:205 modules/products-slider.php:246
+#: modules/products.php:280 modules/team-slider.php:202 modules/team.php:215
+msgid "Exclude Terms"
+msgstr ""
+
+#: modules/content-type-list.php:234 modules/content-type-slider.php:289
+#: modules/content-type.php:323 modules/portfolio-extend-slider.php:228
+#: modules/portfolio-slider.php:229 modules/portfolio.php:286
+#: modules/products-list.php:217 modules/products-slider.php:258
+#: modules/products.php:292 modules/team-slider.php:214 modules/team.php:227
+msgid "Exclude Author"
+msgstr ""
+
+#: modules/content-type-list.php:246 modules/content-type-slider.php:301
+#: modules/content-type.php:335 modules/portfolio-extend-slider.php:240
+#: modules/portfolio-slider.php:241 modules/portfolio.php:298
+#: modules/products-list.php:229 modules/products-slider.php:270
+#: modules/products.php:304 modules/team-slider.php:226 modules/team.php:239
+#: modules/testimonial-slider.php:199
+msgid "Offset Count"
+msgstr ""
+
+#: modules/content-type-list.php:249 modules/content-type-slider.php:304
+#: modules/content-type.php:338 modules/portfolio-extend-slider.php:243
+#: modules/portfolio-slider.php:244 modules/portfolio.php:301
+#: modules/products-list.php:232 modules/products-slider.php:273
+#: modules/products.php:307 modules/team-slider.php:229 modules/team.php:242
+#: modules/testimonial-slider.php:202
+msgid "Type the integer, How many posts you want to pass over."
+msgstr ""
+
+#: modules/content-type-list.php:254 modules/content-type-slider.php:537
+#: modules/content-type.php:343 modules/icon-box.php:156
+#: modules/image-box.php:167
+msgid "Button"
+msgstr ""
+
+#: modules/content-type-list.php:258 modules/content-type-slider.php:541
+#: modules/content-type.php:347 modules/image-box.php:171
+msgid "Show Button"
+msgstr ""
+
+#: modules/content-type-list.php:260 modules/content-type-slider.php:543
+#: modules/content-type.php:349
+msgid "Show button below the excerpt?"
+msgstr ""
+
+#: modules/content-type-list.php:270 modules/content-type-slider.php:553
+#: modules/content-type.php:359
+msgid "Button Text"
+msgstr ""
+
+#: modules/content-type-list.php:272 modules/content-type-slider.php:555
+#: modules/content-type.php:361
+msgid "Enter the button text"
+msgstr ""
+
+#: modules/content-type-list.php:273 modules/content-type-list.php:479
+#: modules/content-type-slider.php:556 modules/content-type-slider.php:917
+#: modules/content-type.php:362 modules/content-type.php:629
+msgid "Read More"
+msgstr ""
+
+#: modules/content-type-list.php:287 modules/content-type-slider.php:618
+#: modules/content-type.php:422 modules/image-box.php:102
+#: modules/portfolio-extend-slider.php:461 modules/portfolio-slider.php:486
+#: modules/portfolio.php:315 modules/team-slider.php:471 modules/team.php:256
+msgid "Width"
+msgstr ""
+
+#: modules/content-type-slider.php:71 modules/content-type.php:74
+msgid "Masonry"
+msgstr ""
+
+#: modules/content-type-slider.php:106 modules/content-type-slider.php:643
+#: modules/content-type.php:124 modules/content-type.php:447
+#: modules/testimonial-slider.php:400
+msgid "Excerpt"
+msgstr ""
+
+#: modules/content-type-slider.php:108 modules/content-type.php:126
+msgid "Show excerpt?"
+msgstr ""
+
+#: modules/content-type-slider.php:118 modules/content-type.php:136
+#: modules/testimonial-slider.php:100
+msgid "Excerpt Limit"
+msgstr ""
+
+#: modules/content-type-slider.php:121 modules/content-type.php:139
+msgid "Enter the excerpt limit in integer.( Eg: 100 )"
+msgstr ""
+
+#: modules/content-type-slider.php:156 modules/content-type.php:190
+msgid "Choose the content type"
+msgstr ""
+
+#: modules/content-type-slider.php:162 modules/content-type.php:196
+msgid "Taxonomy"
+msgstr ""
+
+#: modules/content-type-slider.php:165 modules/content-type.php:199
+msgid "Choose the taxonomy"
+msgstr ""
+
+#: modules/content-type-slider.php:309 modules/portfolio-extend-slider.php:248
+#: modules/portfolio-slider.php:249 modules/products-slider.php:278
+#: modules/slick-gallery.php:57 modules/slide-all.php:54
+#: modules/team-slider.php:234 modules/testimonial-slider.php:220
+msgid "Slider"
+msgstr ""
+
+#: modules/content-type-slider.php:313 modules/portfolio-extend-slider.php:252
+#: modules/portfolio-slider.php:253 modules/products-slider.php:282
+#: modules/slick-gallery.php:61 modules/slide-all.php:58
+#: modules/team-slider.php:238 modules/testimonial-slider.php:224
+msgid "Accessibility"
+msgstr ""
+
+#: modules/content-type-slider.php:315 modules/portfolio-extend-slider.php:254
+#: modules/portfolio-slider.php:255 modules/products-slider.php:284
+#: modules/slick-gallery.php:63 modules/slide-all.php:60
+#: modules/team-slider.php:240 modules/testimonial-slider.php:226
+msgid "Enables tabbing and arrow key navigation"
+msgstr ""
+
+#: modules/content-type-slider.php:318 modules/content-type-slider.php:330
+#: modules/content-type-slider.php:342 modules/content-type-slider.php:362
+#: modules/content-type-slider.php:374 modules/content-type-slider.php:394
+#: modules/content-type-slider.php:406 modules/content-type-slider.php:418
+#: modules/content-type-slider.php:442 modules/content-type-slider.php:462
+#: modules/content-type-slider.php:506 modules/content-type-slider.php:518
+#: modules/content-type-slider.php:530 modules/portfolio-extend-slider.php:257
+#: modules/portfolio-extend-slider.php:269
+#: modules/portfolio-extend-slider.php:281
+#: modules/portfolio-extend-slider.php:301
+#: modules/portfolio-extend-slider.php:313
+#: modules/portfolio-extend-slider.php:333
+#: modules/portfolio-extend-slider.php:345
+#: modules/portfolio-extend-slider.php:357
+#: modules/portfolio-extend-slider.php:381
+#: modules/portfolio-extend-slider.php:401
+#: modules/portfolio-extend-slider.php:421
+#: modules/portfolio-extend-slider.php:433
+#: modules/portfolio-extend-slider.php:445 modules/portfolio-slider.php:258
+#: modules/portfolio-slider.php:270 modules/portfolio-slider.php:282
+#: modules/portfolio-slider.php:302 modules/portfolio-slider.php:314
+#: modules/portfolio-slider.php:334 modules/portfolio-slider.php:346
+#: modules/portfolio-slider.php:358 modules/portfolio-slider.php:382
+#: modules/portfolio-slider.php:402 modules/portfolio-slider.php:446
+#: modules/portfolio-slider.php:458 modules/portfolio-slider.php:470
+#: modules/products-slider.php:287 modules/products-slider.php:299
+#: modules/products-slider.php:311 modules/products-slider.php:331
+#: modules/products-slider.php:343 modules/products-slider.php:363
+#: modules/products-slider.php:375 modules/products-slider.php:387
+#: modules/products-slider.php:411 modules/products-slider.php:431
+#: modules/products-slider.php:475 modules/products-slider.php:487
+#: modules/products-slider.php:499 modules/slick-gallery.php:66
+#: modules/slick-gallery.php:78 modules/slick-gallery.php:90
+#: modules/slick-gallery.php:110 modules/slick-gallery.php:122
+#: modules/slick-gallery.php:142 modules/slick-gallery.php:154
+#: modules/slick-gallery.php:166 modules/slick-gallery.php:190
+#: modules/slick-gallery.php:210 modules/slick-gallery.php:254
+#: modules/slick-gallery.php:266 modules/slick-gallery.php:278
+#: modules/slide-all.php:63 modules/slide-all.php:75 modules/slide-all.php:87
+#: modules/slide-all.php:107 modules/slide-all.php:119
+#: modules/slide-all.php:154 modules/slide-all.php:166
+#: modules/slide-all.php:178 modules/slide-all.php:210
+#: modules/slide-all.php:242 modules/slide-all.php:254
+#: modules/slide-all.php:306 modules/slide-all.php:318
+#: modules/slide-all.php:330 modules/slide-all.php:342
+#: modules/slide-all.php:354 modules/slide-all.php:366
+#: modules/team-slider.php:243 modules/team-slider.php:255
+#: modules/team-slider.php:267 modules/team-slider.php:287
+#: modules/team-slider.php:299 modules/team-slider.php:319
+#: modules/team-slider.php:331 modules/team-slider.php:343
+#: modules/team-slider.php:367 modules/team-slider.php:387
+#: modules/team-slider.php:431 modules/team-slider.php:443
+#: modules/team-slider.php:455 modules/testimonial-slider.php:229
+#: modules/testimonial-slider.php:241 modules/testimonial-slider.php:253
+#: modules/testimonial-slider.php:273 modules/testimonial-slider.php:285
+#: modules/testimonial-slider.php:297 modules/testimonial-slider.php:309
+#: modules/testimonial-slider.php:321 modules/testimonial-slider.php:341
+#: modules/testimonial-slider.php:361 modules/testimonial-slider.php:373
+#: modules/testimonial-slider.php:385
+msgid "True"
+msgstr ""
+
+#: modules/content-type-slider.php:319 modules/content-type-slider.php:331
+#: modules/content-type-slider.php:343 modules/content-type-slider.php:363
+#: modules/content-type-slider.php:375 modules/content-type-slider.php:395
+#: modules/content-type-slider.php:407 modules/content-type-slider.php:419
+#: modules/content-type-slider.php:443 modules/content-type-slider.php:463
+#: modules/content-type-slider.php:507 modules/content-type-slider.php:519
+#: modules/content-type-slider.php:531 modules/portfolio-extend-slider.php:258
+#: modules/portfolio-extend-slider.php:270
+#: modules/portfolio-extend-slider.php:282
+#: modules/portfolio-extend-slider.php:302
+#: modules/portfolio-extend-slider.php:314
+#: modules/portfolio-extend-slider.php:334
+#: modules/portfolio-extend-slider.php:346
+#: modules/portfolio-extend-slider.php:358
+#: modules/portfolio-extend-slider.php:382
+#: modules/portfolio-extend-slider.php:402
+#: modules/portfolio-extend-slider.php:422
+#: modules/portfolio-extend-slider.php:434
+#: modules/portfolio-extend-slider.php:446 modules/portfolio-slider.php:259
+#: modules/portfolio-slider.php:271 modules/portfolio-slider.php:283
+#: modules/portfolio-slider.php:303 modules/portfolio-slider.php:315
+#: modules/portfolio-slider.php:335 modules/portfolio-slider.php:347
+#: modules/portfolio-slider.php:359 modules/portfolio-slider.php:383
+#: modules/portfolio-slider.php:403 modules/portfolio-slider.php:447
+#: modules/portfolio-slider.php:459 modules/portfolio-slider.php:471
+#: modules/products-slider.php:288 modules/products-slider.php:300
+#: modules/products-slider.php:312 modules/products-slider.php:332
+#: modules/products-slider.php:344 modules/products-slider.php:364
+#: modules/products-slider.php:376 modules/products-slider.php:388
+#: modules/products-slider.php:412 modules/products-slider.php:432
+#: modules/products-slider.php:476 modules/products-slider.php:488
+#: modules/products-slider.php:500 modules/slick-gallery.php:67
+#: modules/slick-gallery.php:79 modules/slick-gallery.php:91
+#: modules/slick-gallery.php:111 modules/slick-gallery.php:123
+#: modules/slick-gallery.php:143 modules/slick-gallery.php:155
+#: modules/slick-gallery.php:167 modules/slick-gallery.php:191
+#: modules/slick-gallery.php:211 modules/slick-gallery.php:255
+#: modules/slick-gallery.php:267 modules/slick-gallery.php:279
+#: modules/slide-all.php:64 modules/slide-all.php:76 modules/slide-all.php:88
+#: modules/slide-all.php:108 modules/slide-all.php:120
+#: modules/slide-all.php:155 modules/slide-all.php:167
+#: modules/slide-all.php:179 modules/slide-all.php:211
+#: modules/slide-all.php:243 modules/slide-all.php:255
+#: modules/slide-all.php:307 modules/slide-all.php:319
+#: modules/slide-all.php:331 modules/slide-all.php:343
+#: modules/slide-all.php:355 modules/slide-all.php:367
+#: modules/team-slider.php:244 modules/team-slider.php:256
+#: modules/team-slider.php:268 modules/team-slider.php:288
+#: modules/team-slider.php:300 modules/team-slider.php:320
+#: modules/team-slider.php:332 modules/team-slider.php:344
+#: modules/team-slider.php:368 modules/team-slider.php:388
+#: modules/team-slider.php:432 modules/team-slider.php:444
+#: modules/team-slider.php:456 modules/testimonial-slider.php:230
+#: modules/testimonial-slider.php:242 modules/testimonial-slider.php:254
+#: modules/testimonial-slider.php:274 modules/testimonial-slider.php:286
+#: modules/testimonial-slider.php:298 modules/testimonial-slider.php:310
+#: modules/testimonial-slider.php:322 modules/testimonial-slider.php:342
+#: modules/testimonial-slider.php:362 modules/testimonial-slider.php:374
+#: modules/testimonial-slider.php:386
+msgid "False"
+msgstr ""
+
+#: modules/content-type-slider.php:325 modules/portfolio-extend-slider.php:264
+#: modules/portfolio-slider.php:265 modules/products-slider.php:294
+#: modules/slick-gallery.php:73 modules/slide-all.php:70
+#: modules/team-slider.php:250 modules/testimonial-slider.php:236
+msgid "Adaptive Height"
+msgstr ""
+
+#: modules/content-type-slider.php:327 modules/portfolio-extend-slider.php:266
+#: modules/portfolio-slider.php:267 modules/products-slider.php:296
+#: modules/slick-gallery.php:75 modules/slide-all.php:72
+#: modules/team-slider.php:252 modules/testimonial-slider.php:238
+msgid "Enables adaptive height for single slide horizontal carousels"
+msgstr ""
+
+#: modules/content-type-slider.php:337 modules/portfolio-extend-slider.php:276
+#: modules/portfolio-slider.php:277 modules/products-slider.php:306
+#: modules/slick-gallery.php:85 modules/slide-all.php:82
+#: modules/team-slider.php:262 modules/testimonial-slider.php:248
+msgid "Autoplay"
+msgstr ""
+
+#: modules/content-type-slider.php:339 modules/portfolio-extend-slider.php:278
+#: modules/portfolio-slider.php:279 modules/products-slider.php:308
+#: modules/slick-gallery.php:87 modules/slide-all.php:84
+#: modules/team-slider.php:264 modules/testimonial-slider.php:250
+msgid "Enables Autoplay"
+msgstr ""
+
+#: modules/content-type-slider.php:349 modules/portfolio-extend-slider.php:288
+#: modules/portfolio-slider.php:289 modules/products-slider.php:318
+#: modules/slick-gallery.php:97 modules/slide-all.php:94
+#: modules/team-slider.php:274 modules/testimonial-slider.php:260
+msgid "Autoplay Speed"
+msgstr ""
+
+#: modules/content-type-slider.php:351 modules/portfolio-extend-slider.php:290
+#: modules/portfolio-slider.php:291 modules/products-slider.php:320
+#: modules/slick-gallery.php:99 modules/slide-all.php:96
+#: modules/team-slider.php:276 modules/testimonial-slider.php:262
+msgid "Autoplay Speed in milliseconds"
+msgstr ""
+
+#: modules/content-type-slider.php:357 modules/portfolio-extend-slider.php:296
+#: modules/portfolio-slider.php:297 modules/products-slider.php:326
+#: modules/slick-gallery.php:105 modules/slide-all.php:102
+#: modules/team-slider.php:282 modules/testimonial-slider.php:268
+msgid "Arrows"
+msgstr ""
+
+#: modules/content-type-slider.php:359 modules/portfolio-extend-slider.php:298
+#: modules/portfolio-slider.php:299 modules/products-slider.php:328
+#: modules/slick-gallery.php:107 modules/slide-all.php:104
+#: modules/team-slider.php:284 modules/testimonial-slider.php:270
+msgid "Prev/Next Arrows"
+msgstr ""
+
+#: modules/content-type-slider.php:369 modules/portfolio-extend-slider.php:308
+#: modules/portfolio-slider.php:309 modules/products-slider.php:338
+#: modules/slick-gallery.php:117 modules/slide-all.php:114
+#: modules/team-slider.php:294 modules/testimonial-slider.php:280
+msgid "Center Mode"
+msgstr ""
+
+#: modules/content-type-slider.php:371 modules/portfolio-extend-slider.php:310
+#: modules/portfolio-slider.php:311 modules/products-slider.php:340
+#: modules/slick-gallery.php:119 modules/slide-all.php:116
+#: modules/team-slider.php:296 modules/testimonial-slider.php:282
+msgid ""
+"Enables centered view with partial prev/next slides. Use with odd numbered "
+"slides to show counts."
+msgstr ""
+
+#: modules/content-type-slider.php:381 modules/portfolio-extend-slider.php:320
+#: modules/portfolio-slider.php:321 modules/products-slider.php:350
+#: modules/slick-gallery.php:129 modules/slide-all.php:126
+#: modules/team-slider.php:306
+msgid "Center Padding"
+msgstr ""
+
+#: modules/content-type-slider.php:383 modules/portfolio-extend-slider.php:322
+#: modules/portfolio-slider.php:323 modules/products-slider.php:352
+#: modules/slick-gallery.php:131 modules/slide-all.php:128
+#: modules/team-slider.php:308
+msgid "Side padding when in center mode (px or %)"
+msgstr ""
+
+#: modules/content-type-slider.php:389 modules/portfolio-extend-slider.php:328
+#: modules/portfolio-slider.php:329 modules/products-slider.php:358
+#: modules/slick-gallery.php:137 modules/slide-all.php:149
+#: modules/team-slider.php:314 modules/testimonial-slider.php:292
+msgid "Dots"
+msgstr ""
+
+#: modules/content-type-slider.php:391 modules/portfolio-extend-slider.php:330
+#: modules/portfolio-slider.php:331 modules/products-slider.php:360
+#: modules/slick-gallery.php:139 modules/slide-all.php:151
+#: modules/team-slider.php:316 modules/testimonial-slider.php:294
+msgid "Show dot indicators"
+msgstr ""
+
+#: modules/content-type-slider.php:401 modules/portfolio-extend-slider.php:340
+#: modules/portfolio-slider.php:341 modules/products-slider.php:370
+#: modules/slick-gallery.php:149 modules/slide-all.php:161
+#: modules/team-slider.php:326 modules/testimonial-slider.php:304
+msgid "Draggable"
+msgstr ""
+
+#: modules/content-type-slider.php:403 modules/portfolio-extend-slider.php:342
+#: modules/portfolio-slider.php:343 modules/products-slider.php:372
+#: modules/slick-gallery.php:151 modules/slide-all.php:163
+#: modules/team-slider.php:328 modules/testimonial-slider.php:306
+msgid "Enable mouse dragging"
+msgstr ""
+
+#: modules/content-type-slider.php:413 modules/portfolio-extend-slider.php:352
+#: modules/portfolio-slider.php:353 modules/products-slider.php:382
+#: modules/slick-gallery.php:161 modules/slide-all.php:173
+#: modules/team-slider.php:338
+msgid "Fade"
+msgstr ""
+
+#: modules/content-type-slider.php:415 modules/portfolio-extend-slider.php:354
+#: modules/portfolio-slider.php:355 modules/products-slider.php:384
+#: modules/slick-gallery.php:163 modules/slide-all.php:175
+#: modules/team-slider.php:340
+msgid "Enable fade"
+msgstr ""
+
+#: modules/content-type-slider.php:425 modules/portfolio-extend-slider.php:364
+#: modules/portfolio-slider.php:365 modules/products-slider.php:394
+#: modules/slick-gallery.php:173 modules/slide-all.php:185
+#: modules/team-slider.php:350
+msgid "Easing"
+msgstr ""
+
+#: modules/content-type-slider.php:427 modules/portfolio-extend-slider.php:366
+#: modules/portfolio-slider.php:367 modules/products-slider.php:396
+#: modules/slick-gallery.php:175 modules/slide-all.php:187
+#: modules/team-slider.php:352
+msgid "Choose easing methods"
+msgstr ""
+
+#: modules/content-type-slider.php:430 modules/portfolio-extend-slider.php:369
+#: modules/portfolio-slider.php:370 modules/products-slider.php:399
+#: modules/slick-gallery.php:178 modules/slide-all.php:139
+#: modules/slide-all.php:190 modules/team-slider.php:355
+msgid "Linear"
+msgstr ""
+
+#: modules/content-type-slider.php:431 modules/portfolio-extend-slider.php:370
+#: modules/portfolio-slider.php:371 modules/products-slider.php:400
+#: modules/slick-gallery.php:179 modules/slide-all.php:191
+#: modules/team-slider.php:356
+msgid "Swing"
+msgstr ""
+
+#: modules/content-type-slider.php:437 modules/portfolio-extend-slider.php:376
+#: modules/portfolio-slider.php:377 modules/products-slider.php:406
+#: modules/slick-gallery.php:185 modules/slide-all.php:205
+#: modules/team-slider.php:362 modules/testimonial-slider.php:316
+msgid "Infinite"
+msgstr ""
+
+#: modules/content-type-slider.php:439 modules/portfolio-extend-slider.php:378
+#: modules/portfolio-slider.php:379 modules/products-slider.php:408
+#: modules/slick-gallery.php:187 modules/slide-all.php:207
+#: modules/team-slider.php:364 modules/testimonial-slider.php:318
+msgid "Infinite loop sliding"
+msgstr ""
+
+#: modules/content-type-slider.php:449 modules/portfolio-extend-slider.php:388
+#: modules/portfolio-slider.php:389 modules/products-slider.php:418
+#: modules/slick-gallery.php:197 modules/slide-all.php:217
+#: modules/team-slider.php:374 modules/testimonial-slider.php:328
+msgid "Initial Slide"
+msgstr ""
+
+#: modules/content-type-slider.php:451 modules/portfolio-extend-slider.php:390
+#: modules/portfolio-slider.php:391 modules/products-slider.php:420
+#: modules/slick-gallery.php:199 modules/slide-all.php:219
+#: modules/team-slider.php:376 modules/testimonial-slider.php:330
+msgid "Slide to start on( integer )"
+msgstr ""
+
+#: modules/content-type-slider.php:457 modules/portfolio-extend-slider.php:396
+#: modules/portfolio-slider.php:397 modules/products-slider.php:426
+#: modules/slick-gallery.php:205 modules/slide-all.php:237
+#: modules/team-slider.php:382 modules/testimonial-slider.php:336
+msgid "Pause On Hover"
+msgstr ""
+
+#: modules/content-type-slider.php:459 modules/portfolio-extend-slider.php:398
+#: modules/portfolio-slider.php:399 modules/products-slider.php:428
+#: modules/slick-gallery.php:207 modules/slide-all.php:239
+#: modules/team-slider.php:384 modules/testimonial-slider.php:338
+msgid "Pause autoplay on hover"
+msgstr ""
+
+#: modules/content-type-slider.php:469 modules/portfolio-slider.php:409
+#: modules/products-slider.php:438 modules/slick-gallery.php:217
+#: modules/slide-all.php:269 modules/team-slider.php:394
+msgid "Slides Per Row"
+msgstr ""
+
+#: modules/content-type-slider.php:471 modules/portfolio-slider.php:411
+#: modules/products-slider.php:440 modules/slick-gallery.php:219
+#: modules/slide-all.php:271 modules/team-slider.php:396
+msgid ""
+"With grid mode intialized via the rows option, this sets how many slides are "
+"in each grid row( integer )"
+msgstr ""
+
+#: modules/content-type-slider.php:477 modules/portfolio-slider.php:417
+#: modules/products-slider.php:446 modules/slick-gallery.php:225
+#: modules/slide-all.php:277 modules/team-slider.php:402
+msgid "Slides To Show"
+msgstr ""
+
+#: modules/content-type-slider.php:479 modules/portfolio-slider.php:419
+#: modules/products-slider.php:448 modules/slick-gallery.php:227
+#: modules/slide-all.php:279 modules/team-slider.php:404
+msgid "# of slides to show"
+msgstr ""
+
+#: modules/content-type-slider.php:485 modules/portfolio-slider.php:425
+#: modules/products-slider.php:454 modules/slick-gallery.php:233
+#: modules/slide-all.php:285 modules/team-slider.php:410
+msgid "Slides To Scroll"
+msgstr ""
+
+#: modules/content-type-slider.php:487 modules/portfolio-slider.php:427
+#: modules/products-slider.php:456 modules/slick-gallery.php:235
+#: modules/slide-all.php:287 modules/team-slider.php:412
+msgid "# of slides to scroll"
+msgstr ""
+
+#: modules/content-type-slider.php:493 modules/portfolio-extend-slider.php:408
+#: modules/portfolio-slider.php:433 modules/products-slider.php:462
+#: modules/slick-gallery.php:241 modules/slide-all.php:293
+#: modules/team-slider.php:418 modules/testimonial-slider.php:348
+msgid "Speed"
+msgstr ""
+
+#: modules/content-type-slider.php:495 modules/portfolio-extend-slider.php:410
+#: modules/portfolio-slider.php:435 modules/products-slider.php:464
+#: modules/slick-gallery.php:243 modules/slide-all.php:295
+#: modules/team-slider.php:420 modules/testimonial-slider.php:350
+msgid "Slide/Fade animation speed in milliseconds"
+msgstr ""
+
+#: modules/content-type-slider.php:501 modules/portfolio-extend-slider.php:416
+#: modules/portfolio-slider.php:441 modules/products-slider.php:470
+#: modules/slick-gallery.php:249 modules/slide-all.php:301
+#: modules/team-slider.php:426 modules/testimonial-slider.php:356
+msgid "Swipe"
+msgstr ""
+
+#: modules/content-type-slider.php:503 modules/portfolio-extend-slider.php:418
+#: modules/portfolio-slider.php:443 modules/products-slider.php:472
+#: modules/slick-gallery.php:251 modules/slide-all.php:303
+#: modules/team-slider.php:428 modules/testimonial-slider.php:358
+msgid "Enable swiping"
+msgstr ""
+
+#: modules/content-type-slider.php:513 modules/portfolio-extend-slider.php:428
+#: modules/portfolio-slider.php:453 modules/products-slider.php:482
+#: modules/slick-gallery.php:261 modules/slide-all.php:313
+#: modules/team-slider.php:438 modules/testimonial-slider.php:368
+msgid "Touch Move"
+msgstr ""
+
+#: modules/content-type-slider.php:515 modules/portfolio-extend-slider.php:430
+#: modules/portfolio-slider.php:455 modules/products-slider.php:484
+#: modules/slick-gallery.php:263 modules/slide-all.php:315
+#: modules/team-slider.php:440 modules/testimonial-slider.php:370
+msgid "Enable slide motion with touch"
+msgstr ""
+
+#: modules/content-type-slider.php:525 modules/portfolio-extend-slider.php:440
+#: modules/portfolio-slider.php:465 modules/products-slider.php:494
+#: modules/slick-gallery.php:273 modules/slide-all.php:361
+#: modules/team-slider.php:450 modules/testimonial-slider.php:380
+msgid "RTL"
+msgstr ""
+
+#: modules/content-type-slider.php:527 modules/portfolio-extend-slider.php:442
+#: modules/portfolio-slider.php:467 modules/products-slider.php:496
+#: modules/slick-gallery.php:275 modules/slide-all.php:363
+#: modules/team-slider.php:452 modules/testimonial-slider.php:382
+msgid "Change the sliders direction to become right to left"
+msgstr ""
+
+#: modules/content-type-slider.php:602 modules/icon-box.php:229
+#: modules/wishlist.php:133 modules/wishlist.php:179
+msgid "Base"
+msgstr ""
+
+#: modules/content-type-slider.php:603 modules/content-type.php:407
+#: modules/icon-box.php:230 modules/wishlist.php:134 modules/wishlist.php:180
+msgid "Gradient"
+msgstr ""
+
+#: modules/content-type.php:75
+msgid "Split Round Image"
+msgstr ""
+
+#: modules/content-type.php:98 modules/info-icons.php:41
+#: modules/portfolio.php:79 modules/products.php:77 modules/table.php:53
+#: modules/team.php:72
+msgid "Columns"
+msgstr ""
+
+#: modules/content-type.php:100 modules/portfolio.php:81
+#: modules/products.php:79 modules/team.php:74
+msgid "Choose the column."
+msgstr ""
+
+#: modules/content-type.php:103 modules/info-icons.php:46
+#: modules/portfolio.php:84 modules/products.php:82 modules/table.php:58
+#: modules/team.php:77
+msgid "2 Column"
+msgstr ""
+
+#: modules/content-type.php:104 modules/info-icons.php:47
+#: modules/portfolio.php:85 modules/products.php:83 modules/table.php:59
+#: modules/team.php:78
+msgid "3 Column"
+msgstr ""
+
+#: modules/content-type.php:105 modules/info-icons.php:48
+#: modules/portfolio.php:86 modules/products.php:84 modules/table.php:60
+#: modules/team.php:79
+msgid "4 Column"
+msgstr ""
+
+#: modules/content-type.php:144
+msgid "Custom Image Width"
+msgstr ""
+
+#: modules/content-type.php:147
+msgid "Enter the image width in integer."
+msgstr ""
+
+#: modules/content-type.php:152
+msgid "Custom Image Height"
+msgstr ""
+
+#: modules/content-type.php:155
+msgid "Enter the image height in integer."
+msgstr ""
+
+#: modules/google-map.php:33
+msgid "Google Map"
+msgstr ""
+
+#: modules/google-map.php:46
+msgid "Map Location"
+msgstr ""
+
+#: modules/google-map.php:52
+msgid "Map Height (px)"
+msgstr ""
+
+#: modules/google-map.php:61
+msgid "Choose the map mode"
+msgstr ""
+
+#: modules/google-map.php:64
+msgid "Greyscale"
+msgstr ""
+
+#: modules/google-map.php:65
+msgid "Normal"
+msgstr ""
+
+#: modules/gradient-text.php:43 modules/gradient-text.php:148
+#: modules/icon-box.php:135 modules/icon-box.php:404 modules/image-box.php:128
+#: modules/image-box.php:414 modules/info-icons.php:111 modules/timeline.php:79
+msgid "Default Title"
+msgstr ""
+
+#: modules/gradient-text.php:66
+msgid "Gradient Colors"
+msgstr ""
+
+#: modules/gradient-text.php:68
+msgid "Add the color"
+msgstr ""
+
+#: modules/gradient-text.php:71
+msgid "Add colors"
+msgstr ""
+
+#: modules/gradient-text.php:77 modules/testimonial-slider.php:433
+msgid "Color"
+msgstr ""
+
+#: modules/gradient-text.php:86
+msgid "Custom Gradient Degree"
+msgstr ""
+
+#: modules/gradient-text.php:122 modules/video-popup.php:120
+msgid "Text Align"
+msgstr ""
+
+#: modules/icon-box.php:43 modules/table.php:43
+msgid "Choose the style"
+msgstr ""
+
+#: modules/icon-box.php:47 modules/products.php:54
+msgid "Style 2"
+msgstr ""
+
+#: modules/icon-box.php:83
+msgid "Type"
+msgstr ""
+
+#: modules/icon-box.php:85
+msgid "Choose type"
+msgstr ""
+
+#: modules/icon-box.php:89 modules/icon-box.php:108 modules/image-box.php:94
+#: modules/image-mask.php:61 modules/info-icons.php:123
+#: modules/info-icons.php:141 modules/slick-gallery.php:292
+#: modules/video-popup.php:56
+msgid "Image"
+msgstr ""
+
+#: modules/icon-box.php:90 modules/icon-box.php:120
+msgid "SVG Icon"
+msgstr ""
+
+#: modules/icon-box.php:111 modules/image-box.php:97 modules/image-mask.php:64
+#: modules/info-icons.php:144
+msgid "Choose the image"
+msgstr ""
+
+#: modules/icon-box.php:123
+msgid "Choose the svg icon"
+msgstr ""
+
+#: modules/icon-box.php:140 modules/icon-box.php:330 modules/image-box.php:151
+#: modules/image-box.php:342 modules/timeline.php:85 modules/timeline.php:131
+msgid "Description"
+msgstr ""
+
+#: modules/icon-box.php:142
+msgid "Enter the description"
+msgstr ""
+
+#: modules/icon-box.php:160
+msgid "Show Button?"
+msgstr ""
+
+#: modules/icon-box.php:253
+msgid "Button Icon"
+msgstr ""
+
+#: modules/icon-box.php:288
+msgid "Button Extra Class"
+msgstr ""
+
+#: modules/icon-box.php:306
+msgid "Fill Color( SVG )"
+msgstr ""
+
+#: modules/icon-box.php:307
+msgid "Width( SVG )"
+msgstr ""
+
+#: modules/icon-box.php:374
+msgid "Min Height"
+msgstr ""
+
+#: modules/image-box.php:46
+msgid "Overlap"
+msgstr ""
+
+#: modules/image-box.php:47
+msgid "Short Link"
+msgstr ""
+
+#: modules/image-box.php:53 modules/image-box.php:76
+msgid "Content Position"
+msgstr ""
+
+#: modules/image-box.php:55 modules/image-box.php:78
+msgid "Choose the content position"
+msgstr ""
+
+#: modules/image-box.php:64
+msgid "Bottom Left"
+msgstr ""
+
+#: modules/image-box.php:65
+msgid "Bottom Center"
+msgstr ""
+
+#: modules/image-box.php:66
+msgid "Bottom Right"
+msgstr ""
+
+#: modules/image-box.php:105
+msgid "Enter the image width( integer )"
+msgstr ""
+
+#: modules/image-box.php:110
+msgid "Height"
+msgstr ""
+
+#: modules/image-box.php:113
+msgid "Enter the image height( integer )"
+msgstr ""
+
+#: modules/image-box.php:118 modules/image-box.php:318
+msgid "Sub Title"
+msgstr ""
+
+#: modules/image-box.php:121
+msgid "Enter the short title"
+msgstr ""
+
+#: modules/image-box.php:153
+msgid "Enter short description"
+msgstr ""
+
+#: modules/image-box.php:173
+msgid "Show button?"
+msgstr ""
+
+#: modules/image-box.php:185 modules/image-box.php:419
+msgid "See Collection"
+msgstr ""
+
+#: modules/image-box.php:379
+msgid "Content Box"
+msgstr ""
+
+#: modules/image-box.php:381
+msgid "Max Width"
+msgstr ""
+
+#: modules/image-mask.php:41
+msgid "Shape"
+msgstr ""
+
+#: modules/image-mask.php:43
+msgid "Choose the shape."
+msgstr ""
+
+#: modules/image-mask.php:46
+msgid "Shape 1"
+msgstr ""
+
+#: modules/image-mask.php:47
+msgid "Shape 2"
+msgstr ""
+
+#: modules/image-mask.php:48
+msgid "Shape 3"
+msgstr ""
+
+#: modules/image-mask.php:49
+msgid "Shape 4"
+msgstr ""
+
+#: modules/image-mask.php:50
+msgid "Shape 5"
+msgstr ""
+
+#: modules/image-mask.php:51
+msgid "Shape 6"
+msgstr ""
+
+#: modules/image-mask.php:52
+msgid "Shape 7"
+msgstr ""
+
+#: modules/image-mask.php:53
+msgid "Shape 8"
+msgstr ""
+
+#: modules/image-mask.php:54
+msgid "Shape 9"
+msgstr ""
+
+#: modules/image-mask.php:55
+msgid "Shape 10"
+msgstr ""
+
+#: modules/info-icons.php:49 modules/products.php:85 modules/table.php:61
+msgid "5 Column"
+msgstr ""
+
+#: modules/info-icons.php:50 modules/products.php:86 modules/table.php:62
+msgid "6 Column"
+msgstr ""
+
+#: modules/info-icons.php:88
+msgid "Cover with border?"
+msgstr ""
+
+#: modules/info-icons.php:91
+msgid "With Border"
+msgstr ""
+
+#: modules/info-icons.php:92
+msgid "Without Border"
+msgstr ""
+
+#: modules/info-icons.php:98
+msgid "Icon Set"
+msgstr ""
+
+#: modules/info-icons.php:100
+msgid "Add the icon set"
+msgstr ""
+
+#: modules/info-icons.php:103
+msgid "Add Icon Set"
+msgstr ""
+
+#: modules/info-icons.php:117
+msgid "Icon/Image"
+msgstr ""
+
+#: modules/info-icons.php:119
+msgid "Choose the type, wheather its icon or image."
+msgstr ""
+
+#: modules/info-icons.php:153
+msgid "Method"
+msgstr ""
+
+#: modules/info-icons.php:155
+msgid "Choose the method, wheather its square or round."
+msgstr ""
+
+#: modules/info-icons.php:158
+msgid "Square"
+msgstr ""
+
+#: modules/info-icons.php:159
+msgid "Round"
+msgstr ""
+
+#: modules/portfolio-extend-slider.php:51 modules/portfolio-slider.php:51
+#: modules/portfolio.php:54
+msgid "Content Overlap"
+msgstr ""
+
+#: modules/portfolio-extend-slider.php:74 modules/portfolio-slider.php:75
+#: modules/portfolio.php:104
+msgid "Like"
+msgstr ""
+
+#: modules/portfolio-extend-slider.php:76 modules/portfolio-slider.php:77
+#: modules/portfolio.php:106
+msgid "Show Like?"
+msgstr ""
+
+#: modules/portfolio-extend-slider.php:86 modules/portfolio-slider.php:87
+#: modules/portfolio.php:116
+msgid "Show Category"
+msgstr ""
+
+#: modules/portfolio-extend-slider.php:88 modules/portfolio-slider.php:89
+#: modules/portfolio.php:118
+msgid "Want to show category?"
+msgstr ""
+
+#: modules/portfolio-slider.php:52 modules/portfolio.php:55
+msgid "Content Overlay"
+msgstr ""
+
+#: modules/portfolio.php:56
+msgid "Classic"
+msgstr ""
+
+#: modules/portfolio.php:92
+msgid "Show Filter"
+msgstr ""
+
+#: modules/portfolio.php:94
+msgid "Want to show filter?"
+msgstr ""
+
+#: modules/portfolio.php:128
+msgid "Live Preview"
+msgstr ""
+
+#: modules/portfolio.php:130
+msgid "Want to open the project link directly?"
+msgstr ""
+
+#: modules/portfolio.php:133
+msgid "Enable"
+msgstr ""
+
+#: modules/portfolio.php:134
+msgid "Disable"
+msgstr ""
+
+#: modules/portfolio.php:204
+msgid "Menu Order"
+msgstr ""
+
+#: modules/products-list.php:73
+msgid "Show Thumbnail"
+msgstr ""
+
+#: modules/products-list.php:75 modules/testimonial-slider.php:54
+msgid "Show thumbnail?"
+msgstr ""
+
+#: modules/products-list.php:108 modules/products-slider.php:149
+#: modules/products.php:183
+msgid "Not Featured"
+msgstr ""
+
+#: modules/products-list.php:109 modules/products-slider.php:150
+#: modules/products.php:184
+msgid "On Sale"
+msgstr ""
+
+#: modules/products-list.php:110 modules/products-slider.php:151
+#: modules/products.php:185
+msgid "Best Selling"
+msgstr ""
+
+#: modules/products-list.php:284 modules/products-slider.php:553
+#: modules/products.php:359
+msgid "Button Mouse Hover"
+msgstr ""
+
+#: modules/products-slider.php:73 modules/products.php:92
+msgid "Image Width"
+msgstr ""
+
+#: modules/products-slider.php:76 modules/products.php:95
+msgid "Type the image width (integer)."
+msgstr ""
+
+#: modules/products-slider.php:81 modules/products.php:100
+msgid "Image Height"
+msgstr ""
+
+#: modules/products-slider.php:84 modules/products.php:103
+msgid "Type the image height (integer)."
+msgstr ""
+
+#: modules/products-slider.php:89 modules/products.php:108
+msgid "Show Compare"
+msgstr ""
+
+#: modules/products-slider.php:91 modules/products.php:110
+msgid "Show compare icon on mouse over?"
+msgstr ""
+
+#: modules/products-slider.php:101 modules/products.php:120
+msgid "Show Wishlist"
+msgstr ""
+
+#: modules/products-slider.php:103 modules/products.php:122
+msgid "Show wishlist icon on mouse over?"
+msgstr ""
+
+#: modules/products-slider.php:113 modules/products.php:132
+msgid "Show Quick View"
+msgstr ""
+
+#: modules/products-slider.php:115 modules/products.php:134
+msgid "Choose view icon on mouse over?"
+msgstr ""
+
+#: modules/products-slider.php:118 modules/products.php:137
+msgid "Quick View"
+msgstr ""
+
+#: modules/products-slider.php:119 modules/products.php:138
+msgid "Light Box"
+msgstr ""
+
+#: modules/slick-gallery.php:41
+msgid "Images"
+msgstr ""
+
+#: modules/slick-gallery.php:43
+msgid "Choose the images."
+msgstr ""
+
+#: modules/slide-all.php:134
+msgid "CSS Ease"
+msgstr ""
+
+#: modules/slide-all.php:136
+msgid "CSS3 Animation Easing"
+msgstr ""
+
+#: modules/slide-all.php:140
+msgid "Ease"
+msgstr ""
+
+#: modules/slide-all.php:141
+msgid "Ease In"
+msgstr ""
+
+#: modules/slide-all.php:142
+msgid "Ease Out"
+msgstr ""
+
+#: modules/slide-all.php:143
+msgid "Ease In Out"
+msgstr ""
+
+#: modules/slide-all.php:197
+msgid "Edge Friction"
+msgstr ""
+
+#: modules/slide-all.php:199
+msgid "Resistance when swiping edges of non-infinite carousels( integer )"
+msgstr ""
+
+#: modules/slide-all.php:225
+msgid "Lazy Load"
+msgstr ""
+
+#: modules/slide-all.php:227
+msgid "Set lazy loading technique. Accepts \"ondemand\" or \"progressive\""
+msgstr ""
+
+#: modules/slide-all.php:230
+msgid "On Demand"
+msgstr ""
+
+#: modules/slide-all.php:231
+msgid "Progressive"
+msgstr ""
+
+#: modules/slide-all.php:249
+msgid "Pause On Dots Hover"
+msgstr ""
+
+#: modules/slide-all.php:251
+msgid "Pause autoplay when a dot is hovered"
+msgstr ""
+
+#: modules/slide-all.php:261
+msgid "Rows"
+msgstr ""
+
+#: modules/slide-all.php:263
+msgid ""
+"Setting this to more than 1 initializes grid mode. Use \"Slides Per Row\" to "
+"set how many slides should be in each row.( integer )"
+msgstr ""
+
+#: modules/slide-all.php:325
+msgid "Variable Width"
+msgstr ""
+
+#: modules/slide-all.php:327
+msgid "Variable width slides"
+msgstr ""
+
+#: modules/slide-all.php:337
+msgid "Vertical"
+msgstr ""
+
+#: modules/slide-all.php:339
+msgid "Vertical slide mode"
+msgstr ""
+
+#: modules/slide-all.php:349
+msgid "Vertical Swiping"
+msgstr ""
+
+#: modules/slide-all.php:351
+msgid "Vertical swipe mode"
+msgstr ""
+
+#: modules/slider-revolution.php:43
+msgid "Slider Revolution"
+msgstr ""
+
+#: modules/slider-revolution.php:51
+msgid "Sliders"
+msgstr ""
+
+#: modules/slider-revolution.php:53
+msgid "Select Slider"
+msgstr ""
+
+#: modules/table.php:33 modules/table.php:83
+msgid "Table"
+msgstr ""
+
+#: modules/table.php:47
+msgid "Bottom Line"
+msgstr ""
+
+#: modules/table.php:63
+msgid "7 Column"
+msgstr ""
+
+#: modules/table.php:64
+msgid "8 Column"
+msgstr ""
+
+#: modules/table.php:85
+msgid "Add the table data"
+msgstr ""
+
+#: modules/table.php:88
+msgid "Add Table Data"
+msgstr ""
+
+#: modules/table.php:94
+msgid "Text( td )"
+msgstr ""
+
+#: modules/table.php:96
+msgid "Column 1"
+msgstr ""
+
+#: modules/table.php:97
+msgid "Enter the td value"
+msgstr ""
+
+#: modules/table.php:102
+msgid "Tag"
+msgstr ""
+
+#: modules/table.php:104
+msgid "Choose table data tag"
+msgstr ""
+
+#: modules/table.php:107
+msgid "TD"
+msgstr ""
+
+#: modules/table.php:108
+msgid "TH"
+msgstr ""
+
+#: modules/table.php:114
+msgid "Force Align"
+msgstr ""
+
+#: modules/table.php:116
+msgid "Force align the specific table data"
+msgstr ""
+
+#: modules/table.php:146
+msgid "TH Tag"
+msgstr ""
+
+#: modules/table.php:153
+msgid "TD Tag"
+msgstr ""
+
+#: modules/team-slider.php:72 modules/team.php:85
+msgid "Show Job"
+msgstr ""
+
+#: modules/team-slider.php:74 modules/team.php:87
+msgid "Want to show job?"
+msgstr ""
+
+#: modules/testimonial-slider.php:52
+msgid "Thumbnail"
+msgstr ""
+
+#: modules/testimonial-slider.php:64 modules/testimonial-slider.php:414
+msgid "Client Name"
+msgstr ""
+
+#: modules/testimonial-slider.php:66
+msgid "Show client name?"
+msgstr ""
+
+#: modules/testimonial-slider.php:76 modules/testimonial-slider.php:423
+msgid "Client Job"
+msgstr ""
+
+#: modules/testimonial-slider.php:78
+msgid "Show client job?"
+msgstr ""
+
+#: modules/testimonial-slider.php:90
+msgid "Show rating?"
+msgstr ""
+
+#: modules/testimonial-slider.php:103
+msgid "Enter the excerpt limit in integer.( Eg: 200 )"
+msgstr ""
+
+#: modules/testimonial-slider.php:166
+msgid "Type the post count."
+msgstr ""
+
+#: modules/testimonial-slider.php:210
+msgid "Rating posts."
+msgstr ""
+
+#: modules/testimonial-slider.php:212
+msgid "3+"
+msgstr ""
+
+#: modules/testimonial-slider.php:213
+msgid "4+"
+msgstr ""
+
+#: modules/testimonial-slider.php:214
+msgid "5"
+msgstr ""
+
+#: modules/testimonial-slider.php:411
+msgid "Client Thumb"
+msgstr ""
+
+#: modules/timeline.php:60
+msgid "Add the timeline set"
+msgstr ""
+
+#: modules/timeline.php:63
+msgid "Add Timeline"
+msgstr ""
+
+#: modules/timeline.php:72
+msgid "Type the date"
+msgstr ""
+
+#: modules/timeline.php:88
+msgid "Enter some description"
+msgstr ""
+
+#: modules/video-popup.php:41
+msgid "Youtube/Vimeo Link"
+msgstr ""
+
+#: modules/video-popup.php:44
+msgid "Enter the youtube/vimeo video link"
+msgstr ""
+
+#: modules/video-popup.php:49 modules/video-popup.php:114
+msgid "Trigger"
+msgstr ""
+
+#: modules/video-popup.php:51
+msgid "Select trigger type"
+msgstr ""
+
+#: modules/video-popup.php:55
+msgid "Text"
+msgstr ""
+
+#: modules/video-popup.php:62
+msgid "Trigger Icon"
+msgstr ""
+
+#: modules/video-popup.php:64
+msgid "Choose the trigger icon"
+msgstr ""
+
+#: modules/video-popup.php:74
+msgid "Trigger Text"
+msgstr ""
+
+#: modules/video-popup.php:77
+msgid "Enter the trigger text"
+msgstr ""
+
+#: modules/video-popup.php:86
+msgid "Trigger Image"
+msgstr ""
+
+#: modules/video-popup.php:89
+msgid "Choose the trigger image"
+msgstr ""
+
+#: modules/wishlist.php:43 modules/wishlist.php:307
+msgid "My Wishlist"
+msgstr ""
+
+#: modules/wishlist.php:94
+msgid "Add to Cart Button"
+msgstr ""
+
+#: modules/wishlist.php:98
+msgid "Add to Cart Button Text"
+msgstr ""
+
+#: modules/wishlist.php:100 modules/wishlist.php:312
+msgid "Add to Cart"
+msgstr ""
+
+#: modules/wishlist.php:101
+msgid "Enter the add to cart button text"
+msgstr ""
+
+#: modules/wishlist.php:140
+msgid "Remove Wishlist Button"
+msgstr ""
+
+#: modules/wishlist.php:144
+msgid "Remove Wishlist Button Text"
+msgstr ""
+
+#: modules/wishlist.php:146 modules/wishlist.php:315
+msgid "Remove"
+msgstr ""
+
+#: modules/wishlist.php:147
+msgid "Enter the remove wishlist button text"
+msgstr ""
+
+#: modules/wishlist.php:210
+msgid "Product Title"
+msgstr ""
+
+#: modules/wishlist.php:235
+msgid "Add to Cart Button Style"
+msgstr ""
+
+#: modules/wishlist.php:255
+msgid "Add to Cart Button Mouse Hover"
+msgstr ""
+
+#: modules/wishlist.php:260
+msgid "Remove Wishlist Button Style"
+msgstr ""
+
+#: modules/wishlist.php:280
+msgid "Remove Wishlist Button Mouse Hover"
+msgstr ""
+
+#: shortcodes/compare-products.php:76 shortcodes/wishlist.php:47
+#, php-format
+msgid "(<span class=\"count\">%s</span> items)"
+msgstr ""
+
+#: shortcodes/compare-products.php:81
+msgid "Product"
+msgstr ""
+
+#: shortcodes/compare-products.php:84
+msgid "Dimensions(LXBXH)"
+msgstr ""
+
+#: shortcodes/compare-products.php:115 shortcodes/wishlist.php:67
+msgid "In Stock"
+msgstr ""
+
+#: shortcodes/compare-products.php:118 shortcodes/wishlist.php:70
+msgid "Backorder"
+msgstr ""
+
+#: shortcodes/compare-products.php:121 shortcodes/wishlist.php:73
+msgid "Out of Stock"
+msgstr ""
+
+#: shortcodes/compare-products.php:131
+#, php-format
+msgid "<span class=\"sku sub-title\">ID: %s</span>"
+msgstr ""
+
+#: shortcodes/portfolio-classic.php:63
+#: shortcodes/portfolio-content-overlap.php:63
+#: shortcodes/portfolio-content-overlay.php:63
+msgid "All"
+msgstr ""
+
+#: shortcodes/portfolio-extend-slider-content-overlap.php:82
+msgid "View Project"
+msgstr ""
+
+#: shortcodes/wishlist.php:87
+#, php-format
+msgid "<span class=\"sku\">ID: %s</span>"
+msgstr ""
+
+#: shortcodes/wishlist.php:104
+msgid "View Cart"
+msgstr ""
+
+#: views/html-modules.php:52
+msgid "Select the shortcode elements."
+msgstr ""
+
+#: views/html-modules.php:100
+msgid "Save"
+msgstr ""

@@ -1,0 +1,65 @@
+/* ---------------------------------------------------------------------------
+ * Icon Box
+------------------------------------------------------------------------------ */
+
+/* Icon Box Style 1 ---------------------------------------------------------- */
+
+.icon-box.icon-box-center {
+    text-align: center;
+}
+
+.icon-box.icon-box-right {
+    text-align: right;
+}
+
+.icon-box .icon-wrap {
+    line-height: 1;
+    margin: 5px 0 20px 0;
+}
+
+.icon-box .icon-wrap span {
+    font-size: 32px;
+    color: #282727;
+}
+
+.icon-box .icon-box-title {
+    font-size: 21px;
+    color: #282727;
+    margin: 0 0 15px 0;
+}
+
+.icon-box .icon-box-title span {
+    margin: 0 0 0 5px;
+}
+
+.icon-box.type-svg .icon-wrap svg {
+    max-width: 100px;
+}
+
+
+/* Icon Box Style 2 ---------------------------------------------------------- */
+
+.icon-box.style2 {
+    display: flex;
+}
+
+.icon-box.style2.icon-box-center {
+    text-align: center;
+}
+
+.icon-box.style2.icon-box-left .content {
+    text-align: left;
+    margin: 0 0 0 20px;
+}
+
+.icon-box.icon-box-right {
+    text-align: right;
+}
+
+.icon-box.style2.icon-box-right .icon-wrap {
+    order: 2;
+}
+
+.icon-box.style2.icon-box-right .content {
+    margin: 0 20px 0 0;
+}

@@ -1,0 +1,14 @@
+/* ---------------------------------------------------------------------------
+ * Slick Gallery
+------------------------------------------------------------------------------ */
+
+.slick-gallery .slick-prev,
+.slick-gallery .slick-next {
+    left: 10px;
+    bottom: 5px;
+    top: auto;
+}
+
+.slick-gallery .slick-next {
+    left: 42px;
+}

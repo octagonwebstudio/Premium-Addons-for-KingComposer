@@ -1,0 +1,34 @@
+/* ---------------------------------------------------------------------------
+ * Product List
+------------------------------------------------------------------------------ */
+
+.products-list ul.products li {
+    text-align: left;
+    list-style: none outside;
+    margin: 0 0 15px 0;
+    padding: 0;
+    width: 100%;
+    clear: both;
+    float: none;
+    overflow: hidden;
+    position: static;
+}
+
+.products-list .product-thumb {
+    margin: 0 15px 0 0;
+    float: left;
+}
+
+.products-list li.product  .product-content {
+    margin: 2px 0 0 0;
+    float: left;
+}
+
+.products-list li.product .title a {
+    font-size: 18px;
+}
+
+.products-list li.product .price {
+    font-size: 14px;
+    color: #282727;
+}

@@ -1,0 +1,52 @@
+/* ---------------------------------------------------------------------------
+ * Advance Counter
+------------------------------------------------------------------------------ */
+
+.advance-counter.center {
+    text-align: center;
+}
+
+.advance-counter.right {
+    text-align: right;
+}
+
+.advance-counter.left .counter-icon,
+.advance-counter.left .counter-content {
+    float: left;
+}
+
+.advance-counter.right .counter-icon,
+.advance-counter.right .counter-content {
+    float: right;
+}
+
+.advance-counter .counter-icon {
+    font-size: 45px;
+    color: #0167cb;
+    display: inline-block;
+}
+
+.advance-counter.left .counter-icon {
+    margin: 0 20px 0 0;
+}
+
+.advance-counter.right .counter-icon {
+    margin: 0 0 0 20px;
+}    
+
+.advance-counter .counter {
+    font-family: #0167cb;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 1;
+    color: #100d0c;
+    margin: 0 0 10px 0;
+}
+
+.advance-counter .counter-label {
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #282727;
+
+}

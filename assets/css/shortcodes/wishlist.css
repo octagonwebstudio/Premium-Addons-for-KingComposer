@@ -1,0 +1,102 @@
+/* ---------------------------------------------------------------------------
+ * Wishlist
+------------------------------------------------------------------------------ */
+
+.wishlist-table .table {
+    margin: 30px 0;
+    border: 1px solid var( --lighten-border-color );
+}
+
+.wishlist-table .table .table-content {
+    border-bottom: 1px solid var( --lighten-border-color );
+    display: flex;
+    justify-content: space-between;
+}
+
+.wishlist-table .table .table-content:last-child {
+    border: 0;
+}
+
+.wishlist-table .table .table-content > div {
+    width: 16%;
+    border-left: 0;
+    border-bottom: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.wishlist-table .table .table-content .product-thumb {
+    padding: 20px 0;
+    width: 10%;
+}
+
+.wishlist-table .table .table-content .product-name {
+    padding: 20px;
+    width: 30%;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.wishlist-table .table .table-content .product-name .title {
+    font-size: 20px;
+    font-weight: 600;
+    color: var( --extra-dark-color );
+}
+
+.wishlist-table .table .table-content p {
+    margin: 0;
+}
+
+.wishlist-table .table .table-content .product-remove a {
+    font-family: var( --primary-font );
+    font-size: 20px;
+    font-weight: 600;
+    color: var( --extra-dark-color );
+}
+
+.wishlist-table a.loading .loader {
+    margin: 15px 0 0 0;
+}
+
+.wishlist-table a.loading .loader div {
+    border-color: var( --dark-border-color ) transparent var( --dark-border-color ) transparent;
+}
+
+.wishlist-table .table .table-content .product-remove .loading {
+    text-indent: -1000em;
+}
+
+.wishlist-table .table .table-content .product-name .sub-title a {
+    font-size: 13px;
+    font-weight: 600;
+    color: var( --extra-dark-color );
+    text-transform: uppercase;
+}
+
+.wishlist-table .table .table-content .product-price .price {
+    font-size: var( --font-extra-small );
+    font-weight: 600;
+    color: var( --dark-color );
+    display: block;
+}
+
+.wishlist-table .table .table-content .product-buttons {
+    width: 28%;
+}
+
+.wishlist-table .table .table-content .product-buttons button {
+    line-height: 46px;
+    padding: 0 30px;
+    height: 46px;
+}
+
+.wishlist-table .table .table-content .product-buttons a {
+    position: relative;
+}
+
+.wishlist-table .table .table-content .product-buttons a.loading .loader {
+    position: absolute;
+    left: 10px;
+}

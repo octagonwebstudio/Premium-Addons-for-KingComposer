@@ -1,0 +1,92 @@
+/* ---------------------------------------------------------------------------
+ * Image Box
+------------------------------------------------------------------------------ */
+
+/* Image Box Overlap --------------------------------------------------------- */
+
+.image-box {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.image-box.image-box-left-top,
+.image-box.image-box-right-top,
+.image-box.image-box-bottom-left {
+    align-items: flex-start;
+}
+
+.image-box.image-box-left-bottom,
+.image-box.image-box-right-bottom,
+.image-box.image-box-bottom-right {
+    align-items: flex-end;
+}
+
+.image-box.image-box-left-top,
+.image-box.image-box-left-center,
+.image-box.image-box-left-bottom {
+    flex-direction: row-reverse;
+}
+
+.image-box.image-box-bottom-left,
+.image-box.image-box-bottom-center,
+.image-box.image-box-bottom-right {
+    flex-direction: column;
+}
+
+.image-box-content {
+    background: #fff;
+    margin: 0 150px 0 -100px;
+    padding: 50px;
+    max-width: 500px;
+    position: relative;
+}
+
+.image-box.image-box-left-top .image-box-content,
+.image-box.image-box-left-center .image-box-content,
+.image-box.image-box-left-bottom .image-box-content {
+    text-align: right;
+    margin: 0 -100px 0 150px;
+}
+
+.image-box.image-box-bottom-left .image-box-content,
+.image-box.image-box-bottom-center .image-box-content,
+.image-box.image-box-bottom-right .image-box-content {
+    margin: -100px 0 0 0;
+}
+
+.image-box.image-box-bottom-center .image-box-content {
+    text-align: center;
+}
+
+.image-box-content .title {
+    margin: 0 0 20px 0;
+}
+
+
+/* Image Box Short Link ------------------------------------------------------ */
+
+.image-box.short-link {
+    display: block;
+}
+
+.image-box.short-link .image-box-content {
+    margin: 0;
+    padding: 0;
+    max-width: unset;
+    position: absolute;
+    left: 15px;
+    bottom: 15px;
+}
+
+.image-box.short-link .image-box-content .title {
+    line-height: 1;
+    margin: 0;
+}
+
+.image-box.short-link .image-box-content .title a {
+    font-size: 18px;
+    text-transform: initial;
+    line-height: 1;
+    padding: 12px 14px;
+}

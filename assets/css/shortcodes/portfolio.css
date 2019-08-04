@@ -1,0 +1,199 @@
+/* ---------------------------------------------------------------------------
+ * Portfolio
+------------------------------------------------------------------------------ */
+
+/* Portfolio Content Overlap ------------------------------------------------- */
+
+.filter-cover .filter {
+    margin: 15px 0 60px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.filter-cover .filter li {
+    font-size: 18px;
+    list-style: none;
+    line-height: 1.2;
+    margin: 0 60px 0 0;
+    padding: 0 0 5px 0;
+    cursor: pointer;
+    position: relative;
+}
+
+.filter-cover .filter li.active {
+    color: #0167cb;
+    padding: 0 0 4px 0;
+    border-bottom: 1px solid;
+}
+
+.filter-cover .filter li:last-child {
+    margin: 0;
+}
+
+.filter-cover .filter li span {
+    font-size: 15px;
+    font-weight: 400;
+    padding: 0 0 0 5px;
+    position: absolute;
+    right: -18px;
+    top: -10px;
+}
+
+.portfolio .post-inner.post-loop {
+    margin: 0 -15px; /* .row replacement css */
+}
+
+.portfolio .portfolio-post {
+    margin: 0 0 30px 0;
+}
+
+.portfolio .post-content .title {
+    font-size: 24px;
+    margin: 0;
+}
+
+.portfolio .post-details {
+    position: relative;
+}
+
+.portfolio .post-content {
+    background: #fff;
+    margin: -60px 0 0 10%;
+    padding: 40px 40px 30px 40px;
+    width: 90%;
+    display: inline-block;
+    z-index: 1;
+}
+
+.portfolio .post-content > div {
+    float: left;
+}
+
+.portfolio .portfolio-like {
+    color: #424242;
+    background: #fff;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    line-height: 43px;
+    display: inline-block;
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    transition: opacity ease 500ms, visibility ease 500ms;
+}
+
+.portfolio .portfolio-post:hover .portfolio-like {
+    margin: 0;
+    opacity: 1;
+    visibility: visible;
+    transition: opacity ease 500ms, visibility ease 500ms;
+}
+
+.portfolio .portfolio-post .loading .loader {
+    margin: 13px 0 0 12px;
+}
+
+.portfolio .portfolio-post .loading .loader div {
+    border-color: #282727 transparent #282727 transparent;
+}
+
+.portfolio .portfolio-post .loading {
+    text-indent: -1000em;
+}
+
+.portfolio .post-content .portfolio-link {
+    margin: 0 5px 0 0;
+    float: right;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.portfolio .portfolio-post:hover .portfolio-link {
+    margin: 0;
+    opacity: 1;
+    visibility: visible;
+    transition: all ease 500ms;
+}
+
+.portfolio .portfolio-post:hover .portfolio-link a {
+    color: #0167cb;
+}
+
+
+/* Portfolio Content Overlay ------------------------------------------------- */
+
+.portfolio.content-overlay .post-content {
+    text-align: center;
+    background: none; 
+    margin: 0;
+    padding: 40px 40px 30px 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    transition: all ease 500ms;  
+}
+
+.portfolio.content-overlay .portfolio-post:hover .post-content {
+    opacity: 1;
+    visibility: visible;
+    transition: all ease 500ms;
+}
+
+.portfolio.content-overlay .meta-group {
+    display: block;
+}
+
+.portfolio.content-overlay .portfolio-like {
+    z-index: 1;
+}
+
+.portfolio-post:hover .image-overflow .image-overlay {    
+    background: rgba( 255, 255, 255, 0.95 );
+    transition: background ease 500ms;
+}
+
+.portfolio.content-overlay .portfolio-like {
+    z-index: 1;
+}
+
+.portfolio.content-overlay .btn-loadmore {
+    margin: 50px 0 0 0;
+}
+
+.portfolio.content-overlay .pagination {
+    margin: 30px 0 0 0;
+}
+
+
+/* Portfolio Classic --------------------------------------------------------- */
+
+.portfolio.classic .post-content {
+    text-align: center;
+    margin: 0;
+    padding: 25px;
+    width: auto;
+    display: block;
+    z-index: 1;
+}
+
+.portfolio.classic .post-content > div {
+    float: none;
+}
+
+.portfolio.classic .meta-group {
+    display: block;
+}

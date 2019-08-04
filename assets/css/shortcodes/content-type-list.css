@@ -1,0 +1,40 @@
+/* ---------------------------------------------------------------------------
+ * Content Type List
+------------------------------------------------------------------------------ */
+
+.content-type-list .post {
+    padding: 20px 0;
+    border-bottom: 1px solid #f7f7f7;
+}
+
+.content-type-list .post-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.content-type-list .post-content .meta-group {
+    width: 10%;
+}
+
+.content-type-list .meta-group p,
+.content-type-list .meta-group p a {
+    font-size: 15px;
+}
+
+.content-type-list .post-content .post-tile {
+    font-size: 21px;
+    padding: 0 0 0 20px;
+    width: 80%;
+}
+
+.content-type-list .post-content .btn {
+    font-weight: 500;
+    letter-spacing: 0;
+}
+
+.content-type-list .btn-loadmore,
+.content-type-list .pagination {
+    margin: 50px 0 0 0;
+}

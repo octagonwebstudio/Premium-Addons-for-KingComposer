@@ -1,0 +1,20 @@
+/* ---------------------------------------------------------------------------
+ * Portfolio Slider
+------------------------------------------------------------------------------ */
+
+/* Portfolio Slider Content Overlap ------------------------------------------ */
+
+.portfolio-slider .portfolio-post {
+    margin: 0;
+}
+
+.portfolio-slider.portfolio.content-overlap .portfolio-post {
+    padding: 0 15px;
+}
+
+
+/* Portfolio Slider Content Overlay ------------------------------------------ */
+
+.portfolio-slider.portfolio.content-overlay .portfolio-post {
+    padding: 0 15px;
+}

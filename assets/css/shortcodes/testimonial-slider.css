@@ -1,0 +1,53 @@
+/* ---------------------------------------------------------------------------
+ * Testimonial Slider
+------------------------------------------------------------------------------ */
+
+/* Testimonial Slider Style 1 ------------------------------------------------ */
+
+.testimonial-slider {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.testimonial-slider .excerpt {
+    font-family: #0167cb;
+    font-size: 28px;
+    font-weight: 700;
+    color: #383838;
+    line-height: 1.6;
+    margin: 0 0 40px 0;
+}
+
+.testimonial-slider .avatar {
+    margin: 0 0 30px 0;
+}
+
+.testimonial-slider img {
+    display: inline-block;
+    border-radius: 50px;
+}
+
+.testimonial-slider .client-name {
+    font-size: 14px;
+    font-weight: 500;
+    color: #282727;
+    text-transform: uppercase;
+    letter-spacing: 0.75px;
+    margin: 0;
+}
+
+.testimonial-slider .client-job {
+    font-size: 14px;
+    color: #4f4f4f;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.testimonial-slider .rating {
+    margin: 0;
+}
+
+.testimonial-slider .rating span {
+    color: #f7d441;
+}
