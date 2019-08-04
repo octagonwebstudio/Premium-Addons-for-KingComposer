@@ -76,16 +76,13 @@ Simply install as a normal WordPress plugin and activate and it requires kingcom
 
 ## Installation ##
 
-1. Install using the WordPress built-in Plugin installer, or Extract the zip file and drop the contents in the 'wp-content/plugins/' directory of your WordPress installation.
+It requires KingComposer Page Builder should be activated.
+
+1. Install using the WordPress built-in Plugin installer, or Extract the zip file and drop the contents in the `wp-content/plugins/` directory of your WordPress installation.
 2. Activate the plugin through the 'Plugins' menu in WordPress.
 
 
-### Notes ###
+## Changelog ##
 
-* It requires KingComposer Page Builder should be activated.
-
-
-### Changelog ###
-
-= 0.1 - Aug 05 2019 =
+### 0.1 - Aug 05 2019 ###
 * Info: Initial Public Beta Release
