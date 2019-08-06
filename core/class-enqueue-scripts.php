@@ -84,7 +84,8 @@ if( ! class_exists( 'Octagon_Core_Enqueue_scripts' ) ) {
 			 * JQuery
 			------------------------------------------------------------------------------ */
 
-			wp_enqueue_script( 'wp-color-picker-alpha', OCTAGON_CORE_URL . 'assets/js/wp-color-picker-alpha.min.js', array( 'wp-color-picker' ), OCTAGON_CORE_VERSION, true );
+			wp_enqueue_script( 'wp-color-picker-alpha', OCTAGON_CORE_URL . 'library/js/wp-color-picker-alpha.min.js', array( 'wp-color-picker' ), '2.1.3', true );
+			wp_enqueue_script( 'octagon-core-icon-picker', OCTAGON_CORE_URL . 'assets/js/icon-picker.js', array(), OCTAGON_CORE_VERSION, true );
 
 			wp_enqueue_media();
 			wp_enqueue_script( 'octagon-core-media-upload', OCTAGON_CORE_URL . 'assets/js/custom-media-upload.js', array(), OCTAGON_CORE_VERSION, true );

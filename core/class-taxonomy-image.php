@@ -28,9 +28,7 @@ if( ! class_exists( 'Octagon_Core_Taxonomy_Image' ) ) {
 		 */
 		public function theme_setup() {
 
-			/* It helps to avoid enqueue metabox styles and scripts not needed post types  */
-			global $taxonomy_image_lists;
-			$taxonomy_image_lists = array_merge( array( 'category' ), apply_filters( 'octagon_taxonomy_image_lists', array() ) );
+			$taxonomy_image_lists = apply_filters( 'octagon_taxonomy_image_lists', array( 'category' ) );
 
 			foreach( $taxonomy_image_lists as $key => $taxonomy ) {
 				add_action( $taxonomy.'_add_form_fields', array( $this, 'add_field' ), 10, 2 );
@@ -48,13 +46,15 @@ if( ! class_exists( 'Octagon_Core_Taxonomy_Image' ) ) {
 		 * @return mixed
 		 */
 		public function add_field( $term ) {
+			?>
 
-			echo '<div class="custom-media-upload image" data-type="image" data-allow-multiple="false">
-				<input type="hidden" name="taxonomy_options[\'image_id\']" value="" class="media-upload-image">
+			<div class="custom-media-upload image" data-type="image" data-allow-multiple="false">
+				<input type="hidden" name="taxonomy_options['image_id']" value="" class="media-upload-image">
 				<div class="media-lists"></div>
-				<a href="#" class="custom-media-upload-btn button button-primary button-medium">'. esc_html__( 'Upload', 'octagon-kc-elements' ) .'</a>
-			</div>';
+				<a href="#" class="custom-media-upload-btn button button-primary button-medium"><?php esc_html_e( 'Upload', 'octagon-kc-elements' ); ?></a>
+			</div>
 
+			<?php
 		}
 
 		/**
@@ -67,21 +67,24 @@ if( ! class_exists( 'Octagon_Core_Taxonomy_Image' ) ) {
 
 			$term_id = $term->term_id;		 
 			
-			$term_meta = get_option( 'taxonomy_options'.$term_id );
-			$image_id = isset( $term_meta['image_id'] ) ? $term_meta['image_id'] : '';
+			$term_meta    = get_option( 'taxonomy_options'.$term_id );
+			$image_id     = isset( $term_meta['image_id'] ) ? $term_meta['image_id'] : '';
 			$preview_html = ( ! empty( $image_id ) ) ? $this->get_media_preview( $image_id, 'image' ) : '';
 
-			echo '<tr class="form-field">
-				<th scope="row"><label>'. esc_html__( 'Taxonomy Image', 'octagon-kc-elements' ) .'</label></th>
+			?>
+
+			<tr class="form-field">
+				<th scope="row"><label><?php esc_html_e( 'Taxonomy Image', 'octagon-kc-elements' ); ?></label></th>
 				<td>
 					<div class="custom-media-upload image" data-type="image" data-allow-multiple="false">
 						<input type="hidden" name="taxonomy_options[image_id]" value="'. esc_attr( $image_id ) .'" class="media-upload-image">
-						<div class="media-lists">'. $preview_html .'</div>
-						<a href="#" class="custom-media-upload-btn button button-primary button-medium">'. esc_html__( 'Upload', 'octagon-kc-elements' ) .'</a>
+						<div class="media-lists"><?php echo wp_kses( $preview_html, array( 'div' => array( 'class' => array() ), 'img' => array( 'src' => array() ), 'span' => array( 'class' => array(), 'data-id' => array() ) ) ); ?></div>
+						<a href="#" class="custom-media-upload-btn button button-primary button-medium"><?php esc_html_e( 'Upload', 'octagon-kc-elements' ); ?></a>
 					</div>
 				</td>
-			</tr>';
+			</tr>
 
+			<?php
 		}
 
 		/**
@@ -93,12 +96,12 @@ if( ! class_exists( 'Octagon_Core_Taxonomy_Image' ) ) {
 
 			if( isset( $_POST['taxonomy_options'] ) ) {
 
-				$term_meta = get_option( 'taxonomy_options'. $term_id );
-
 				$cat_keys = array_keys( $_POST['taxonomy_options'] );
 
 				foreach( $cat_keys as $key ) {
-					$taxonomy_options[$key] = isset( $_POST['taxonomy_options'][$key] ) ? trim( esc_html( $_POST['taxonomy_options'][$key] ) ) : '';
+					if( 'image_id' == $key ) {
+						$taxonomy_options[$key] = isset( $_POST['taxonomy_options'][$key] ) ? absint( $_POST['taxonomy_options'][$key] ) : '';
+					}					
 				}
 
 				update_option( 'taxonomy_options'.$term_id, $taxonomy_options );

@@ -649,9 +649,9 @@ if( ! class_exists( 'octagon_kc_elements_content_type_module' ) ) {
 
 		public function loadmore() {
 			
-			$max     = isset( $_POST['max'] ) ? $_POST['max'] : '';
-			$paged   = isset( $_POST['paged'] ) ? $_POST['paged'] : '';
-			$options = isset( $_POST['options'] ) ? $_POST['options'] : '';
+			$max     = isset( $_POST['max'] ) ? absint( $_POST['max'] ) : '';
+			$paged   = isset( $_POST['paged'] ) ? absint( $_POST['paged'] ) : '';
+			$options = isset( $_POST['options'] ) && is_array( $_POST['options'] ) ? (array) $_POST['options'] : '';
 
 			if( ! octagon_is_number( $max ) || ! octagon_is_number( $paged ) || ! is_array( $options ) ) {
 				die();

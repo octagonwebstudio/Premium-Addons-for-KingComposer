@@ -16,7 +16,7 @@ wp_enqueue_script( 'isotope' );
 wp_enqueue_script( 'imageloaded' );
 
 // AJAX purpose( It overrides normal values on ajax call )
-$options = isset( $_POST['options'] ) ? $_POST['options'] : '';
+$options = isset( $_POST['options'] ) ? (array) $_POST['options'] : '';
 
 if( ! is_array( $options ) ) {
 	return;
@@ -33,10 +33,10 @@ $wrapper_class[] = $ex_class;
 $wrapper_class = array_filter( $wrapper_class );
 
 // AJAX purpose( It overrides normal values on ajax call )
-$args          = isset( $_POST['args'] ) ? $_POST['args'] : $args;
-$args['paged'] = isset( $_POST['paged'] ) ? $_POST['paged'] : $paged;
+$args          = isset( $_POST['args'] ) ? (array) $_POST['args'] : $args;
+$args['paged'] = isset( $_POST['paged'] ) ? absint( $_POST['paged'] ) : $paged;
 
-if( ! octagon_is_number( $args['paged'] ) || ! is_array( $args ) ) {
+if( ! is_array( $args ) || ! octagon_is_number( $args['paged'] ) ) {
 	return;
 }
 

@@ -672,7 +672,7 @@ if( ! class_exists( 'Octagon_Core_Metabox' ) ) {
 		private function save_text( $post, $field ) {
 
 			$in_type = isset( $field['in_type'] ) ? $field['in_type'] : 'content';
-			$value = isset( $_POST[$field['id']] ) ? $_POST[$field['id']] : '';
+			$value   = isset( $_POST[$field['id']] ) ? $_POST[$field['id']] : '';
 
 			if( $this->validate( $value, $in_type ) ) {
 

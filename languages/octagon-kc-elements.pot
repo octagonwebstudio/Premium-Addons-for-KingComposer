@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Octagon KC Elements\n"
-"POT-Creation-Date: 2019-08-04 16:00+0530\n"
+"POT-Creation-Date: 2019-08-06 15:33+0530\n"
 "PO-Revision-Date: 2018-02-12 16:30+0530\n"
 "Last-Translator: Octagon <octagonwebstudio@gmail.com>\n"
 "Language-Team: Octagon Web Studio <octagonwebstudio@gmail.com>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 2.2.1\n"
+"X-Generator: Poedit 2.2.3\n"
 "X-Poedit-KeywordsList: _n;_e;_x;__;esc_html__;esc_html_e;esc_html_x;"
 "esc_attr__;esc_attr_e;esc_attr_x\n"
 "X-Poedit-Basepath: ..\n"
@@ -205,7 +205,7 @@ msgid "Title"
 msgstr ""
 
 #: core/class-metabox.php:313 core/class-metabox.php:448
-#: core/class-taxonomy-image.php:55 core/class-taxonomy-image.php:80
+#: core/class-taxonomy-image.php:54 core/class-taxonomy-image.php:82
 msgid "Upload"
 msgstr ""
 
@@ -398,7 +398,7 @@ msgstr ""
 msgid "No %s found."
 msgstr ""
 
-#: core/class-taxonomy-image.php:75
+#: core/class-taxonomy-image.php:77
 msgid "Taxonomy Image"
 msgstr ""
 
@@ -548,7 +548,7 @@ msgstr ""
 msgid "Placeholder Image"
 msgstr ""
 
-#: core/helper-functions.php:646
+#: core/helper-functions.php:649
 msgid "Choose a Page"
 msgstr ""
 

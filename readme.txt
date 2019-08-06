@@ -4,7 +4,7 @@ Tags: kingcomposer, shortcodes, framework, toolkit
 Requires at least: 4.7
 Tested up to: 5.2
 Requires PHP: 5.6
-Stable tag: 1.0
+Stable tag: 0.2
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -29,31 +29,31 @@ Included are more than 25 shortcode elements, automatic CSS generation, icon man
 
 = 25 free elements and counting =
 
-- **Advance Button**. 5+ button styles and gradient feature.*
-- **Advance Counter**. Show stats and numbers in an escalating manner.*
-- **Content Type**. Show grid/masonry style blog posts with 4 types of paginations support.*
-- **Content Type List**. Show list style blog posts with 4 types of paginations support.*
-- **Content Type Slider**. Show grid/masonry style blog posts carousel.*
-- **Gradient Text**. Add eye-catching headlines.*
-- **Image Box**. A box that includes image, headline, text and button.*
-- **Icon Box**. Works the same as the image box, only with icons.*
-- **Image Mask**. Present the image in 10+ unique manner.*
-- **Info Icons**. Show icons and text in simple manner.*
-- **Timeline**. Show heading and texts in horizontal timeline view.*
-- **Slide All**. Slide any content or shortcodes.*
-- **Slick Gallery**. Image carousel.*
-- **Portfolio**. Show projects/works in grid/masonry view.*
-- **Portfolio Slider**. Show projects/works in grid/masonry view carousel.*
-- **Portfolio Extend Slider**. Show projects/works in full width carousel.*
-- **Team**. Show team members in grid view.*
-- **Team Slider**. Show team members in grid view carousel.*
-- **Testimonial Slider**. Customer testimonials that show social proof.*
-- **Video Popup**. Triggers HTML/Youtube/Vimeo in a Popup view.*
-- **Products**. Show products in grid view.*
-- **Products Slider**. Show products in grid view carousel.*
-- **Products List**. Show products in list view.*
-- **Compare Products**. Set of products details in table view.*
-- **Wishlist**. User can add/view the favourite products.*
+- **Advance Button**. 5+ button styles and gradient feature.
+- **Advance Counter**. Show stats and numbers in an escalating manner.
+- **Content Type**. Show grid/masonry style blog posts with 4 types of paginations support.
+- **Content Type List**. Show list style blog posts with 4 types of paginations support.
+- **Content Type Slider**. Show grid/masonry style blog posts carousel.
+- **Gradient Text**. Add eye-catching headlines.
+- **Image Box**. A box that includes image, headline, text and button.
+- **Icon Box**. Works the same as the image box, only with icons.
+- **Image Mask**. Present the image in 10+ unique manner.
+- **Info Icons**. Show icons and text in simple manner.
+- **Timeline**. Show heading and texts in horizontal timeline view.
+- **Slide All**. Slide any content or shortcodes.
+- **Slick Gallery**. Image carousel.
+- **Portfolio**. Show projects/works in grid/masonry view.
+- **Portfolio Slider**. Show projects/works in grid/masonry view carousel.
+- **Portfolio Extend Slider**. Show projects/works in full width carousel.
+- **Team**. Show team members in grid view.
+- **Team Slider**. Show team members in grid view carousel.
+- **Testimonial Slider**. Customer testimonials that show social proof.
+- **Video Popup**. Triggers HTML/Youtube/Vimeo in a Popup view.
+- **Products**. Show products in grid view.
+- **Products Slider**. Show products in grid view carousel.
+- **Products List**. Show products in list view.
+- **Compare Products**. Set of products details in table view.
+- **Wishlist**. User can add/view the favourite products.
 
 
 == Requirements ==
@@ -86,5 +86,11 @@ Simply install as a normal WordPress plugin and activate and it requires kingcom
 
 == Changelog ==
 
+= 0.2 - Aug 06 2019 =
+* Fix: Sanitization improved.
+* Update: Translaion string updated.
+* Update: 'octagon_taxonomy_image_lists' filter updated.
+* Update: 'wp-color-picker-alpha.js' file moved from `core/assets/js/` to `core/library/js/`.
+
 = 0.1 - Aug 05 2019 =
-* Info: Initial Public Beta Release
+* Info: Initial Public Beta Release.

@@ -98,7 +98,7 @@ if( ! class_exists( 'Octagon_Core_Icon_Manager' ) ) {
 		 */
 		public function print_icons() {
 
-			$value = isset( $_POST['value'] ) ? $_POST['value'] : '';
+			$value = isset( $_POST['value'] ) ? sanitize_html_class( $_POST['value'] ) : '';
 			
 			$icons = $this->initialize_icons( $this->css_files, $value );
 

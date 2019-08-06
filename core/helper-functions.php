@@ -572,29 +572,32 @@ if( ! function_exists( 'octagon_get_current_post_type' ) ) {
 
 		global $post, $typenow, $current_screen;
 
+		$post_type = isset( $_GET['post_type'] ) ? sanitize_key( $_GET['post_type'] ) : '';
+		$post_id   = isset( $_GET['post'] ) ? absint( $_GET['post'] ) : '';
+
 		// we have a post so we can just get the post type from that
-		if ( $post && $post->post_type ) {
+		if( $post && $post->post_type ) {
 			return $post->post_type;
 		}
 
 		// check the global $typenow - set in admin.php
-		elseif ( $typenow ) {
+		elseif( $typenow ) {
 			return $typenow;
 		}
 
 		// check the global $current_screen object - set in sceen.php
-		elseif ( $current_screen && $current_screen->post_type ) {
+		elseif( $current_screen && $current_screen->post_type ) {
 			return $current_screen->post_type;
 		}
 
 		// check the post_type querystring
-		elseif ( isset( $_GET['post_type'] ) ) {
-			return sanitize_key( $_GET['post_type'] );
+		elseif( $post_type ) {
+			return $post_type;
 		}
 
 		// lastly check if post ID is in query string
-		elseif ( isset( $_GET['post'] ) ) {
-			return get_post_type( $_GET['post'] );
+		elseif( isset( $post_id ) ) {
+			return get_post_type( $post_id );
 		}
 
 		// we do not know the post type!
