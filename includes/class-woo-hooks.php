@@ -55,7 +55,7 @@ if( ! class_exists( 'Octagon_KC_Elements_Woo_Hooks' ) ) {
 		 */
 		public function add_compare_products_ajax() {
 
-			$id = isset( $_POST['id'] ) ? $_POST['id'] : '';
+			$id = isset( $_POST['id'] ) ? absint( $_POST['id'] ) : '';
 
 			if( false === get_post_status( $id ) ) {
 				die();
@@ -87,7 +87,7 @@ if( ! class_exists( 'Octagon_KC_Elements_Woo_Hooks' ) ) {
 		 */
 		public function remove_compare_products_ajax() {
 
-			$id = isset( $_POST['id'] ) ? $_POST['id'] : '';
+			$id = isset( $_POST['id'] ) ? absint( $_POST['id'] ) : '';
 
 			if( false === get_post_status( $id ) ) {
 				die();
@@ -134,7 +134,7 @@ if( ! class_exists( 'Octagon_KC_Elements_Woo_Hooks' ) ) {
 		 */
 		public function wishlist_ajax() {
 
-			$id = isset( $_POST['id'] ) ? $_POST['id'] : '';
+			$id = isset( $_POST['id'] ) ? absint( $_POST['id'] ) : '';
 
 			if( false === get_post_status( $id ) ) {
 				die();
@@ -169,7 +169,7 @@ if( ! class_exists( 'Octagon_KC_Elements_Woo_Hooks' ) ) {
 		 */
 		public function remove_wishlist_ajax() {
 
-			$id = isset( $_POST['id'] ) ? $_POST['id'] : '';
+			$id = isset( $_POST['id'] ) ? absint( $_POST['id'] ) : '';
 
 			if( false === get_post_status( $id ) ) {
 				die();
@@ -221,7 +221,7 @@ if( ! class_exists( 'Octagon_KC_Elements_Woo_Hooks' ) ) {
 		 */
 		public function quick_view_ajax() {
 
-			$id = isset( $_POST['id'] ) ? $_POST['id'] : '';
+			$id = isset( $_POST['id'] ) ? absint( $_POST['id'] ) : '';
 
 			if( false === get_post_status( $id ) ) {
 				die();

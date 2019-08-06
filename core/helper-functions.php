@@ -879,8 +879,8 @@ if( ! function_exists( 'octagon_get_media_preview_ajax' ) ) {
 	 */
 	function octagon_get_media_preview_ajax() {
 
-		$attachment_id = isset( $_POST['attachment_id'] ) ? $_POST['attachment_id'] : '';
-		$library = isset( $_POST['library'] ) ? $_POST['library'] : 'image';
+		$attachment_id = isset( $_POST['attachment_id'] ) ? array_map( 'intval', $_POST['attachment_id'] ) : '';
+		$library       = isset( $_POST['library'] ) && in_array( $_POST['library'], array( 'image', 'audio', 'video', 'text', 'application' ) ) ? sanitize_key( $_POST['library'] ) : 'image';
 
 		if( ! empty( $attachment_id ) ) {
 			$attachment_id = implode( ',', $attachment_id );

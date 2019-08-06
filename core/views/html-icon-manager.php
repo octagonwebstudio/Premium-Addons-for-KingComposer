@@ -12,7 +12,6 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 $icon_set = Octagon_Core_Icon_Manager::get_icon_set();
-
 ?>
 
 <div class="octagon-admin-page">
@@ -48,7 +47,7 @@ $icon_set = Octagon_Core_Icon_Manager::get_icon_set();
 
 									if( wp_verify_nonce( $nonce, 'nonce-octagon-icon-set' ) ) {
 
-										$value = isset( $_POST['icon_set'] ) ? trim( esc_html( $_POST['icon_set'] ) ) : array();
+										$value = isset( $_POST['icon_set'] ) && octagon_in_array_all( $_POST['icon_set'], array_keys( $icon_set ) ) ? array_map( 'sanitize_text_field', wp_unslash( $_POST['icon_set'] ) ) : array();
 
 										update_option( 'octagon_icon_set', $value );
 
