@@ -1,5 +1,8 @@
 ## Changelog
 
+= 1.0 - Aug 08 2019 =
+* Info: Initial Release.
+
 = 0.2 - Aug 06 2019 =
 * Fix: Sanitization improved.
 * Update: Translaion string updated.

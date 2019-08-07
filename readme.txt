@@ -4,7 +4,7 @@ Tags: kingcomposer, shortcodes, framework, toolkit
 Requires at least: 4.7
 Tested up to: 5.2
 Requires PHP: 5.6
-Stable tag: 0.2
+Stable tag: 1.0
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -56,6 +56,16 @@ Included are more than 25 shortcode elements, automatic CSS generation, icon man
 - **Wishlist**. User can add/view the favourite products.
 
 
+= Be a contributor =
+
+If you want to contribute, go to our [Premium Addons for KingComposer GitHub Repository](https://github.com/octagonwebstudio/Premium-Addons-for-KingComposer) and see where you can help.
+
+
+= Liked Premium Addons for KingComposer? =
+
+- Rate us on [WordPress](https://wordpress.org/support/plugin/premium-addons-for-kingcomposer/reviews/?filter=5/#new-post) :)
+
+
 == Requirements ==
 
 Simply install as a normal WordPress plugin and activate and it requires kingcomposer page builder.
@@ -77,6 +87,9 @@ Simply install as a normal WordPress plugin and activate and it requires kingcom
 
 1. Install using the WordPress built-in Plugin installer, or Extract the zip file and drop the contents in the 'wp-content/plugins/' directory of your WordPress installation.
 2. Activate the plugin through the 'Plugins' menu in WordPress.
+3. Go to Pages > Add New.
+4. Press the 'Edit with KingComposer' button.
+5. New elements are added at the KingComposer elements Menu Called "Octagon".
 
 
 == Notes ==
@@ -84,7 +97,36 @@ Simply install as a normal WordPress plugin and activate and it requires kingcom
 * It requires KingComposer Page Builder should be activated.
 
 
+== Frequently Asked Questions ==
+
+= Does it work with any WordPress theme? =
+
+Yes, it will work with any WordPress theme as long as you are using KingComposer as a page builder.
+
+= Will this plugin slow down my website speed? =
+
+Premium Addons for KingComposer is light weight and we also gave you the control to enable only the elements you actually use on your website for faster performance.
+
+= Is this plugin 100% Ads Free? =
+
+Premium Addons for KingComposer is 100% Ads Free.
+
+= Where can i find the new element added =
+
+New elements are added at the KingComposer elements Menu Called "Octagon".
+
+
+== Screenshots ==
+
+1. **Toggle Modules.** You can enable/disable the elements to improve performance.
+2. **Icon Manager.** You can choose what are the icon fonts going to choose.
+3. **Elements.** 25 free elements and counting.
+
+
 == Changelog ==
+
+= 1.0 - Aug 08 2019 =
+* Info: Initial Release.
 
 = 0.2 - Aug 06 2019 =
 * Fix: Sanitization improved.
