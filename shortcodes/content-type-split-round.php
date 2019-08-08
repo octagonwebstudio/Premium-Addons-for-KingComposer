@@ -12,7 +12,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 // AJAX purpose( It overrides normal values on ajax call )
-$options = isset( $_POST['options'] ) ? (array) $_POST['options'] : '';
+$options = isset( $_POST['options'] ) ? (array) $_POST['options'] : array();
 
 if( ! is_array( $options ) ) {
 	return;

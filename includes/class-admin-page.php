@@ -25,6 +25,7 @@ if( ! class_exists( 'Octagon_KC_Elements_Admin_Page' ) ) {
 
 			if( OCTAGON_KC_ELEMENTS_BASENAME === $file ) {
 				$links['video-tut'] = '<a href="//www.youtube.com/channel/UCZKSopOEW-ivQRpaMlz8uEQ">' . esc_html__( 'Video Tutorial', 'octagon-kc-elements' ) . '</a>';
+				$links['knowledgebase'] = '<a href="//doc.octagonwebstudio.com/octagon-kc-elements/">' . esc_html__( 'Knowledgebase', 'octagon-kc-elements' ) . '</a>';
 				$links['support']   = '<a href="mailto:octagonwebstudio@gmail.com">' . esc_html__( 'Premium Support', 'octagon-kc-elements' ) . '</a>';
 			}
 

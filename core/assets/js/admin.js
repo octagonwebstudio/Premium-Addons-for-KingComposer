@@ -1,3 +1,11 @@
+/*!
+ * Octagon Core Admin Scripts v1.0
+ *
+ * 
+ * Copyright (c) octagon web studio
+ *
+ */
+
 (function($){
 
     "use strict";

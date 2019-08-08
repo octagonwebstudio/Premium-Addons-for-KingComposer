@@ -1,5 +1,12 @@
 ## Changelog
 
+= 1.1 - Aug 09 2019 =
+* New: Added Custom Sidebar which can helps to register custom widget area.
+* Fix: Icon picker ajax call error.
+* Update: 'admin.css' file moved from `assets/css/` to `core/assets/js/`.
+* Update: Translation strings updated.
+* Tweak: 'plugin_row_meta' hook removed in `core/class-admin-page.php/`
+
 = 1.0 - Aug 08 2019 =
 * Info: Initial Release.
 

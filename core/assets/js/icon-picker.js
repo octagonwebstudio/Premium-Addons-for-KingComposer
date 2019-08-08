@@ -1,7 +1,9 @@
-/**
+/*!
+ * IconPicker v1.0
+ *
  * 
- * Icon Picker
- * 
+ * Copyright (c) octagon web studio
+ *
  */
 
 (function($) {
@@ -89,7 +91,7 @@
 
 				$.ajax({
 					type: 'post',
-					url: quirk_core_obj.ajaxurl,
+					url: octagon_core_obj.ajaxurl,
 					data: {
 						'action' : 'icon_manager',
 						'value' : currentVal

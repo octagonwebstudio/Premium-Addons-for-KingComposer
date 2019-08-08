@@ -30,7 +30,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 		if( wp_verify_nonce( $nonce, 'nonce-octagon-kc-elements' ) ) {
 
-			$modules = isset( $_POST['modules'] ) && ( octagon_in_array_all( $modules, $modules_list ) ) ? (array) $_POST['modules'] : array();
+			$modules = isset( $_POST['modules'] ) && ( octagon_in_array_all( $_POST['modules'], $modules_list ) ) ? (array) $_POST['modules'] : array();
 
 			set_theme_mod( 'octagon_kc_elements_modules', $modules );
 

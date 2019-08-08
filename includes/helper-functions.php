@@ -352,7 +352,7 @@ if( ! function_exists( 'octagon_pagination' ) ) {
 			)
 		);
 
-		octagon_concatenate_localize_scripts( 'octagon-kc-elements-scripts', 'octagon_localize', $object );
+		octagon_concatenate_localize_scripts( 'octagon-core-tools', 'octagon_localize', $object );
 
 		ob_start();
 

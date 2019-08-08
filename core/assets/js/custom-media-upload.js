@@ -1,7 +1,9 @@
-/**
+/*!
+ * Media Uploader v1.0
+ *
  * 
- * Media Uploader
- * 
+ * Copyright (c) octagon web studio
+ *
  */
 
 (function($) {

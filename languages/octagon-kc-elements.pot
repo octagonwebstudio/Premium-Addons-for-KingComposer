@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Octagon KC Elements\n"
-"POT-Creation-Date: 2019-08-06 15:33+0530\n"
+"POT-Creation-Date: 2019-08-08 20:25+0530\n"
 "PO-Revision-Date: 2018-02-12 16:30+0530\n"
 "Last-Translator: Octagon <octagonwebstudio@gmail.com>\n"
 "Language-Team: Octagon Web Studio <octagonwebstudio@gmail.com>\n"
@@ -52,13 +52,13 @@ msgid ""
 "chosen dark, all content inside the direct child element will be lighten )"
 msgstr ""
 
-#: core/class-admin-page.php:43 core/views/html-icon-manager.php:81
-#: modules/advance-counter.php:93 views/html-modules.php:85
+#: core/class-admin-page.php:43 core/views/html-icon-manager.php:80
+#: modules/advance-counter.php:93 views/html-modules.php:83
 msgid "Yes"
 msgstr ""
 
-#: core/class-admin-page.php:43 core/views/html-icon-manager.php:82
-#: modules/advance-counter.php:94 views/html-modules.php:86
+#: core/class-admin-page.php:43 core/views/html-icon-manager.php:81
+#: modules/advance-counter.php:94 views/html-modules.php:84
 msgid "No"
 msgstr ""
 
@@ -173,6 +173,10 @@ msgstr ""
 
 #: core/class-admin-page.php:225 shortcodes/compare-products.php:83
 msgid "Status"
+msgstr ""
+
+#: core/class-admin-page.php:226
+msgid "Sidebar"
 msgstr ""
 
 #: core/class-duplicate-post.php:39 core/class-duplicate-post.php:59
@@ -398,6 +402,19 @@ msgstr ""
 msgid "No %s found."
 msgstr ""
 
+#: core/class-sidebar.php:47
+msgid "Add widgets here."
+msgstr ""
+
+#: core/class-sidebar.php:128 core/views/html-sidebar.php:105
+#: modules/wishlist.php:146 modules/wishlist.php:315
+msgid "Remove"
+msgstr ""
+
+#: core/class-sidebar.php:138 core/views/html-sidebar.php:115
+msgid "No custom sidebar are available."
+msgstr ""
+
 #: core/class-taxonomy-image.php:77
 msgid "Taxonomy Image"
 msgstr ""
@@ -571,16 +588,44 @@ msgid ""
 "Page Builder. For any assistance, Please contact us via our support forum."
 msgstr ""
 
-#: core/views/html-icon-manager.php:33
+#: core/views/html-icon-manager.php:32
 msgid "Inbuilt Icons"
 msgstr ""
 
-#: core/views/html-icon-manager.php:34
+#: core/views/html-icon-manager.php:33
 msgid "Pick the icon set which are going to use on website."
 msgstr ""
 
-#: core/views/html-icon-manager.php:97
+#: core/views/html-icon-manager.php:96
 msgid "Save Icon"
+msgstr ""
+
+#: core/views/html-sidebar.php:35
+msgid "Register Widget Area"
+msgstr ""
+
+#: core/views/html-sidebar.php:36
+msgid "Add custom widget area."
+msgstr ""
+
+#: core/views/html-sidebar.php:45
+msgid "Add Sidebar"
+msgstr ""
+
+#: core/views/html-sidebar.php:62
+msgid "Predefined Sidebar"
+msgstr ""
+
+#: core/views/html-sidebar.php:63
+msgid "Predefined widget area can't delete."
+msgstr ""
+
+#: core/views/html-sidebar.php:91
+msgid "Custom Sidebar"
+msgstr ""
+
+#: core/views/html-sidebar.php:92
+msgid "Once you added you can assign it in options."
 msgstr ""
 
 #: core/views/html-status.php:23
@@ -675,7 +720,7 @@ msgstr ""
 msgid "Initial Release."
 msgstr ""
 
-#: includes/class-admin-page.php:40 views/html-modules.php:51
+#: includes/class-admin-page.php:40 views/html-modules.php:49
 msgid "Modules"
 msgstr ""
 
@@ -3421,10 +3466,6 @@ msgstr ""
 msgid "Remove Wishlist Button Text"
 msgstr ""
 
-#: modules/wishlist.php:146 modules/wishlist.php:315
-msgid "Remove"
-msgstr ""
-
 #: modules/wishlist.php:147
 msgid "Enter the remove wishlist button text"
 msgstr ""
@@ -3498,10 +3539,10 @@ msgstr ""
 msgid "View Cart"
 msgstr ""
 
-#: views/html-modules.php:52
+#: views/html-modules.php:50
 msgid "Select the shortcode elements."
 msgstr ""
 
-#: views/html-modules.php:100
+#: views/html-modules.php:98
 msgid "Save"
 msgstr ""

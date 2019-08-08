@@ -5,7 +5,7 @@
 **Requires at least:** 4.7  
 **Tested up to:** 5.2  
 **Requires PHP:** 5.6  
-**Stable tag:** 1.0  
+**Stable tag:** 1.1  
 **License:** GPLv3  
 **License URI:** https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -66,7 +66,7 @@ If you want to contribute, go to our [Premium Addons for KingComposer GitHub Rep
 ## Liked Premium Addons for KingComposer? ##
 
 Rate us on [WordPress](https://wordpress.org/support/plugin/premium-addons-for-kingcomposer/reviews/?filter=5/#new-post) :)
-
+Any doubts? [Knowledgebase](https://doc.octagonwebstudio.com/octagon-kc-elements/)
 
 ## Requirements ##
 
@@ -120,9 +120,18 @@ New elements are added at the KingComposer elements Menu Called "Octagon".
 1. **Toggle Modules.** You can enable/disable the elements to improve performance.
 2. **Icon Manager.** You can choose what are the icon fonts going to choose.
 3. **Elements.** 25 free elements and counting.
+4. **Custom Sidebar.** You can register custom widget area.
+5. **System Status.** Check the Site health.
 
 
 ## Changelog ##
+
+### 1.1 - Aug 09 2019 ###
+* New: Added Custom Sidebar which can helps to register custom widget area.
+* Fix: Icon picker ajax call error.
+* Update: 'admin.css' file moved from `assets/css/` to `core/assets/js/`.
+* Update: Translation strings updated.
+* Tweak: 'plugin_row_meta' hook removed in `core/class-admin-page.php/`
 
 ### 1.0 - Aug 08 2019 ###
 * Info: Initial Release

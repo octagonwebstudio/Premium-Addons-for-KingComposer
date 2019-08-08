@@ -82,6 +82,7 @@ if( ! class_exists( 'Octagon_Core' ) ) {
 			include_once OCTAGON_CORE_PATH . 'class-enqueue-fonts.php';
 			include_once OCTAGON_CORE_PATH . 'class-enqueue-scripts.php';
 			include_once OCTAGON_CORE_PATH . 'customize-options.php';
+			include_once OCTAGON_CORE_PATH . 'class-sidebar.php';
 			include_once OCTAGON_CORE_PATH . 'class-post-type.php';
 			include_once OCTAGON_CORE_PATH . 'class-post-columns.php';
 			include_once OCTAGON_CORE_PATH . 'class-duplicate-post.php';

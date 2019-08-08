@@ -1,18 +1,25 @@
+/*!
+ * Octagon Core Admin CSS v1.0
+ *
+ * 
+ * Copyright (c) octagon web studio
+ *
+ */
+
 /*----------------------------------------------------------------------------
     TABLE OF CONTENTS:
 ------------------------------------------------------------------------------
     # Reset
-    # Metabox
-    # Custom Menu Fields
+    # Helper
+    # Admin Page
+    # Status
     # Custom Sidebar
-    # Icon Manager
+    # Metabox
     # Icon Picker
-    # Import
     # Custom Media Uploader
     # Builder Icons
     # List Table
     # Post Body
-    # Woo Price Range Widget
 
 ============================================================================== */
 
@@ -356,7 +363,6 @@ a.mini-btn:active {
 }
 
 
-
 /* ---------------------------------------------------------------------------
  * Status
 ------------------------------------------------------------------------------ */
@@ -373,6 +379,51 @@ a.mini-btn:active {
     font-size: 14px;
     margin: 10px 0 0 0;
     display: block;
+}
+
+
+/* ---------------------------------------------------------------------------
+ * Custom Sidebar
+------------------------------------------------------------------------------ */
+
+.add-sidebar-form {
+    display: flex;
+}
+
+.custom-sidebar ul li {
+    display: flex;
+    justify-content: space-between;
+}
+
+.custom-sidebar ul li .remove_custom_sidebar {
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    padding: 0 10px;
+    line-height: 26px;
+    height: 26px;
+    display: inline-block;
+    float: right;
+    border-radius: 50px;
+    cursor: pointer;
+    position: relative;
+}
+
+.add_custom_sidebar.loading .loader {
+    left: auto;
+    right: -30px;
+}
+
+.remove_custom_sidebar.loading .loader {
+    margin: 4px 0 0 0;
+    width: 10px;
+    height: 10px;
+    left: -20px;
+}
+
+.remove_custom_sidebar.loading .loader div {
+    width: 10px;
+    height: 10px;
 }
 
 

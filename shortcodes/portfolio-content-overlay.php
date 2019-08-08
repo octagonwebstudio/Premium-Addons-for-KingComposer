@@ -16,7 +16,7 @@ wp_enqueue_script( 'isotope' );
 wp_enqueue_script( 'imageloaded' );
 
 // AJAX purpose( It overrides normal values on ajax call )
-$options = isset( $_POST['options'] ) ? (array) $_POST['options'] : '';
+$options = isset( $_POST['options'] ) ? (array) $_POST['options'] : array();
 
 if( ! is_array( $options ) ) {
 	return;
