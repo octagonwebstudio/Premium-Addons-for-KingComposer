@@ -20,6 +20,7 @@ if( ! function_exists( 'octagon_share_links' ) ) {
 	/**
 	 * Posts share url in icons
 	 * 
+	 * @version  1.0
 	 * @since  1.0
 	 * @param  array  $social Social Share
 	 * @return mixed
@@ -56,6 +57,7 @@ if( ! function_exists( 'octagon_first_term' ) ) {
 	/**
 	 * First term
 	 * 
+	 * @version  1.0
 	 * @since  1.0
 	 * @param  int  $id 	Post ID
 	 * @param  string  $taxonomy Taxonomy
@@ -85,6 +87,7 @@ if( ! function_exists( 'octagon_meta' ) ) {
 	/**
 	 * First term
 	 * 
+	 * @version  1.0
 	 * @since  1.0
 	 * @param  int  $id 	Post ID
 	 * @param  string  $taxonomy Taxonomy

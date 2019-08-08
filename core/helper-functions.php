@@ -16,6 +16,7 @@ if( ! function_exists( 'octagon_concatenate_localize_scripts' ) ) {
 	/**
 	 * Append and Print the localize scripts object if it is possess same handle
 	 * 
+	 * @version 1.0
 	 * @since  1.0
 	 * @param  string $handle    Enqueue JS Handle
 	 * @param  string $name   	 Object Name
@@ -47,6 +48,7 @@ if( ! function_exists( 'octagon_minify' ) ) {
 	/**
 	 * Minify CSS
 	 * 
+	 * @version 1.0
 	 * @since  1.0
 	 * @param  string $css    CSS Rules
 	 * @return string
@@ -69,6 +71,7 @@ if( ! function_exists( 'octagon_remove_extra_space' ) ) {
 	/**
 	 * Remove extra spaces
 	 * 
+	 * @version 1.0
 	 * @since  1.0
 	 * @param  string $string String
 	 * @return string
@@ -87,6 +90,7 @@ if( ! function_exists( 'octagon_raw_content' ) ) {
 	/**
 	 * Return raw post content
 	 * 
+	 * @version 1.0
 	 * @since  1.0
 	 * @param  string 	$id 	Post ID
 	 * @return mixed
@@ -114,6 +118,7 @@ if( ! function_exists( 'octagon_get_cookie' ) ) {
 	/**
 	 * Get cookie value
 	 * 
+	 * @version 1.0
 	 * @since  1.0
 	 * @param  string  	$key 	Cookie Key
 	 * @return mixed
@@ -131,6 +136,7 @@ if( ! function_exists( 'octagon_short_text' ) ) {
 	/**
 	 * Shorten string
 	 * 
+	 * @version 1.0
 	 * @since  1.0
 	 * @param  string  $string 	Text
 	 * @param  int  $charlength Character Length
@@ -172,6 +178,7 @@ if( ! function_exists( 'octagon_random' ) ) {
 	/**
 	 * Generate random string
 	 * 
+	 * @version 1.0
 	 * @since  1.0
 	 * @param  int $length    String Length
 	 * @return string
@@ -186,6 +193,7 @@ if( ! function_exists( 'octagon_trim' ) ) {
 	/**
 	 * Trim Strings
 	 * 
+	 * @version 1.0
 	 * @since  1.0
 	 * @param  string $string
 	 * @return string
@@ -207,6 +215,7 @@ if( ! function_exists( 'octagon_make_class' ) ) {
 	/**
 	 * Clean up class names
 	 * 
+	 * @version 1.0
 	 * @since  1.0
 	 * @param  string  $string Classes
 	 * @return string
@@ -228,6 +237,7 @@ if( ! function_exists( 'octagon_is_tel' ) ) {
 	/**
 	 * Validate phone number
 	 * 
+	 * @version 1.0
 	 * @since  1.0
 	 * @param  string $tel    Phone Number
 	 * @return bool
@@ -246,6 +256,7 @@ if( ! function_exists( 'octagon_is_email' ) ) {
 	/**
 	 * Validate email address
 	 * 
+	 * @version 1.0
 	 * @since  1.0
 	 * @param  string $string    Email Address
 	 * @return bool
@@ -264,6 +275,7 @@ if( ! function_exists( 'octagon_is_url' ) ) {
 	/**
 	 * Validate url
 	 * 
+	 * @version 1.0
 	 * @since  1.0
 	 * @param  string $url    URL
 	 * @return bool
@@ -282,6 +294,7 @@ if( ! function_exists( 'octagon_is_number' ) ) {
 	/**
 	 * Validate number
 	 * 
+	 * @version 1.0
 	 * @since  1.0
 	 * @param  string $number    number
 	 * @return bool
@@ -300,6 +313,7 @@ if( ! function_exists( 'octagon_in_array_all' ) ) {
 	/**
 	 * Check all passed array values exists in array
 	 * 
+	 * @version 1.0
 	 * @since  1.0
 	 * @param  array $needles    Checking array value
 	 * @param  array $haystack   Main Array
@@ -317,6 +331,7 @@ if( ! function_exists( 'octagon_in_array_any' ) ) {
 	/**
 	 * Check any of the passed array values exists in array
 	 * 
+	 * @version 1.0
 	 * @since  1.0
 	 * @param  array $needles    Checking array value
 	 * @param  array $haystack   Main Array
@@ -332,6 +347,8 @@ if( ! function_exists( 'octagon_get_cropped_image' ) ) {
 	/**
 	 * Returns HTML elements
 	 * 
+	 * @version 1.0
+	 * @since  1.0
 	 * @param  int  	$attachment_id Attachment ID
 	 * @param  int  	$width         Image Width
 	 * @param  int  	$height        Image Height
@@ -373,6 +390,8 @@ if( ! function_exists( 'octagon_get_cropped_url' ) ) {
 	/**
 	 * Returns Image url
 	 * 
+	 * @version 1.0
+	 * @since  1.0
 	 * @param  int  	$attachment_id Attachment ID
 	 * @param  int  	$width         Image Width
 	 * @param  int  	$height        Image Height
@@ -401,6 +420,8 @@ if( ! function_exists( 'octagon_get_placeholder_image' ) ) {
 	/**
 	 * Returns placeholder image HTML element
 	 * 
+	 * @version 1.0
+	 * @since  1.0
 	 * @param  int 	$width 		Image Width
 	 * @param  int 	$height 	Image Height
 	 * @return mixed
@@ -421,6 +442,8 @@ if( ! function_exists( 'octagon_get_image_set' ) ) {
 	/**
 	 * Returns image src set attributes
 	 * 
+	 * @version 1.0
+	 * @since  1.0
 	 * @param  int 		$attachment_id 	Attachment ID
 	 * @param  array 	$srcset 		Image src Set
 	 * @return string
@@ -452,6 +475,7 @@ if( ! function_exists( 'octagon_post_type_list' ) ) {
 	/**
 	 * Post type array list
 	 * 
+	 * @version 1.0
 	 * @since  1.0
 	 * @return array
 	 */
@@ -483,6 +507,7 @@ if( ! function_exists( 'octagon_taxonomy_list' ) ) {
 	/**
 	 * Taxonomy array list
 	 * 
+	 * @version 1.0
 	 * @since  1.0
 	 * @return array
 	 */
@@ -513,6 +538,7 @@ if( ! function_exists( 'octagon_get_file_version' ) ) {
 	/**
 	 * Get file version from doc blockr
 	 * 
+	 * @version 1.0
 	 * @since  1.0
 	 * @param  string	$file	Path to the file
 	 * @return string
@@ -551,7 +577,7 @@ if( ! function_exists( 'octagon_get_server_info' ) ) {
 	/**
 	 * Get server info
 	 * @version 1.0
-	 * @since  1.4
+	 * @since  1.0
 	 * @return string
 	 */
 	function octagon_get_server_info() {
@@ -565,6 +591,7 @@ if( ! function_exists( 'octagon_get_current_post_type' ) ) {
 	/**
 	 * Get current post type on admin screens
 	 * 
+	 * @version 1.0
 	 * @since  1.0
 	 * @return string
 	 */
@@ -611,8 +638,8 @@ if( ! function_exists( 'octagon_page_ids_array' ) ) {
 	/**
 	 * Page list array
 	 * 
+	 * @version  1.0
 	 * @since  1.0
-	 * @version  1.4
 	 * @param  array  $pages Pages
 	 * @return array
 	 */
@@ -662,6 +689,7 @@ if( ! function_exists( 'octagon_allowed_html_tags' ) ) {
 	/**
 	 * Allowed HTML tags
 	 * 
+	 * @version  1.0
 	 * @since  1.0
 	 * @return array
 	 */
@@ -761,6 +789,7 @@ if( ! function_exists( 'octagon_mime_type' ) ) {
 	/**
 	 * Split the mime type to file type. Eg: image/jpeg to image
 	 * 
+	 * @version  1.0
 	 * @since  1.0
 	 * @param  string  	$mime_type 	Mime Type
 	 * @return string
@@ -784,6 +813,7 @@ if( ! function_exists( 'octagon_get_media_preview' ) ) {
 	/**
 	 * Returns media preview HTML elements
 	 * 
+	 * @version  1.0
 	 * @since  1.0
 	 * @param  int  	$attachment_id 	Attachment ID
 	 * @param  string  	$library 		Image, Audio, Video, Text or Application
@@ -874,6 +904,7 @@ if( ! function_exists( 'octagon_get_media_preview_ajax' ) ) {
 	/**
 	 * Returns HTML elements
 	 * 
+	 * @version  1.0
 	 * @since  1.0
 	 * @return mixed
 	 */

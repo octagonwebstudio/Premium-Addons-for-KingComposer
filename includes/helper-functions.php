@@ -20,6 +20,7 @@ if( ! function_exists( 'octagon_core_get_template' ) ) {
 	/**
 	 * Get other templates passing attributes and including the file.
 	 * 
+	 * @version  1.0
 	 * @since  1.0
 	 * @param  string $template_name    Template name
 	 * @param  array $args 				Arguments
@@ -51,6 +52,7 @@ if( ! function_exists( 'octagon_kc_elements_get_shortcode_template' ) ) {
 	/**
 	 * Get other templates passing attributes and including the file
 	 * 
+	 * @version  1.0
 	 * @since  1.0
 	 * @param  string 	$name 	Template File
 	 * @param  array 	$atts 	Arguements
@@ -86,6 +88,7 @@ if( ! function_exists( 'octagon_kc_elements_responsive_breakpoints' ) ) {
 	/**
 	 * Get breakpoints for KC CSS styling
 	 * 
+	 * @version  1.0
 	 * @since  1.0
 	 * @return  string
 	 */
@@ -115,6 +118,7 @@ if( ! function_exists( 'octagon_modules_list' ) ) {
 	/**
 	 * Get modules list
 	 * 
+	 * @version  1.0
 	 * @since  1.0
 	 * @return array
 	 */
@@ -161,6 +165,7 @@ if( ! function_exists( 'octagon_get_active_modules_list' ) ) {
 	/**
 	 * Get active modules list
 	 * 
+	 * @version  1.0
 	 * @since  1.0
 	 * @return array
 	 */
@@ -177,6 +182,7 @@ if( ! function_exists( 'octagon_get_gradient_palette' ) ) {
 	/**
 	 * Get gradient palattes
 	 * 
+	 * @version  1.0
 	 * @since  1.0
 	 * @return string
 	 */
@@ -190,6 +196,7 @@ if( ! function_exists( 'octagon_get_color_codes' ) ) {
 	/**
 	 * Get primary color
 	 * 
+	 * @version  1.0
 	 * @since  1.0
 	 * @return string
 	 */
@@ -203,6 +210,7 @@ if( ! function_exists( 'octagon_all_consequence_term_ids' ) ) {
 	/**
 	 * Returns all related term ids based on posts
 	 * 
+	 * @version  1.0
 	 * @since  1.0
 	 * @param  int  $id 	Post ID
 	 * @param  string  $taxonomy Taxonomy
@@ -231,6 +239,7 @@ if( ! function_exists( 'octagon_all_consequence_term_slugs' ) ) {
 	/**
 	 * Returns all related term slugs based on posts
 	 * 
+	 * @version  1.0
 	 * @since  1.0
 	 * @param  int  $id 	Post ID
 	 * @param  string  $taxonomy Taxonomy
@@ -259,6 +268,7 @@ if( ! function_exists( 'octagon_get_excerpt' ) ) {
 	/**
 	 * Get excerpt
 	 * 
+	 * @version  1.0
 	 * @since  1.0
 	 * @param  int  $charlength Character Length
 	 * @return string
@@ -278,6 +288,7 @@ if( ! function_exists( 'octagon_get_meta' ) ) {
 	/**
 	 * Get metabox value
 	 * 
+	 * @version  1.0
 	 * @since  1.0
 	 * @param  int  	$post_id 	Post ID
 	 * @param  string  	$key 		Meta Key
@@ -303,6 +314,7 @@ if( ! function_exists( 'octagon_pagination' ) ) {
 	/**
 	 * Get pagination
 	 * 
+	 * @version  1.0
 	 * @since  1.0
 	 * @param  string 	$style 	Style
 	 * @param  array 	$value 	Required Values

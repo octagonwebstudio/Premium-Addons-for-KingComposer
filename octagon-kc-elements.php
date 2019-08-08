@@ -14,6 +14,23 @@
 if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly.
 }
+
+if( ! function_exists( 'required_plugin_admin_notice' ) ) {
+    /**
+	 * Print an admin notice if KingComposer is deactivated
+	 * 
+	 * @version 1.0
+	 * @since  1.0
+	 * @return mixed
+	 */
+    function required_plugin_admin_notice() {
+    	?>
+        <div class="error">
+            <p><?php esc_html_e( 'Premium Addons for KingComposer is enabled but not effective. It requires KingComposer in order to work.', 'octagon-kc-elements' ); ?></p>
+        </div>
+        <?php
+    }
+}
 	
 if( ! class_exists( 'Octagon_KC_Elements' ) ) {
 
@@ -170,5 +187,17 @@ if( ! function_exists( 'octagon_kc_elements' ) ) {
 	}
 }
 
-// Global for backwards compatibility.
-$GLOBALS['octagon_kc_elements'] = octagon_kc_elements();
+if( ! function_exists( 'octagon_kc_elements_free_install' ) ){
+    function octagon_kc_elements_free_install() {
+
+        if( ! class_exists( 'KingComposer' ) ) {
+            add_action( 'admin_notices', 'required_plugin_admin_notice' );
+        }
+        else {
+            // Global for backwards compatibility.
+			$GLOBALS['octagon_kc_elements'] = octagon_kc_elements();
+        }
+    }
+}
+
+add_action( 'plugins_loaded', 'octagon_kc_elements_free_install', 11 );
