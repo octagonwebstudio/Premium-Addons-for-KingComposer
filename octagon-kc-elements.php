@@ -3,7 +3,7 @@
  * Plugin Name: Premium Addons for KingComposer
  * Plugin URI: https://octagonwebstudio.com
  * Description: Tons of unique shortcodes elements with toggle feature.
- * Version: 1.1
+ * Version: 1.1.1
  * Author: octagonwebstudio
  * Text Domain: octagon-kc-elements
  * Requires WP:   4.7
@@ -178,6 +178,7 @@ if( ! class_exists( 'Octagon_KC_Elements' ) ) {
  *
  * Returns the main instance of Core.
  *
+ * @version 1.0
  * @since  1.0
  * @return Octagon_KC_Elements
  */

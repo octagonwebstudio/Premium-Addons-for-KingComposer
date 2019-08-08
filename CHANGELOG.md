@@ -1,5 +1,8 @@
 ## Changelog
 
+= 1.1.1 - Aug 09 2019 =
+* Fix: Kirki admin notice issue fixed.
+
 = 1.1 - Aug 09 2019 =
 * New: Added Custom Sidebar which can helps to register custom widget area.
 * Fix: Icon picker ajax call error.

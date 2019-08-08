@@ -4,7 +4,7 @@ Tags: kingcomposer, shortcodes, framework, toolkit
 Requires at least: 4.7
 Tested up to: 5.2
 Requires PHP: 5.6
-Stable tag: 1.1
+Stable tag: 1.1.1
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -127,6 +127,9 @@ New elements are added at the KingComposer elements Menu Called "Octagon".
 
 
 == Changelog ==
+
+= 1.1.1 - Aug 09 2019 =
+* Fix: Kirki admin notice issue fixed.
 
 = 1.1 - Aug 09 2019 =
 * New: Added Custom Sidebar which can helps to register custom widget area.

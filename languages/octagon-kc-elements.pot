@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Octagon KC Elements\n"
-"POT-Creation-Date: 2019-08-08 20:25+0530\n"
+"POT-Creation-Date: 2019-08-09 02:15+0530\n"
 "PO-Revision-Date: 2018-02-12 16:30+0530\n"
 "Last-Translator: Octagon <octagonwebstudio@gmail.com>\n"
 "Language-Team: Octagon Web Studio <octagonwebstudio@gmail.com>\n"
@@ -52,105 +52,97 @@ msgid ""
 "chosen dark, all content inside the direct child element will be lighten )"
 msgstr ""
 
-#: core/class-admin-page.php:43 core/views/html-icon-manager.php:80
+#: core/class-admin-page.php:42 core/views/html-icon-manager.php:80
 #: modules/advance-counter.php:93 views/html-modules.php:83
 msgid "Yes"
 msgstr ""
 
-#: core/class-admin-page.php:43 core/views/html-icon-manager.php:81
+#: core/class-admin-page.php:42 core/views/html-icon-manager.php:81
 #: modules/advance-counter.php:94 views/html-modules.php:84
 msgid "No"
 msgstr ""
 
-#: core/class-admin-page.php:45 core/class-admin-page.php:48
-#: core/class-admin-page.php:56 core/class-admin-page.php:57
+#: core/class-admin-page.php:44 core/class-admin-page.php:47
+#: core/class-admin-page.php:55 core/class-admin-page.php:56
 msgid "Active"
 msgstr ""
 
-#: core/class-admin-page.php:45 core/class-admin-page.php:48
-#: core/class-admin-page.php:56 core/class-admin-page.php:57
+#: core/class-admin-page.php:44 core/class-admin-page.php:47
+#: core/class-admin-page.php:55 core/class-admin-page.php:56
 msgid "Not Active"
 msgstr ""
 
-#: core/class-admin-page.php:71 core/class-admin-page.php:126
-#: core/class-admin-page.php:151 core/class-admin-page.php:176
+#: core/class-admin-page.php:70 core/class-admin-page.php:125
+#: core/class-admin-page.php:150 core/class-admin-page.php:175
 msgid "<span class=\"batch batch-orange\">Good</span>"
 msgstr ""
 
-#: core/class-admin-page.php:77 core/class-admin-page.php:107
-#: core/class-admin-page.php:132 core/class-admin-page.php:157
-#: core/class-admin-page.php:182
+#: core/class-admin-page.php:76 core/class-admin-page.php:106
+#: core/class-admin-page.php:131 core/class-admin-page.php:156
+#: core/class-admin-page.php:181
 msgid "<span class=\"batch batch-green\">Better</span>"
 msgstr ""
 
-#: core/class-admin-page.php:83 core/views/html-status.php:59
+#: core/class-admin-page.php:82 core/views/html-status.php:59
 msgid "Memory Limit:"
 msgstr ""
 
-#: core/class-admin-page.php:85 core/class-admin-page.php:98
-#: core/class-admin-page.php:117 core/class-admin-page.php:142
-#: core/class-admin-page.php:167
+#: core/class-admin-page.php:84 core/class-admin-page.php:97
+#: core/class-admin-page.php:116 core/class-admin-page.php:141
+#: core/class-admin-page.php:166
 msgid "<span class=\"batch batch-red\">Critical</span>"
 msgstr ""
 
-#: core/class-admin-page.php:86 core/class-admin-page.php:118
+#: core/class-admin-page.php:85 core/class-admin-page.php:117
 msgid ""
 "Minimum <strong>128 MB</strong> is required, <strong>256 MB</strong> is "
 "recommended."
 msgstr ""
 
-#: core/class-admin-page.php:96 core/views/html-status.php:65
+#: core/class-admin-page.php:95 core/views/html-status.php:65
 msgid "PHP Version:"
 msgstr ""
 
-#: core/class-admin-page.php:99
+#: core/class-admin-page.php:98
 #, php-format
 msgid ""
 "<span class=\"list-info\">%s - We recommend using PHP version 7.0 or above "
 "for greater performance and security.</span>"
 msgstr ""
 
-#: core/class-admin-page.php:115 core/views/html-status.php:71
+#: core/class-admin-page.php:114 core/views/html-status.php:71
 msgid "Post Max Size:"
 msgstr ""
 
-#: core/class-admin-page.php:140 core/views/html-status.php:77
+#: core/class-admin-page.php:139 core/views/html-status.php:77
 msgid "Time Limit:"
 msgstr ""
 
-#: core/class-admin-page.php:143 core/class-admin-page.php:168
+#: core/class-admin-page.php:142 core/class-admin-page.php:167
 #, php-format
 msgid ""
 "<span class=\"list-info\">%s - is not enough to run this theme properly."
 msgstr ""
 
-#: core/class-admin-page.php:152
+#: core/class-admin-page.php:151
 #, php-format
 msgid ""
 "<span class=\"list-info\">%s - is OK, But <strong>180</strong> is "
 "recommended."
 msgstr ""
 
-#: core/class-admin-page.php:165 core/views/html-status.php:83
+#: core/class-admin-page.php:164 core/views/html-status.php:83
 msgid "Max Input Vars:"
 msgstr ""
 
-#: core/class-admin-page.php:177
+#: core/class-admin-page.php:176
 #, php-format
 msgid ""
 "<span class=\"list-info\">%s - is OK, But <strong>10000</strong> is "
 "recommended."
 msgstr ""
 
-#: core/class-admin-page.php:205 includes/class-admin-page.php:27
-msgid "Video Tutorial"
-msgstr ""
-
-#: core/class-admin-page.php:206 includes/class-admin-page.php:28
-msgid "Premium Support"
-msgstr ""
-
-#: core/class-admin-page.php:222 modules/advance-button.php:35
+#: core/class-admin-page.php:211 modules/advance-button.php:35
 #: modules/advance-counter.php:35 modules/compare-products.php:35
 #: modules/content-type-list.php:43 modules/content-type-slider.php:60
 #: modules/content-type.php:63 modules/google-map.php:35
@@ -167,15 +159,15 @@ msgstr ""
 msgid "Octagon"
 msgstr ""
 
-#: core/class-admin-page.php:224
+#: core/class-admin-page.php:213
 msgid "Welcome"
 msgstr ""
 
-#: core/class-admin-page.php:225 shortcodes/compare-products.php:83
+#: core/class-admin-page.php:214 shortcodes/compare-products.php:83
 msgid "Status"
 msgstr ""
 
-#: core/class-admin-page.php:226
+#: core/class-admin-page.php:215
 msgid "Sidebar"
 msgstr ""
 
@@ -419,15 +411,15 @@ msgstr ""
 msgid "Taxonomy Image"
 msgstr ""
 
-#: core/customize-options.php:54
+#: core/customize-options.php:57
 msgid "Font"
 msgstr ""
 
-#: core/customize-options.php:55 includes/customize-options.php:55
+#: core/customize-options.php:58 includes/customize-options.php:58
 msgid "Set the font"
 msgstr ""
 
-#: core/customize-options.php:63 modules/advance-button.php:191
+#: core/customize-options.php:66 modules/advance-button.php:191
 #: modules/advance-counter.php:161 modules/advance-counter.php:173
 #: modules/compare-products.php:104 modules/compare-products.php:112
 #: modules/compare-products.php:120 modules/compare-products.php:128
@@ -454,31 +446,31 @@ msgstr ""
 msgid "Font Family"
 msgstr ""
 
-#: core/customize-options.php:64 includes/customize-options.php:64
+#: core/customize-options.php:67 includes/customize-options.php:67
 msgid "Choose the default fonts"
 msgstr ""
 
-#: core/customize-options.php:71
+#: core/customize-options.php:74
 msgid "Heading Font"
 msgstr ""
 
-#: core/customize-options.php:72
+#: core/customize-options.php:75
 msgid "Please choose a heading font."
 msgstr ""
 
-#: core/customize-options.php:75 core/customize-options.php:85
+#: core/customize-options.php:78 core/customize-options.php:88
 msgid "Inherit"
 msgstr ""
 
-#: core/customize-options.php:81
+#: core/customize-options.php:84
 msgid "Content Font"
 msgstr ""
 
-#: core/customize-options.php:82
+#: core/customize-options.php:85
 msgid "Please choose a content font."
 msgstr ""
 
-#: core/customize-options.php:91 modules/advance-button.php:194
+#: core/customize-options.php:94 modules/advance-button.php:194
 #: modules/advance-counter.php:163 modules/compare-products.php:106
 #: modules/compare-products.php:114 modules/compare-products.php:122
 #: modules/compare-products.php:130 modules/compare-products.php:139
@@ -503,69 +495,69 @@ msgstr ""
 msgid "Font Weight"
 msgstr ""
 
-#: core/customize-options.php:92
+#: core/customize-options.php:95
 msgid ""
 "Please select font weights( You should select regular, 500, 600 and 700 to "
 "run the site properly )."
 msgstr ""
 
-#: core/customize-options.php:116
+#: core/customize-options.php:119
 msgid "Subsets"
 msgstr ""
 
-#: core/customize-options.php:117
+#: core/customize-options.php:120
 msgid "Please choose the font subsets."
 msgstr ""
 
-#: core/customize-options.php:121
+#: core/customize-options.php:124
 msgid "Latin"
 msgstr ""
 
-#: core/customize-options.php:122
+#: core/customize-options.php:125
 msgid "Latin Extended"
 msgstr ""
 
-#: core/customize-options.php:123
+#: core/customize-options.php:126
 msgid "Cyrillic"
 msgstr ""
 
-#: core/customize-options.php:124
+#: core/customize-options.php:127
 msgid "Cyrillic Extended"
 msgstr ""
 
-#: core/customize-options.php:125
+#: core/customize-options.php:128
 msgid "Greek"
 msgstr ""
 
-#: core/customize-options.php:126
+#: core/customize-options.php:129
 msgid "Greek Extended"
 msgstr ""
 
-#: core/customize-options.php:127
+#: core/customize-options.php:130
 msgid "Vietnamese"
 msgstr ""
 
-#: core/customize-options.php:139
+#: core/customize-options.php:142
 msgid "Custom Style"
 msgstr ""
 
-#: core/customize-options.php:140
+#: core/customize-options.php:143
 msgid "Those settings applies globally."
 msgstr ""
 
-#: core/customize-options.php:148
+#: core/customize-options.php:151
 msgid "Content Color"
 msgstr ""
 
-#: core/customize-options.php:155
+#: core/customize-options.php:158
 msgid "Title Color"
 msgstr ""
 
-#: core/helper-functions.php:413
+#: core/helper-functions.php:434
 msgid "Placeholder Image"
 msgstr ""
 
-#: core/helper-functions.php:649
+#: core/helper-functions.php:676
 msgid "Choose a Page"
 msgstr ""
 
@@ -720,7 +712,19 @@ msgstr ""
 msgid "Initial Release."
 msgstr ""
 
-#: includes/class-admin-page.php:40 views/html-modules.php:49
+#: includes/class-admin-page.php:27
+msgid "Video Tutorial"
+msgstr ""
+
+#: includes/class-admin-page.php:28
+msgid "Knowledgebase"
+msgstr ""
+
+#: includes/class-admin-page.php:29
+msgid "Premium Support"
+msgstr ""
+
+#: includes/class-admin-page.php:41 views/html-modules.php:49
 msgid "Modules"
 msgstr ""
 
@@ -737,25 +741,25 @@ msgstr ""
 msgid "Wishlist items not found!"
 msgstr ""
 
-#: includes/customize-options.php:54
+#: includes/customize-options.php:57
 msgid "Octagon Elements: Shortcode Fonts"
 msgstr ""
 
-#: includes/customize-options.php:63 includes/helper-functions.php:127
+#: includes/customize-options.php:66 includes/helper-functions.php:131
 #: modules/content-type-slider.php:153 modules/content-type.php:61
 #: modules/content-type.php:187
 msgid "Content Type"
 msgstr ""
 
-#: includes/customize-options.php:71
+#: includes/customize-options.php:74
 msgid "Title Font"
 msgstr ""
 
-#: includes/customize-options.php:72
+#: includes/customize-options.php:75
 msgid "Adjust font settings."
 msgstr ""
 
-#: includes/helper-functions.php:124 modules/advance-button.php:37
+#: includes/helper-functions.php:128 modules/advance-button.php:37
 #: modules/advance-counter.php:37 modules/compare-products.php:37
 #: modules/content-type-list.php:45 modules/content-type-list.php:286
 #: modules/content-type-slider.php:62 modules/content-type-slider.php:617
@@ -775,120 +779,120 @@ msgstr ""
 msgid "General"
 msgstr ""
 
-#: includes/helper-functions.php:125 modules/advance-button.php:33
+#: includes/helper-functions.php:129 modules/advance-button.php:33
 msgid "Advance Button"
 msgstr ""
 
-#: includes/helper-functions.php:126 modules/advance-counter.php:33
+#: includes/helper-functions.php:130 modules/advance-counter.php:33
 msgid "Advance Counter"
 msgstr ""
 
-#: includes/helper-functions.php:128 modules/content-type-list.php:41
+#: includes/helper-functions.php:132 modules/content-type-list.php:41
 msgid "Content Type List"
 msgstr ""
 
-#: includes/helper-functions.php:129 modules/content-type-slider.php:58
+#: includes/helper-functions.php:133 modules/content-type-slider.php:58
 msgid "Content Type Slider"
 msgstr ""
 
-#: includes/helper-functions.php:130 modules/gradient-text.php:33
+#: includes/helper-functions.php:134 modules/gradient-text.php:33
 msgid "Gradient Text"
 msgstr ""
 
-#: includes/helper-functions.php:131 modules/image-box.php:33
+#: includes/helper-functions.php:135 modules/image-box.php:33
 msgid "Image Box"
 msgstr ""
 
-#: includes/helper-functions.php:132 modules/icon-box.php:33
+#: includes/helper-functions.php:136 modules/icon-box.php:33
 msgid "Icon Box"
 msgstr ""
 
-#: includes/helper-functions.php:133 modules/image-mask.php:33
+#: includes/helper-functions.php:137 modules/image-mask.php:33
 msgid "Image Mask"
 msgstr ""
 
-#: includes/helper-functions.php:134 modules/info-icons.php:33
+#: includes/helper-functions.php:138 modules/info-icons.php:33
 msgid "Info Icons"
 msgstr ""
 
-#: includes/helper-functions.php:135 modules/timeline.php:33
+#: includes/helper-functions.php:139 modules/timeline.php:33
 #: modules/timeline.php:58
 msgid "Timeline"
 msgstr ""
 
-#: includes/helper-functions.php:136 modules/slide-all.php:33
+#: includes/helper-functions.php:140 modules/slide-all.php:33
 #: modules/slide-all.php:34
 msgid "Slide All"
 msgstr ""
 
-#: includes/helper-functions.php:137 modules/slick-gallery.php:33
+#: includes/helper-functions.php:141 modules/slick-gallery.php:33
 msgid "Slick Gallery"
 msgstr ""
 
-#: includes/helper-functions.php:138 includes/init-content-types.php:30
+#: includes/helper-functions.php:142 includes/init-content-types.php:30
 #: includes/init-content-types.php:31 modules/portfolio.php:41
 msgid "Portfolio"
 msgstr ""
 
-#: includes/helper-functions.php:139 modules/portfolio-slider.php:38
+#: includes/helper-functions.php:143 modules/portfolio-slider.php:38
 msgid "Portfolio Slider"
 msgstr ""
 
-#: includes/helper-functions.php:140 modules/portfolio-extend-slider.php:38
+#: includes/helper-functions.php:144 modules/portfolio-extend-slider.php:38
 msgid "Portfolio Extend Slider"
 msgstr ""
 
-#: includes/helper-functions.php:141 includes/init-content-types.php:71
+#: includes/helper-functions.php:145 includes/init-content-types.php:71
 #: modules/team.php:36
 msgid "Team"
 msgstr ""
 
-#: includes/helper-functions.php:142 modules/team-slider.php:36
+#: includes/helper-functions.php:146 modules/team-slider.php:36
 msgid "Team Slider"
 msgstr ""
 
-#: includes/helper-functions.php:143 modules/testimonial-slider.php:33
+#: includes/helper-functions.php:147 modules/testimonial-slider.php:33
 msgid "Testimonial Slider"
 msgstr ""
 
-#: includes/helper-functions.php:144 modules/video-popup.php:33
+#: includes/helper-functions.php:148 modules/video-popup.php:33
 msgid "Video Popup"
 msgstr ""
 
-#: includes/helper-functions.php:146
+#: includes/helper-functions.php:150
 msgid "WooCommerce"
 msgstr ""
 
-#: includes/helper-functions.php:147 modules/products.php:40
+#: includes/helper-functions.php:151 modules/products.php:40
 msgid "Products"
 msgstr ""
 
-#: includes/helper-functions.php:148 modules/products-slider.php:37
+#: includes/helper-functions.php:152 modules/products-slider.php:37
 msgid "Products Slider"
 msgstr ""
 
-#: includes/helper-functions.php:149 modules/products-list.php:37
+#: includes/helper-functions.php:153 modules/products-list.php:37
 msgid "Products List"
 msgstr ""
 
-#: includes/helper-functions.php:150 modules/compare-products.php:33
+#: includes/helper-functions.php:154 modules/compare-products.php:33
 #: modules/compare-products.php:43 modules/compare-products.php:165
 msgid "Compare Products"
 msgstr ""
 
-#: includes/helper-functions.php:151 modules/wishlist.php:33
+#: includes/helper-functions.php:155 modules/wishlist.php:33
 msgid "Wishlist"
 msgstr ""
 
-#: includes/helper-functions.php:337 includes/helper-functions.php:372
+#: includes/helper-functions.php:349 includes/helper-functions.php:384
 msgid "Previous"
 msgstr ""
 
-#: includes/helper-functions.php:338 includes/helper-functions.php:375
+#: includes/helper-functions.php:350 includes/helper-functions.php:387
 msgid "Next"
 msgstr ""
 
-#: includes/helper-functions.php:388 includes/helper-functions.php:402
+#: includes/helper-functions.php:400 includes/helper-functions.php:414
 #: modules/content-type-list.php:95 modules/content-type-slider.php:132
 #: modules/content-type.php:166 modules/portfolio.php:146
 #: modules/products.php:151
@@ -3488,6 +3492,12 @@ msgstr ""
 
 #: modules/wishlist.php:280
 msgid "Remove Wishlist Button Mouse Hover"
+msgstr ""
+
+#: octagon-kc-elements.php:29
+msgid ""
+"Premium Addons for KingComposer is enabled but not effective. It requires "
+"KingComposer in order to work."
 msgstr ""
 
 #: shortcodes/compare-products.php:76 shortcodes/wishlist.php:47
